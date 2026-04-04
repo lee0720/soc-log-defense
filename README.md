@@ -1,4 +1,4 @@
-<img width="1440" height="900" alt="スクリーンショット 2026-04-03 15 24 23" src="https://github.com/user-attachments/assets/068b6310-3ef2-48fb-879f-85da5dda2e84" /><img width="1440" height="900" alt="スクリーンショット 2026-04-04 18 52 17" src="https://github.com/user-attachments/assets/4620eeda-b13f-4ace-b3c8-6aef1cc3709e" />🛡️ SOC Log Defense Game
+🛡️ SOC Log Defense Game
 📌 概要
 セキュリティログを監視し、サイバー攻撃を検知・対応する SOC（Security Operation Center）体験ゲームです。
 プレイヤーはアナリストとしてログを分析し、適切な対応を行います。
