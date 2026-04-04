@@ -1,4 +1,4 @@
-🛡️ SOC Log Defense Game
+<img width="1440" height="900" alt="スクリーンショット 2026-04-03 15 24 23" src="https://github.com/user-attachments/assets/068b6310-3ef2-48fb-879f-85da5dda2e84" /><img width="1440" height="900" alt="スクリーンショット 2026-04-04 18 52 17" src="https://github.com/user-attachments/assets/4620eeda-b13f-4ace-b3c8-6aef1cc3709e" />🛡️ SOC Log Defense Game
 📌 概要
 セキュリティログを監視し、サイバー攻撃を検知・対応する SOC（Security Operation Center）体験ゲームです。
 プレイヤーはアナリストとしてログを分析し、適切な対応を行います。
@@ -39,5 +39,10 @@ python soc_game.py
 
 🎯 今後の目標
 セキュリティ × データ分析のスキルを活かし、 実務レベルのログ分析ができるエンジニアを目指しています。
+
+## 📸 プレイ画面
+<img width="1440" height="900" alt="スクリーンショット 2026-04-04 18 53 49" src="https://github.com/user-attachments/assets/a8f32ad0-de11-4832-aa62-64b17400e5c2" />
+
+![game](screenshots/play.png)
 
 ※ 一部ロジックはAIを活用しつつ、自身で理解・改良を行っています。
