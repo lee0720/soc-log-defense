@@ -45,4 +45,7 @@ python soc_game.py
 
 ![game](screenshots/play.png)
 
+## 🔍 追加機能
+- investigateコマンドを実装し、特定IPのログ履歴を確認できるようにした
+
 ※ 一部ロジックはAIを活用しつつ、自身で理解・改良を行っています。
