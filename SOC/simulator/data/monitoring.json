@@ -1,0 +1,20 @@
+{
+  "timezone": "JST",
+  "buckets": [
+    {"time":"09:00","events":192,"inbound":48,"outbound":26,"auth_ok":42,"auth_fail":2},
+    {"time":"09:05","events":235,"inbound":61,"outbound":31,"auth_ok":58,"auth_fail":4},
+    {"time":"09:10","events":221,"inbound":55,"outbound":33,"auth_ok":52,"auth_fail":3},
+    {"time":"09:15","events":304,"inbound":82,"outbound":44,"auth_ok":64,"auth_fail":15},
+    {"time":"09:20","events":372,"inbound":108,"outbound":57,"auth_ok":69,"auth_fail":24},
+    {"time":"09:25","events":258,"inbound":67,"outbound":36,"auth_ok":57,"auth_fail":8}
+  ],
+  "alerts": [
+    {"id":"ALT-001","time":"09:03","severity":"LOW","category":"定期バックアップ","source":"10.0.0.40","destination":"10.0.0.60","status":"false_positive"},
+    {"id":"ALT-002","time":"09:08","severity":"MEDIUM","category":"承認済み診断の通信","source":"10.0.0.12","destination":"192.168.50.8","status":"false_positive"},
+    {"id":"ALT-003","time":"09:12","severity":"HIGH","category":"不審な外向き通信","source":"10.0.0.25","destination":"198.51.100.28","status":"resolved"},
+    {"id":"ALT-004","time":"09:16","severity":"MEDIUM","category":"認証失敗の増加","source":"192.0.2.31","destination":"10.0.0.18","status":"open"},
+    {"id":"ALT-005","time":"09:21","severity":"CRITICAL","category":"複数端末の異常","source":"10.0.0.38","destination":"203.0.113.42","status":"confirmed"},
+    {"id":"ALT-006","time":"09:24","severity":"HIGH","category":"異常なアカウント操作","source":"192.0.2.56","destination":"10.0.0.18","status":"open"},
+    {"id":"ALT-007","time":"09:28","severity":"LOW","category":"監視ルールの通知","source":"10.0.0.15","destination":"10.0.0.17","status":"open"}
+  ]
+}
