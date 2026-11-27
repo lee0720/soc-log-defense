@@ -1,0 +1,1482 @@
+timestamp,log_id,severity,mitre,src_ip,message
+2026-04-06 09:34:53,0001,MEDIUM,T1046,203.0.113.117,"IDS multiple SYN to ports [734, 956, 449] from 203.0.113.117"
+2026-04-06 09:34:53,0002,CRITICAL,T1071,203.0.113.8,EDR periodic beacon 203.0.113.8:443 every 60s jitter low (possible C2)
+2026-04-06 09:34:54,0003,INFO,T1078,10.0.0.29,AUTH success user=jdoe src=10.0.0.29 mfa=ok
+2026-04-06 09:34:55,0004,INFO,T1078,10.0.0.139,AUTH success user=app_runtime src=10.0.0.139 mfa=ok
+2026-04-06 09:34:56,0005,INFO,T1078,10.0.0.185,AUTH success user=root src=10.0.0.185 mfa=ok
+2026-04-06 09:34:57,0006,CRITICAL,T1071,203.0.113.162,EDR periodic beacon 203.0.113.162:443 every 60s jitter low (possible C2)
+2026-04-06 09:34:58,0007,MEDIUM,T1046,10.0.0.82,IDS scan-like traffic from 10.0.0.82 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:34:59,0008,INFO,T1078,10.0.0.165,AUTH success user=root src=10.0.0.165 mfa=ok
+2026-04-06 09:35:00,0009,CRITICAL,T1071,203.0.113.188,EDR periodic beacon 203.0.113.188:443 every 60s jitter low (possible C2)
+2026-04-06 09:35:01,0010,INFO,T1078,10.0.0.159,AUTH success user=guest src=10.0.0.159 mfa=ok
+2026-04-06 09:35:02,0011,MEDIUM,T1567,10.0.0.39,DLP alert user=app_runtime exported 2661 files to USB
+2026-04-06 09:35:03,0012,MEDIUM,T1046,10.0.0.12,IDS scan-like traffic from 10.0.0.12 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:35:03,0013,LOW,T1110,10.0.0.104,AUTH failed user=guest src=10.0.0.104 attempt=2/5
+2026-04-06 09:35:03,0014,HIGH,T1190,203.0.113.65,WAF block SQLi pattern in /api/search from 203.0.113.65 q=' OR 1=1--
+2026-04-06 09:35:04,0015,INFO,T1078,10.0.0.67,AUTH success user=jdoe src=10.0.0.67 mfa=ok
+2026-04-06 09:35:05,0016,LOW,T1110,10.0.0.33,AUTH failed user=root src=10.0.0.33 attempt=1/5
+2026-04-06 09:35:06,0017,LOW,T1110,10.0.0.106,AUTH failed user=jdoe src=10.0.0.106 attempt=3/5
+2026-04-06 09:35:07,0018,LOW,T1110,10.0.0.118,AUTH failed user=jdoe src=10.0.0.118 attempt=2/5
+2026-04-06 09:35:08,0019,INFO,T1078,10.0.0.140,AUTH success user=app_runtime src=10.0.0.140 mfa=ok
+2026-04-06 09:35:09,0020,CRITICAL,T1071,203.0.113.127,EDR periodic beacon 203.0.113.127:443 every 60s jitter low (possible C2)
+2026-04-06 09:35:10,0021,HIGH,T1190,203.0.113.207,WAF block SQLi pattern in /api/search from 203.0.113.207 q=' OR 1=1--
+2026-04-06 09:35:11,0022,MEDIUM,T1046,203.0.113.72,"IDS multiple SYN to ports [651, 400, 635] from 203.0.113.72"
+2026-04-06 09:35:12,0023,HIGH,T1190,203.0.113.47,WAF block SQLi pattern in /api/search from 203.0.113.47 q=' OR 1=1--
+2026-04-06 09:35:13,0024,LOW,T1110,10.0.0.149,AUTH failed user=svc_backup src=10.0.0.149 attempt=3/5
+2026-04-06 09:35:14,0025,CRITICAL,T1071,203.0.113.225,EDR periodic beacon 203.0.113.225:443 every 60s jitter low (possible C2)
+2026-04-06 09:35:15,0026,LOW,T1110,10.0.0.215,AUTH failed user=svc_backup src=10.0.0.215 attempt=3/5
+2026-04-06 09:35:15,0027,INFO,—,10.0.0.59,MAINT window: patch agent heartbeat from 10.0.0.59
+2026-04-06 09:35:16,0028,MEDIUM,T1046,203.0.113.95,"IDS multiple SYN to ports [147, 889, 542] from 203.0.113.95"
+2026-04-06 09:35:17,0029,LOW,T1110,10.0.0.101,AUTH failed user=app_runtime src=10.0.0.101 attempt=3/5
+2026-04-06 09:35:17,0030,INFO,T1078,10.0.0.90,AUTH success user=app_runtime src=10.0.0.90 mfa=ok
+2026-04-06 09:35:18,0031,INFO,T1078,10.0.0.176,AUTH success user=jdoe src=10.0.0.176 mfa=ok
+2026-04-06 09:35:19,0032,LOW,T1110,10.0.0.204,AUTH failed user=root src=10.0.0.204 attempt=3/5
+2026-04-06 09:35:19,0033,INFO,—,10.0.0.215,MAINT window: patch agent heartbeat from 10.0.0.215
+2026-04-06 09:35:19,0034,INFO,—,10.0.0.206,MAINT window: patch agent heartbeat from 10.0.0.206
+2026-04-06 09:35:21,0035,INFO,—,10.0.0.25,MAINT window: patch agent heartbeat from 10.0.0.25
+2026-04-06 09:35:22,0036,MEDIUM,T1046,203.0.113.46,"IDS multiple SYN to ports [419, 917, 368] from 203.0.113.46"
+2026-04-06 09:35:23,0037,INFO,—,10.0.0.26,MAINT window: patch agent heartbeat from 10.0.0.26
+2026-04-06 09:35:24,0038,INFO,—,10.0.0.196,MAINT window: patch agent heartbeat from 10.0.0.196
+2026-04-06 09:35:25,0039,HIGH,T1190,203.0.113.39,WAF block SQLi pattern in /api/search from 203.0.113.39 q=' OR 1=1--
+2026-04-06 09:35:25,0040,HIGH,T1190,203.0.113.134,WAF block SQLi pattern in /api/search from 203.0.113.134 q=' OR 1=1--
+2026-04-06 09:35:25,0041,MEDIUM,T1567,10.0.0.155,DLP alert user=app_runtime exported 3881 files to USB
+2026-04-06 09:35:26,0042,MEDIUM,T1046,10.0.0.116,IDS scan-like traffic from 10.0.0.116 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:35:26,0043,INFO,—,10.0.0.34,MAINT window: patch agent heartbeat from 10.0.0.34
+2026-04-06 09:35:26,0044,INFO,T1078,10.0.0.197,AUTH success user=jdoe src=10.0.0.197 mfa=ok
+2026-04-06 09:35:27,0045,HIGH,T1190,203.0.113.215,WAF block SQLi pattern in /api/search from 203.0.113.215 q=' OR 1=1--
+2026-04-06 09:35:27,0046,LOW,T1110,10.0.0.31,AUTH failed user=jdoe src=10.0.0.31 attempt=2/5
+2026-04-06 09:35:28,0047,CRITICAL,T1071,203.0.113.7,EDR periodic beacon 203.0.113.7:443 every 60s jitter low (possible C2)
+2026-04-06 09:35:28,0048,INFO,—,10.0.0.27,MAINT window: patch agent heartbeat from 10.0.0.27
+2026-04-06 09:35:29,0049,MEDIUM,T1046,203.0.113.213,"IDS multiple SYN to ports [634, 100, 485] from 203.0.113.213"
+2026-04-06 09:35:30,0050,INFO,T1078,10.0.0.178,AUTH success user=root src=10.0.0.178 mfa=ok
+2026-04-06 09:35:31,0051,INFO,—,10.0.0.85,MAINT window: patch agent heartbeat from 10.0.0.85
+2026-04-06 09:35:32,0052,LOW,T1110,10.0.0.190,AUTH failed user=jdoe src=10.0.0.190 attempt=1/5
+2026-04-06 09:39:10,0001,LOW,T1110,10.0.0.139,AUTH failed user=admin src=10.0.0.139 attempt=3/5
+2026-04-06 09:39:11,0002,LOW,T1110,10.0.0.179,AUTH failed user=jdoe src=10.0.0.179 attempt=2/5
+2026-04-06 09:39:12,0003,CRITICAL,T1071,203.0.113.240,EDR periodic beacon 203.0.113.240:443 every 60s jitter low (possible C2)
+2026-04-06 09:39:13,0004,LOW,T1110,10.0.0.187,AUTH failed user=root src=10.0.0.187 attempt=2/5
+2026-04-06 09:39:14,0005,INFO,T1078,10.0.0.32,AUTH success user=jdoe src=10.0.0.32 mfa=ok
+2026-04-06 09:39:15,0006,LOW,T1110,10.0.0.183,AUTH failed user=root src=10.0.0.183 attempt=1/5
+2026-04-06 09:39:16,0007,LOW,T1110,10.0.0.17,AUTH failed user=admin src=10.0.0.17 attempt=3/5
+2026-04-06 09:39:17,0008,LOW,T1110,10.0.0.55,AUTH failed user=app_runtime src=10.0.0.55 attempt=3/5
+2026-04-06 09:39:18,0009,INFO,—,10.0.0.75,MAINT window: patch agent heartbeat from 10.0.0.75
+2026-04-06 09:39:19,0010,MEDIUM,T1567,10.0.0.2,DLP alert user=guest exported 4372 files to USB
+2026-04-06 09:39:20,0011,MEDIUM,T1046,10.0.0.113,IDS scan-like traffic from 10.0.0.113 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:39:21,0012,INFO,—,10.0.0.128,MAINT window: patch agent heartbeat from 10.0.0.128
+2026-04-06 09:39:21,0013,INFO,T1078,10.0.0.160,AUTH success user=guest src=10.0.0.160 mfa=ok
+2026-04-06 09:39:21,0014,MEDIUM,T1567,10.0.0.90,DLP alert user=guest exported 957 files to USB
+2026-04-06 09:39:22,0015,LOW,T1110,10.0.0.132,AUTH failed user=jdoe src=10.0.0.132 attempt=1/5
+2026-04-06 09:39:23,0016,INFO,T1078,10.0.0.193,AUTH success user=guest src=10.0.0.193 mfa=ok
+2026-04-06 09:39:23,0017,INFO,—,10.0.0.79,MAINT window: patch agent heartbeat from 10.0.0.79
+2026-04-06 09:39:23,0018,INFO,—,10.0.0.89,MAINT window: patch agent heartbeat from 10.0.0.89
+2026-04-06 09:39:24,0019,MEDIUM,T1046,10.0.0.113,IDS scan-like traffic from 10.0.0.113 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:39:24,0020,MEDIUM,T1046,203.0.113.235,"IDS multiple SYN to ports [374, 392, 964] from 203.0.113.235"
+2026-04-06 09:39:24,0021,INFO,—,10.0.0.132,MAINT window: patch agent heartbeat from 10.0.0.132
+2026-04-06 09:39:24,0022,LOW,T1110,10.0.0.197,AUTH failed user=svc_backup src=10.0.0.197 attempt=1/5
+2026-04-06 09:39:25,0023,INFO,T1078,10.0.0.217,AUTH success user=svc_backup src=10.0.0.217 mfa=ok
+2026-04-06 09:39:25,0024,MEDIUM,T1567,10.0.0.24,DLP alert user=root exported 3994 files to USB
+2026-04-06 09:39:25,0025,INFO,T1078,10.0.0.35,AUTH success user=root src=10.0.0.35 mfa=ok
+2026-04-06 09:39:25,0026,MEDIUM,T1046,10.0.0.111,IDS scan-like traffic from 10.0.0.111 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:39:25,0027,INFO,—,10.0.0.204,MAINT window: patch agent heartbeat from 10.0.0.204
+2026-04-06 09:39:25,0028,INFO,T1078,10.0.0.78,AUTH success user=app_runtime src=10.0.0.78 mfa=ok
+2026-04-06 09:39:25,0029,LOW,T1110,10.0.0.55,AUTH failed user=jdoe src=10.0.0.55 attempt=1/5
+2026-04-06 09:39:26,0030,LOW,T1110,10.0.0.124,AUTH failed user=admin src=10.0.0.124 attempt=2/5
+2026-04-06 09:39:27,0031,INFO,T1078,10.0.0.154,AUTH success user=root src=10.0.0.154 mfa=ok
+2026-04-06 09:39:28,0032,LOW,T1110,10.0.0.114,AUTH failed user=admin src=10.0.0.114 attempt=3/5
+2026-04-06 09:39:29,0033,INFO,T1078,10.0.0.122,AUTH success user=root src=10.0.0.122 mfa=ok
+2026-04-06 09:39:30,0034,MEDIUM,T1046,203.0.113.182,"IDS multiple SYN to ports [432, 408, 738] from 203.0.113.182"
+2026-04-06 09:39:30,0035,MEDIUM,T1567,10.0.0.71,DLP alert user=jdoe exported 1500 files to USB
+2026-04-06 09:39:30,0036,MEDIUM,T1046,10.0.0.22,IDS scan-like traffic from 10.0.0.22 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:39:31,0037,INFO,—,10.0.0.161,MAINT window: patch agent heartbeat from 10.0.0.161
+2026-04-06 09:39:32,0038,INFO,T1078,10.0.0.89,AUTH success user=svc_backup src=10.0.0.89 mfa=ok
+2026-04-06 09:39:32,0039,MEDIUM,T1046,203.0.113.141,"IDS multiple SYN to ports [966, 173, 107] from 203.0.113.141"
+2026-04-06 09:39:33,0040,MEDIUM,T1046,203.0.113.113,"IDS multiple SYN to ports [439, 528, 378] from 203.0.113.113"
+2026-04-06 09:39:33,0041,LOW,T1110,10.0.0.153,AUTH failed user=guest src=10.0.0.153 attempt=2/5
+2026-04-06 09:39:34,0042,INFO,T1078,10.0.0.173,AUTH success user=guest src=10.0.0.173 mfa=ok
+2026-04-06 09:39:34,0043,INFO,T1078,10.0.0.128,AUTH success user=svc_backup src=10.0.0.128 mfa=ok
+2026-04-06 09:39:35,0044,MEDIUM,T1567,10.0.0.55,DLP alert user=app_runtime exported 814 files to USB
+2026-04-06 09:39:36,0045,LOW,T1110,10.0.0.142,AUTH failed user=root src=10.0.0.142 attempt=3/5
+2026-04-06 09:39:37,0046,INFO,T1078,10.0.0.156,AUTH success user=root src=10.0.0.156 mfa=ok
+2026-04-06 09:39:37,0047,HIGH,T1190,203.0.113.118,WAF block SQLi pattern in /api/search from 203.0.113.118 q=' OR 1=1--
+2026-04-06 09:39:38,0048,INFO,—,10.0.0.99,MAINT window: patch agent heartbeat from 10.0.0.99
+2026-04-06 09:39:39,0049,MEDIUM,T1567,10.0.0.168,DLP alert user=app_runtime exported 1730 files to USB
+2026-04-06 09:39:39,0050,INFO,T1078,10.0.0.15,AUTH success user=svc_backup src=10.0.0.15 mfa=ok
+2026-04-06 09:39:39,0051,CRITICAL,T1071,203.0.113.78,EDR periodic beacon 203.0.113.78:443 every 60s jitter low (possible C2)
+2026-04-06 09:39:40,0052,MEDIUM,T1046,203.0.113.253,"IDS multiple SYN to ports [336, 149, 961] from 203.0.113.253"
+2026-04-06 09:39:40,0053,MEDIUM,T1046,203.0.113.21,"IDS multiple SYN to ports [315, 681, 294] from 203.0.113.21"
+2026-04-06 09:39:40,0054,INFO,T1078,10.0.0.78,AUTH success user=jdoe src=10.0.0.78 mfa=ok
+2026-04-06 09:39:42,0055,INFO,T1078,10.0.0.196,AUTH success user=jdoe src=10.0.0.196 mfa=ok
+2026-04-06 09:39:42,0056,MEDIUM,T1567,10.0.0.80,DLP alert user=root exported 2653 files to USB
+2026-04-06 09:39:42,0057,INFO,—,10.0.0.21,MAINT window: patch agent heartbeat from 10.0.0.21
+2026-04-06 09:39:43,0058,INFO,T1078,10.0.0.13,AUTH success user=jdoe src=10.0.0.13 mfa=ok
+2026-04-06 09:39:44,0059,INFO,T1078,10.0.0.177,AUTH success user=guest src=10.0.0.177 mfa=ok
+2026-04-06 09:39:45,0060,CRITICAL,T1071,203.0.113.189,EDR periodic beacon 203.0.113.189:443 every 60s jitter low (possible C2)
+2026-04-06 09:39:46,0061,LOW,T1110,10.0.0.39,AUTH failed user=jdoe src=10.0.0.39 attempt=2/5
+2026-04-06 09:39:47,0062,HIGH,T1190,203.0.113.38,WAF block SQLi pattern in /api/search from 203.0.113.38 q=' OR 1=1--
+2026-04-06 09:39:48,0063,INFO,T1078,10.0.0.104,AUTH success user=app_runtime src=10.0.0.104 mfa=ok
+2026-04-06 09:39:49,0064,INFO,—,10.0.0.205,MAINT window: patch agent heartbeat from 10.0.0.205
+2026-04-06 09:39:50,0065,INFO,—,10.0.0.150,MAINT window: patch agent heartbeat from 10.0.0.150
+2026-04-06 09:39:51,0066,INFO,T1078,10.0.0.39,AUTH success user=root src=10.0.0.39 mfa=ok
+2026-04-06 09:39:52,0067,INFO,T1078,10.0.0.10,AUTH success user=guest src=10.0.0.10 mfa=ok
+2026-04-06 09:39:53,0068,INFO,—,10.0.0.64,MAINT window: patch agent heartbeat from 10.0.0.64
+2026-04-06 09:39:54,0069,LOW,T1110,10.0.0.126,AUTH failed user=jdoe src=10.0.0.126 attempt=1/5
+2026-04-06 09:39:55,0070,INFO,—,10.0.0.60,MAINT window: patch agent heartbeat from 10.0.0.60
+2026-04-06 09:39:56,0071,CRITICAL,T1071,203.0.113.100,EDR periodic beacon 203.0.113.100:443 every 60s jitter low (possible C2)
+2026-04-06 09:39:57,0072,LOW,T1110,10.0.0.161,AUTH failed user=guest src=10.0.0.161 attempt=3/5
+2026-04-06 09:39:58,0073,HIGH,T1190,203.0.113.142,WAF block SQLi pattern in /api/search from 203.0.113.142 q=' OR 1=1--
+2026-04-06 09:39:59,0074,INFO,T1078,10.0.0.109,AUTH success user=svc_backup src=10.0.0.109 mfa=ok
+2026-04-06 09:40:00,0075,INFO,T1078,10.0.0.217,AUTH success user=app_runtime src=10.0.0.217 mfa=ok
+2026-04-06 09:40:01,0076,INFO,T1078,10.0.0.15,AUTH success user=svc_backup src=10.0.0.15 mfa=ok
+2026-04-06 09:40:01,0077,INFO,T1078,10.0.0.11,AUTH success user=svc_backup src=10.0.0.11 mfa=ok
+2026-04-06 09:40:01,0078,HIGH,T1190,203.0.113.29,WAF block SQLi pattern in /api/search from 203.0.113.29 q=' OR 1=1--
+2026-04-06 09:40:02,0079,CRITICAL,T1071,203.0.113.148,EDR periodic beacon 203.0.113.148:443 every 60s jitter low (possible C2)
+2026-04-06 09:40:03,0080,CRITICAL,T1071,203.0.113.49,EDR periodic beacon 203.0.113.49:443 every 60s jitter low (possible C2)
+2026-04-06 09:40:04,0081,INFO,T1078,10.0.0.181,AUTH success user=root src=10.0.0.181 mfa=ok
+2026-04-06 09:40:05,0082,LOW,T1110,10.0.0.112,AUTH failed user=jdoe src=10.0.0.112 attempt=2/5
+2026-04-06 09:40:06,0083,LOW,T1110,10.0.0.201,AUTH failed user=root src=10.0.0.201 attempt=2/5
+2026-04-06 09:40:07,0084,HIGH,T1190,203.0.113.204,WAF block SQLi pattern in /api/search from 203.0.113.204 q=' OR 1=1--
+2026-04-06 09:40:08,0085,INFO,T1078,10.0.0.47,AUTH success user=root src=10.0.0.47 mfa=ok
+2026-04-06 09:40:09,0086,INFO,—,10.0.0.103,MAINT window: patch agent heartbeat from 10.0.0.103
+2026-04-06 09:40:10,0087,INFO,T1078,10.0.0.10,AUTH success user=jdoe src=10.0.0.10 mfa=ok
+2026-04-06 09:40:11,0088,HIGH,T1190,203.0.113.55,WAF block SQLi pattern in /api/search from 203.0.113.55 q=' OR 1=1--
+2026-04-06 09:40:12,0089,MEDIUM,T1046,203.0.113.92,"IDS multiple SYN to ports [846, 212, 370] from 203.0.113.92"
+2026-04-06 09:40:13,0090,MEDIUM,T1046,10.0.0.164,IDS scan-like traffic from 10.0.0.164 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:40:14,0091,HIGH,T1190,203.0.113.125,WAF block SQLi pattern in /api/search from 203.0.113.125 q=' OR 1=1--
+2026-04-06 09:40:15,0092,INFO,T1078,10.0.0.212,AUTH success user=admin src=10.0.0.212 mfa=ok
+2026-04-06 09:40:16,0093,LOW,T1110,10.0.0.211,AUTH failed user=app_runtime src=10.0.0.211 attempt=2/5
+2026-04-06 09:40:17,0094,HIGH,T1190,203.0.113.218,WAF block SQLi pattern in /api/search from 203.0.113.218 q=' OR 1=1--
+2026-04-06 09:40:18,0095,MEDIUM,T1046,203.0.113.177,"IDS multiple SYN to ports [765, 724, 800] from 203.0.113.177"
+2026-04-06 09:40:19,0096,CRITICAL,T1071,203.0.113.235,EDR periodic beacon 203.0.113.235:443 every 60s jitter low (possible C2)
+2026-04-06 09:40:20,0097,CRITICAL,T1071,203.0.113.66,EDR periodic beacon 203.0.113.66:443 every 60s jitter low (possible C2)
+2026-04-06 09:40:21,0098,MEDIUM,T1046,203.0.113.132,"IDS multiple SYN to ports [888, 789, 643] from 203.0.113.132"
+2026-04-06 09:40:22,0099,MEDIUM,T1567,10.0.0.171,DLP alert user=guest exported 4081 files to USB
+2026-04-06 09:40:23,0100,MEDIUM,T1567,10.0.0.86,DLP alert user=root exported 3373 files to USB
+2026-04-06 09:40:24,0101,INFO,T1078,10.0.0.136,AUTH success user=admin src=10.0.0.136 mfa=ok
+2026-04-06 09:40:25,0102,MEDIUM,T1046,203.0.113.141,"IDS multiple SYN to ports [313, 378, 785] from 203.0.113.141"
+2026-04-06 09:40:25,0103,LOW,T1110,10.0.0.8,AUTH failed user=guest src=10.0.0.8 attempt=1/5
+2026-04-06 09:40:25,0104,LOW,T1110,10.0.0.19,AUTH failed user=app_runtime src=10.0.0.19 attempt=3/5
+2026-04-06 09:40:25,0105,MEDIUM,T1046,203.0.113.212,"IDS multiple SYN to ports [955, 909, 860] from 203.0.113.212"
+2026-04-06 09:40:26,0106,HIGH,T1190,203.0.113.202,WAF block SQLi pattern in /api/search from 203.0.113.202 q=' OR 1=1--
+2026-04-06 09:40:26,0107,LOW,T1110,10.0.0.159,AUTH failed user=app_runtime src=10.0.0.159 attempt=3/5
+2026-04-06 09:40:26,0108,LOW,T1110,10.0.0.114,AUTH failed user=root src=10.0.0.114 attempt=2/5
+2026-04-06 09:40:26,0109,MEDIUM,T1567,10.0.0.210,DLP alert user=svc_backup exported 1119 files to USB
+2026-04-06 09:40:26,0110,INFO,T1078,10.0.0.197,AUTH success user=admin src=10.0.0.197 mfa=ok
+2026-04-06 09:40:26,0111,LOW,T1110,10.0.0.11,AUTH failed user=jdoe src=10.0.0.11 attempt=3/5
+2026-04-06 09:40:27,0112,MEDIUM,T1567,10.0.0.112,DLP alert user=jdoe exported 4027 files to USB
+2026-04-06 09:40:27,0113,INFO,—,10.0.0.19,MAINT window: patch agent heartbeat from 10.0.0.19
+2026-04-06 09:40:27,0114,INFO,T1078,10.0.0.147,AUTH success user=svc_backup src=10.0.0.147 mfa=ok
+2026-04-06 09:40:27,0115,LOW,T1110,10.0.0.62,AUTH failed user=root src=10.0.0.62 attempt=3/5
+2026-04-06 09:40:28,0116,MEDIUM,T1046,10.0.0.175,IDS scan-like traffic from 10.0.0.175 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:40:28,0117,CRITICAL,T1071,203.0.113.5,EDR periodic beacon 203.0.113.5:443 every 60s jitter low (possible C2)
+2026-04-06 09:40:54,0001,LOW,T1110,10.0.0.110,AUTH failed user=jdoe src=10.0.0.110 attempt=3/5
+2026-04-06 09:40:55,0002,LOW,T1110,10.0.0.161,AUTH failed user=root src=10.0.0.161 attempt=2/5
+2026-04-06 09:40:56,0003,CRITICAL,T1071,203.0.113.22,EDR periodic beacon 203.0.113.22:443 every 60s jitter low (possible C2)
+2026-04-06 09:40:57,0004,MEDIUM,T1046,203.0.113.175,"IDS multiple SYN to ports [850, 481, 520] from 203.0.113.175"
+2026-04-06 09:40:58,0005,HIGH,T1190,203.0.113.163,WAF block SQLi pattern in /api/search from 203.0.113.163 q=' OR 1=1--
+2026-04-06 09:40:59,0006,INFO,T1078,10.0.0.86,AUTH success user=jdoe src=10.0.0.86 mfa=ok
+2026-04-06 09:41:00,0007,INFO,T1078,10.0.0.6,AUTH success user=app_runtime src=10.0.0.6 mfa=ok
+2026-04-06 09:41:01,0008,LOW,T1110,10.0.0.95,AUTH failed user=jdoe src=10.0.0.95 attempt=1/5
+2026-04-06 09:41:01,0009,INFO,T1078,10.0.0.87,AUTH success user=guest src=10.0.0.87 mfa=ok
+2026-04-06 09:41:01,0010,INFO,—,10.0.0.162,MAINT window: patch agent heartbeat from 10.0.0.162
+2026-04-06 09:41:02,0011,LOW,T1110,10.0.0.214,AUTH failed user=admin src=10.0.0.214 attempt=3/5
+2026-04-06 09:41:03,0012,CRITICAL,T1071,203.0.113.22,EDR periodic beacon 203.0.113.22:443 every 60s jitter low (possible C2)
+2026-04-06 09:41:04,0013,HIGH,T1190,203.0.113.195,WAF block SQLi pattern in /api/search from 203.0.113.195 q=' OR 1=1--
+2026-04-06 09:41:05,0014,MEDIUM,T1046,203.0.113.143,"IDS multiple SYN to ports [220, 125, 560] from 203.0.113.143"
+2026-04-06 09:41:06,0015,MEDIUM,T1046,203.0.113.9,"IDS multiple SYN to ports [82, 977, 721] from 203.0.113.9"
+2026-04-06 09:41:07,0016,MEDIUM,T1567,10.0.0.13,DLP alert user=guest exported 2293 files to USB
+2026-04-06 09:41:08,0017,INFO,T1078,10.0.0.198,AUTH success user=guest src=10.0.0.198 mfa=ok
+2026-04-06 09:41:09,0018,LOW,T1110,10.0.0.26,AUTH failed user=jdoe src=10.0.0.26 attempt=3/5
+2026-04-06 09:41:10,0019,INFO,T1078,10.0.0.77,AUTH success user=guest src=10.0.0.77 mfa=ok
+2026-04-06 09:41:11,0020,LOW,T1110,10.0.0.152,AUTH failed user=svc_backup src=10.0.0.152 attempt=3/5
+2026-04-06 09:41:12,0021,MEDIUM,T1046,203.0.113.253,"IDS multiple SYN to ports [452, 234, 525] from 203.0.113.253"
+2026-04-06 09:41:13,0022,HIGH,T1190,203.0.113.220,WAF block SQLi pattern in /api/search from 203.0.113.220 q=' OR 1=1--
+2026-04-06 09:41:14,0023,INFO,T1078,10.0.0.73,AUTH success user=root src=10.0.0.73 mfa=ok
+2026-04-06 09:41:14,0024,MEDIUM,T1046,10.0.0.36,IDS scan-like traffic from 10.0.0.36 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:14,0025,LOW,T1110,10.0.0.96,AUTH failed user=jdoe src=10.0.0.96 attempt=3/5
+2026-04-06 09:41:15,0026,LOW,T1110,10.0.0.47,AUTH failed user=root src=10.0.0.47 attempt=3/5
+2026-04-06 09:41:16,0027,INFO,—,10.0.0.172,MAINT window: patch agent heartbeat from 10.0.0.172
+2026-04-06 09:41:17,0028,INFO,—,10.0.0.61,MAINT window: patch agent heartbeat from 10.0.0.61
+2026-04-06 09:41:18,0029,MEDIUM,T1046,203.0.113.76,"IDS multiple SYN to ports [172, 669, 592] from 203.0.113.76"
+2026-04-06 09:41:19,0030,MEDIUM,T1567,10.0.0.139,DLP alert user=guest exported 3187 files to USB
+2026-04-06 09:41:20,0031,LOW,T1110,10.0.0.196,AUTH failed user=root src=10.0.0.196 attempt=1/5
+2026-04-06 09:41:21,0032,INFO,T1078,10.0.0.95,AUTH success user=jdoe src=10.0.0.95 mfa=ok
+2026-04-06 09:41:22,0033,LOW,T1110,10.0.0.9,AUTH failed user=guest src=10.0.0.9 attempt=3/5
+2026-04-06 09:41:23,0034,INFO,—,10.0.0.199,MAINT window: patch agent heartbeat from 10.0.0.199
+2026-04-06 09:41:24,0035,CRITICAL,T1071,203.0.113.5,EDR periodic beacon 203.0.113.5:443 every 60s jitter low (possible C2)
+2026-04-06 09:41:25,0036,INFO,T1078,10.0.0.53,AUTH success user=admin src=10.0.0.53 mfa=ok
+2026-04-06 09:41:26,0037,INFO,—,10.0.0.199,MAINT window: patch agent heartbeat from 10.0.0.199
+2026-04-06 09:41:27,0038,INFO,T1078,10.0.0.151,AUTH success user=guest src=10.0.0.151 mfa=ok
+2026-04-06 09:41:28,0039,INFO,—,10.0.0.160,MAINT window: patch agent heartbeat from 10.0.0.160
+2026-04-06 09:41:29,0040,LOW,T1110,10.0.0.190,AUTH failed user=guest src=10.0.0.190 attempt=2/5
+2026-04-06 09:41:30,0041,MEDIUM,T1046,10.0.0.200,IDS scan-like traffic from 10.0.0.200 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:31,0042,INFO,—,10.0.0.97,MAINT window: patch agent heartbeat from 10.0.0.97
+2026-04-06 09:41:32,0043,MEDIUM,T1046,203.0.113.202,"IDS multiple SYN to ports [559, 664, 154] from 203.0.113.202"
+2026-04-06 09:41:33,0044,INFO,T1078,10.0.0.130,AUTH success user=svc_backup src=10.0.0.130 mfa=ok
+2026-04-06 09:41:34,0045,MEDIUM,T1046,10.0.0.191,IDS scan-like traffic from 10.0.0.191 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:34,0046,INFO,T1078,10.0.0.175,AUTH success user=guest src=10.0.0.175 mfa=ok
+2026-04-06 09:41:35,0047,HIGH,T1190,203.0.113.215,WAF block SQLi pattern in /api/search from 203.0.113.215 q=' OR 1=1--
+2026-04-06 09:41:36,0048,LOW,T1110,10.0.0.145,AUTH failed user=app_runtime src=10.0.0.145 attempt=3/5
+2026-04-06 09:41:37,0049,INFO,—,10.0.0.31,MAINT window: patch agent heartbeat from 10.0.0.31
+2026-04-06 09:41:38,0050,LOW,T1110,10.0.0.78,AUTH failed user=admin src=10.0.0.78 attempt=1/5
+2026-04-06 09:41:39,0051,MEDIUM,T1046,10.0.0.148,IDS scan-like traffic from 10.0.0.148 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:40,0052,INFO,—,10.0.0.190,MAINT window: patch agent heartbeat from 10.0.0.190
+2026-04-06 09:41:41,0053,INFO,—,10.0.0.139,MAINT window: patch agent heartbeat from 10.0.0.139
+2026-04-06 09:41:42,0054,INFO,—,10.0.0.128,MAINT window: patch agent heartbeat from 10.0.0.128
+2026-04-06 09:41:43,0055,LOW,T1110,10.0.0.95,AUTH failed user=admin src=10.0.0.95 attempt=1/5
+2026-04-06 09:41:44,0056,MEDIUM,T1046,10.0.0.197,IDS scan-like traffic from 10.0.0.197 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:45,0057,INFO,T1078,10.0.0.57,AUTH success user=guest src=10.0.0.57 mfa=ok
+2026-04-06 09:41:46,0058,MEDIUM,T1046,10.0.0.103,IDS scan-like traffic from 10.0.0.103 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:47,0059,MEDIUM,T1046,203.0.113.182,"IDS multiple SYN to ports [177, 90, 761] from 203.0.113.182"
+2026-04-06 09:41:48,0060,INFO,—,10.0.0.88,MAINT window: patch agent heartbeat from 10.0.0.88
+2026-04-06 09:41:49,0061,MEDIUM,T1046,10.0.0.209,IDS scan-like traffic from 10.0.0.209 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:50,0062,LOW,T1110,10.0.0.165,AUTH failed user=jdoe src=10.0.0.165 attempt=1/5
+2026-04-06 09:41:51,0063,INFO,—,10.0.0.188,MAINT window: patch agent heartbeat from 10.0.0.188
+2026-04-06 09:41:52,0064,MEDIUM,T1046,203.0.113.63,"IDS multiple SYN to ports [416, 411, 532] from 203.0.113.63"
+2026-04-06 09:41:53,0065,INFO,T1078,10.0.0.150,AUTH success user=admin src=10.0.0.150 mfa=ok
+2026-04-06 09:41:53,0066,MEDIUM,T1046,203.0.113.57,"IDS multiple SYN to ports [111, 788, 702] from 203.0.113.57"
+2026-04-06 09:41:53,0067,LOW,T1110,10.0.0.30,AUTH failed user=app_runtime src=10.0.0.30 attempt=3/5
+2026-04-06 09:41:54,0068,CRITICAL,T1071,203.0.113.93,EDR periodic beacon 203.0.113.93:443 every 60s jitter low (possible C2)
+2026-04-06 09:41:55,0069,INFO,T1078,10.0.0.37,AUTH success user=jdoe src=10.0.0.37 mfa=ok
+2026-04-06 09:41:56,0070,INFO,T1078,10.0.0.129,AUTH success user=root src=10.0.0.129 mfa=ok
+2026-04-06 09:41:57,0071,LOW,T1110,10.0.0.112,AUTH failed user=admin src=10.0.0.112 attempt=1/5
+2026-04-06 09:41:58,0072,MEDIUM,T1046,10.0.0.85,IDS scan-like traffic from 10.0.0.85 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:41:59,0073,MEDIUM,T1046,10.0.0.160,IDS scan-like traffic from 10.0.0.160 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:42:00,0074,HIGH,T1190,203.0.113.220,WAF block SQLi pattern in /api/search from 203.0.113.220 q=' OR 1=1--
+2026-04-06 09:42:00,0075,INFO,T1078,10.0.0.102,AUTH success user=app_runtime src=10.0.0.102 mfa=ok
+2026-04-06 09:42:01,0076,CRITICAL,T1071,203.0.113.39,EDR periodic beacon 203.0.113.39:443 every 60s jitter low (possible C2)
+2026-04-06 09:42:02,0077,MEDIUM,T1046,10.0.0.12,IDS scan-like traffic from 10.0.0.12 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:42:03,0078,INFO,—,10.0.0.163,MAINT window: patch agent heartbeat from 10.0.0.163
+2026-04-06 09:42:04,0079,MEDIUM,T1046,203.0.113.232,"IDS multiple SYN to ports [20, 5, 876] from 203.0.113.232"
+2026-04-06 09:42:05,0080,LOW,T1110,10.0.0.65,AUTH failed user=root src=10.0.0.65 attempt=3/5
+2026-04-06 09:42:06,0081,MEDIUM,T1046,203.0.113.253,"IDS multiple SYN to ports [808, 448, 581] from 203.0.113.253"
+2026-04-06 09:42:07,0082,LOW,T1110,10.0.0.169,AUTH failed user=admin src=10.0.0.169 attempt=3/5
+2026-04-06 09:42:08,0083,MEDIUM,T1046,10.0.0.216,IDS scan-like traffic from 10.0.0.216 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:42:09,0084,INFO,—,10.0.0.207,MAINT window: patch agent heartbeat from 10.0.0.207
+2026-04-06 09:42:10,0085,MEDIUM,T1046,10.0.0.37,IDS scan-like traffic from 10.0.0.37 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:42:11,0086,MEDIUM,T1567,10.0.0.184,DLP alert user=admin exported 2761 files to USB
+2026-04-06 09:42:12,0087,INFO,T1078,10.0.0.132,AUTH success user=svc_backup src=10.0.0.132 mfa=ok
+2026-04-06 09:42:12,0088,HIGH,T1190,203.0.113.191,WAF block SQLi pattern in /api/search from 203.0.113.191 q=' OR 1=1--
+2026-04-06 09:42:12,0089,INFO,T1078,10.0.0.60,AUTH success user=root src=10.0.0.60 mfa=ok
+2026-04-06 09:42:13,0090,HIGH,T1190,203.0.113.92,WAF block SQLi pattern in /api/search from 203.0.113.92 q=' OR 1=1--
+2026-04-06 09:42:14,0091,INFO,T1078,10.0.0.9,AUTH success user=app_runtime src=10.0.0.9 mfa=ok
+2026-04-06 09:42:15,0092,MEDIUM,T1567,10.0.0.79,DLP alert user=guest exported 2285 files to USB
+2026-04-06 09:42:16,0093,INFO,T1078,10.0.0.114,AUTH success user=svc_backup src=10.0.0.114 mfa=ok
+2026-04-06 09:42:17,0094,INFO,T1078,10.0.0.80,AUTH success user=svc_backup src=10.0.0.80 mfa=ok
+2026-04-06 09:42:18,0095,MEDIUM,T1046,203.0.113.195,"IDS multiple SYN to ports [404, 429, 810] from 203.0.113.195"
+2026-04-06 09:42:19,0096,MEDIUM,T1046,203.0.113.69,"IDS multiple SYN to ports [315, 13, 520] from 203.0.113.69"
+2026-04-06 09:42:20,0097,LOW,T1110,10.0.0.151,AUTH failed user=guest src=10.0.0.151 attempt=3/5
+2026-04-06 09:42:21,0098,MEDIUM,T1046,203.0.113.72,"IDS multiple SYN to ports [276, 283, 541] from 203.0.113.72"
+2026-04-06 09:42:22,0099,INFO,T1078,10.0.0.125,AUTH success user=root src=10.0.0.125 mfa=ok
+2026-04-06 09:42:23,0100,INFO,T1078,10.0.0.140,AUTH success user=app_runtime src=10.0.0.140 mfa=ok
+2026-04-06 09:42:23,0101,CRITICAL,T1071,203.0.113.116,EDR periodic beacon 203.0.113.116:443 every 60s jitter low (possible C2)
+2026-04-06 09:42:23,0102,INFO,T1078,10.0.0.124,AUTH success user=svc_backup src=10.0.0.124 mfa=ok
+2026-04-06 09:42:23,0103,LOW,T1110,10.0.0.44,AUTH failed user=svc_backup src=10.0.0.44 attempt=3/5
+2026-04-06 09:42:24,0104,MEDIUM,T1046,203.0.113.64,"IDS multiple SYN to ports [91, 445, 770] from 203.0.113.64"
+2026-04-06 09:42:25,0105,HIGH,T1190,203.0.113.229,WAF block SQLi pattern in /api/search from 203.0.113.229 q=' OR 1=1--
+2026-04-06 09:42:26,0106,MEDIUM,T1046,203.0.113.191,"IDS multiple SYN to ports [139, 831, 47] from 203.0.113.191"
+2026-04-06 09:42:27,0107,HIGH,T1190,203.0.113.109,WAF block SQLi pattern in /api/search from 203.0.113.109 q=' OR 1=1--
+2026-04-06 09:42:28,0108,CRITICAL,T1071,203.0.113.29,EDR periodic beacon 203.0.113.29:443 every 60s jitter low (possible C2)
+2026-04-06 09:42:29,0109,MEDIUM,T1046,203.0.113.219,"IDS multiple SYN to ports [207, 994, 665] from 203.0.113.219"
+2026-04-06 09:42:30,0110,INFO,—,10.0.0.149,MAINT window: patch agent heartbeat from 10.0.0.149
+2026-04-06 09:42:31,0111,CRITICAL,T1071,203.0.113.250,EDR periodic beacon 203.0.113.250:443 every 60s jitter low (possible C2)
+2026-04-06 09:42:32,0112,HIGH,T1190,203.0.113.239,WAF block SQLi pattern in /api/search from 203.0.113.239 q=' OR 1=1--
+2026-04-06 09:42:33,0113,INFO,T1078,10.0.0.70,AUTH success user=svc_backup src=10.0.0.70 mfa=ok
+2026-04-06 09:42:33,0114,MEDIUM,T1046,203.0.113.59,"IDS multiple SYN to ports [927, 509, 728] from 203.0.113.59"
+2026-04-06 09:42:33,0115,HIGH,T1190,203.0.113.49,WAF block SQLi pattern in /api/search from 203.0.113.49 q=' OR 1=1--
+2026-04-06 09:42:33,0116,MEDIUM,T1046,203.0.113.93,"IDS multiple SYN to ports [286, 43, 591] from 203.0.113.93"
+2026-04-06 09:42:34,0117,MEDIUM,T1046,203.0.113.122,"IDS multiple SYN to ports [769, 639, 348] from 203.0.113.122"
+2026-04-06 09:42:35,0118,MEDIUM,T1046,203.0.113.64,"IDS multiple SYN to ports [999, 827, 54] from 203.0.113.64"
+2026-04-06 09:42:36,0119,INFO,—,10.0.0.85,MAINT window: patch agent heartbeat from 10.0.0.85
+2026-04-06 09:42:37,0120,MEDIUM,T1567,10.0.0.190,DLP alert user=admin exported 2295 files to USB
+2026-04-06 09:42:38,0121,MEDIUM,T1046,10.0.0.46,IDS scan-like traffic from 10.0.0.46 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:42:39,0122,INFO,T1078,10.0.0.109,AUTH success user=app_runtime src=10.0.0.109 mfa=ok
+2026-04-06 09:42:40,0123,HIGH,T1190,203.0.113.228,WAF block SQLi pattern in /api/search from 203.0.113.228 q=' OR 1=1--
+2026-04-06 09:42:41,0124,INFO,T1078,10.0.0.66,AUTH success user=root src=10.0.0.66 mfa=ok
+2026-04-06 09:42:42,0125,MEDIUM,T1046,10.0.0.167,IDS scan-like traffic from 10.0.0.167 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:42:43,0126,INFO,T1078,10.0.0.153,AUTH success user=app_runtime src=10.0.0.153 mfa=ok
+2026-04-06 09:42:44,0127,MEDIUM,T1046,10.0.0.137,IDS scan-like traffic from 10.0.0.137 tag=scheduled_vuln_scan owner=secops
+2026-04-06 09:42:45,0128,CRITICAL,T1071,203.0.113.62,EDR periodic beacon 203.0.113.62:443 every 60s jitter low (possible C2)
+2026-04-06 09:42:46,0129,LOW,T1110,10.0.0.159,AUTH failed user=svc_backup src=10.0.0.159 attempt=1/5
+2026-04-06 09:42:46,0130,INFO,—,10.0.0.206,MAINT window: patch agent heartbeat from 10.0.0.206
+2026-04-06 09:42:46,0131,INFO,—,10.0.0.178,MAINT window: patch agent heartbeat from 10.0.0.178
+2026-04-06 09:42:47,0132,HIGH,T1190,203.0.113.113,WAF block SQLi pattern in /api/search from 203.0.113.113 q=' OR 1=1--
+2026-04-06 09:42:48,0133,INFO,T1078,10.0.0.97,AUTH success user=jdoe src=10.0.0.97 mfa=ok
+2026-04-06 09:42:49,0134,HIGH,T1190,203.0.113.221,WAF block SQLi pattern in /api/search from 203.0.113.221 q=' OR 1=1--
+2026-04-06 09:42:50,0135,INFO,T1078,10.0.0.215,AUTH success user=svc_backup src=10.0.0.215 mfa=ok
+2026-04-06 09:42:51,0136,MEDIUM,T1567,10.0.0.161,DLP alert user=app_runtime exported 2110 files to USB
+2026-04-06 09:42:52,0137,HIGH,T1190,203.0.113.242,WAF block SQLi pattern in /api/search from 203.0.113.242 q=' OR 1=1--
+2026-04-06 09:42:53,0138,MEDIUM,T1046,203.0.113.4,"IDS multiple SYN to ports [150, 110, 598] from 203.0.113.4"
+2026-05-15 09:01:09,0001,MEDIUM,T1567,10.0.0.3,DLP alert user=svc_backup exported 4184 files to USB
+2026-05-15 09:01:10,0002,MEDIUM,T1046,203.0.113.187,"IDS multiple SYN to ports [729, 546, 801] from 203.0.113.187"
+2026-05-15 09:01:11,0003,MEDIUM,T1046,10.0.0.179,IDS scan-like traffic from 10.0.0.179 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:01:11,0004,LOW,T1110,10.0.0.30,AUTH failed user=app_runtime src=10.0.0.30 attempt=3/5
+2026-05-15 09:01:11,0005,INFO,T1078,10.0.0.106,AUTH success user=guest src=10.0.0.106 mfa=ok
+2026-05-15 09:01:12,0006,LOW,T1110,10.0.0.121,AUTH failed user=guest src=10.0.0.121 attempt=1/5
+2026-05-15 09:01:13,0007,CRITICAL,T1071,203.0.113.162,EDR periodic beacon 203.0.113.162:443 every 60s jitter low (possible C2)
+2026-05-15 09:01:14,0008,MEDIUM,T1046,10.0.0.166,IDS scan-like traffic from 10.0.0.166 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:01:15,0009,MEDIUM,T1046,203.0.113.109,"IDS multiple SYN to ports [877, 116, 82] from 203.0.113.109"
+2026-05-15 09:11:24,0001,MEDIUM,T1046,203.0.113.117,"IDS multiple SYN to ports [994, 288, 547] from 203.0.113.117"
+2026-05-15 09:11:25,0002,INFO,T1078,10.0.0.117,AUTH success user=jdoe src=10.0.0.117 mfa=ok
+2026-05-15 09:11:26,0003,LOW,T1110,10.0.0.68,AUTH failed user=root src=10.0.0.68 attempt=2/5
+2026-05-15 09:11:27,0004,LOW,T1110,10.0.0.90,AUTH failed user=admin src=10.0.0.90 attempt=3/5
+2026-05-15 09:11:28,0005,INFO,—,10.0.0.200,MAINT window: patch agent heartbeat from 10.0.0.200
+2026-05-15 09:11:29,0006,INFO,T1078,10.0.0.47,AUTH success user=guest src=10.0.0.47 mfa=ok
+2026-05-15 09:11:30,0007,LOW,T1110,10.0.0.185,AUTH failed user=guest src=10.0.0.185 attempt=1/5
+2026-05-15 09:11:32,0008,MEDIUM,T1046,203.0.113.53,"IDS multiple SYN to ports [325, 466, 632] from 203.0.113.53"
+2026-05-15 09:11:34,0009,MEDIUM,T1046,203.0.113.13,"IDS multiple SYN to ports [610, 932, 1013] from 203.0.113.13"
+2026-05-15 09:11:36,0010,LOW,T1110,10.0.0.117,AUTH failed user=jdoe src=10.0.0.117 attempt=1/5
+2026-05-15 09:11:38,0011,CRITICAL,T1071,203.0.113.241,EDR periodic beacon 203.0.113.241:443 every 60s jitter low (possible C2)
+2026-05-15 09:11:40,0012,INFO,—,10.0.0.117,MAINT window: patch agent heartbeat from 10.0.0.117
+2026-05-15 09:11:42,0013,INFO,T1078,10.0.0.167,AUTH success user=admin src=10.0.0.167 mfa=ok
+2026-05-15 09:11:44,0014,INFO,T1078,10.0.0.95,AUTH success user=svc_backup src=10.0.0.95 mfa=ok
+2026-05-15 09:11:46,0015,LOW,T1110,10.0.0.195,AUTH failed user=admin src=10.0.0.195 attempt=2/5
+2026-05-15 09:11:48,0016,LOW,T1110,10.0.0.18,AUTH failed user=svc_backup src=10.0.0.18 attempt=1/5
+2026-05-15 09:11:50,0017,INFO,T1078,10.0.0.210,AUTH success user=guest src=10.0.0.210 mfa=ok
+2026-05-15 09:11:52,0018,CRITICAL,T1071,203.0.113.210,EDR periodic beacon 203.0.113.210:443 every 60s jitter low (possible C2)
+2026-05-15 09:11:54,0019,LOW,T1110,10.0.0.23,AUTH failed user=guest src=10.0.0.23 attempt=1/5
+2026-05-15 09:11:56,0020,MEDIUM,T1046,203.0.113.211,"IDS multiple SYN to ports [382, 529, 536] from 203.0.113.211"
+2026-05-15 09:11:58,0021,MEDIUM,T1046,203.0.113.44,"IDS multiple SYN to ports [244, 92, 79] from 203.0.113.44"
+2026-05-15 09:12:00,0022,MEDIUM,T1046,203.0.113.18,"IDS multiple SYN to ports [75, 400, 49] from 203.0.113.18"
+2026-05-15 09:12:02,0023,MEDIUM,T1046,203.0.113.27,"IDS multiple SYN to ports [596, 173, 534] from 203.0.113.27"
+2026-05-15 09:12:04,0024,INFO,T1078,10.0.0.165,AUTH success user=app_runtime src=10.0.0.165 mfa=ok
+2026-05-15 09:12:06,0025,HIGH,T1190,203.0.113.22,WAF block SQLi pattern in /api/search from 203.0.113.22 q=' OR 1=1--
+2026-05-15 09:12:08,0026,LOW,T1110,10.0.0.133,AUTH failed user=admin src=10.0.0.133 attempt=3/5
+2026-05-15 09:12:10,0027,INFO,T1078,10.0.0.66,AUTH success user=svc_backup src=10.0.0.66 mfa=ok
+2026-05-15 09:12:12,0028,MEDIUM,T1567,10.0.0.15,DLP alert user=admin exported 4683 files to USB
+2026-05-15 09:12:14,0029,LOW,T1110,10.0.0.215,AUTH failed user=jdoe src=10.0.0.215 attempt=3/5
+2026-05-15 09:12:16,0030,INFO,—,10.0.0.207,MAINT window: patch agent heartbeat from 10.0.0.207
+2026-05-15 09:12:18,0031,INFO,T1078,10.0.0.110,AUTH success user=guest src=10.0.0.110 mfa=ok
+2026-05-15 09:12:20,0032,INFO,T1078,10.0.0.19,AUTH success user=svc_backup src=10.0.0.19 mfa=ok
+2026-05-15 09:12:22,0033,LOW,T1110,10.0.0.69,AUTH failed user=root src=10.0.0.69 attempt=3/5
+2026-05-15 09:12:23,0034,MEDIUM,T1046,203.0.113.77,"IDS multiple SYN to ports [562, 173, 928] from 203.0.113.77"
+2026-05-15 09:12:24,0035,LOW,T1110,10.0.0.100,AUTH failed user=admin src=10.0.0.100 attempt=3/5
+2026-05-15 09:13:03,0001,HIGH,T1190,203.0.113.22,WAF block SQLi pattern in /api/search from 203.0.113.22 q=' OR 1=1--
+2026-05-15 09:13:04,0002,INFO,—,10.0.0.144,MAINT window: patch agent heartbeat from 10.0.0.144
+2026-05-15 09:13:05,0003,MEDIUM,T1046,10.0.0.59,IDS scan-like traffic from 10.0.0.59 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:13:06,0004,INFO,T1078,10.0.0.11,AUTH success user=jdoe src=10.0.0.11 mfa=ok
+2026-05-15 09:13:07,0005,HIGH,T1190,203.0.113.152,WAF block SQLi pattern in /api/search from 203.0.113.152 q=' OR 1=1--
+2026-05-15 09:13:07,0006,LOW,T1110,10.0.0.24,AUTH failed user=guest src=10.0.0.24 attempt=1/5
+2026-05-15 09:13:08,0007,MEDIUM,T1046,203.0.113.11,"IDS multiple SYN to ports [783, 221, 511] from 203.0.113.11"
+2026-05-15 09:13:09,0008,CRITICAL,T1071,203.0.113.200,EDR periodic beacon 203.0.113.200:443 every 60s jitter low (possible C2)
+2026-05-15 09:13:10,0009,LOW,T1110,10.0.0.34,AUTH failed user=jdoe src=10.0.0.34 attempt=3/5
+2026-05-15 09:13:11,0010,MEDIUM,T1046,10.0.0.140,IDS scan-like traffic from 10.0.0.140 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:13:12,0011,HIGH,T1190,203.0.113.176,WAF block SQLi pattern in /api/search from 203.0.113.176 q=' OR 1=1--
+2026-05-15 09:13:13,0012,MEDIUM,T1046,203.0.113.2,"IDS multiple SYN to ports [569, 193, 511] from 203.0.113.2"
+2026-05-15 09:13:13,0013,INFO,T1078,10.0.0.202,AUTH success user=svc_backup src=10.0.0.202 mfa=ok
+2026-05-15 09:13:13,0014,INFO,T1078,10.0.0.210,AUTH success user=jdoe src=10.0.0.210 mfa=ok
+2026-05-15 09:13:14,0015,CRITICAL,T1071,203.0.113.237,EDR periodic beacon 203.0.113.237:443 every 60s jitter low (possible C2)
+2026-05-15 09:13:14,0016,LOW,T1110,10.0.0.77,AUTH failed user=svc_backup src=10.0.0.77 attempt=2/5
+2026-05-15 09:13:15,0017,INFO,T1078,10.0.0.126,AUTH success user=app_runtime src=10.0.0.126 mfa=ok
+2026-05-15 09:13:16,0018,INFO,T1078,10.0.0.27,AUTH success user=jdoe src=10.0.0.27 mfa=ok
+2026-05-15 09:13:17,0019,MEDIUM,T1046,10.0.0.55,IDS scan-like traffic from 10.0.0.55 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:13:18,0020,CRITICAL,T1071,203.0.113.147,EDR periodic beacon 203.0.113.147:443 every 60s jitter low (possible C2)
+2026-05-15 09:13:19,0021,LOW,T1110,10.0.0.214,AUTH failed user=svc_backup src=10.0.0.214 attempt=1/5
+2026-05-15 09:13:20,0022,MEDIUM,T1046,10.0.0.30,IDS scan-like traffic from 10.0.0.30 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:13:20,0023,CRITICAL,T1071,203.0.113.175,EDR periodic beacon 203.0.113.175:443 every 60s jitter low (possible C2)
+2026-05-15 09:13:21,0024,LOW,T1110,10.0.0.167,AUTH failed user=root src=10.0.0.167 attempt=3/5
+2026-05-15 09:13:22,0025,INFO,T1078,10.0.0.44,AUTH success user=root src=10.0.0.44 mfa=ok
+2026-05-15 09:13:23,0026,INFO,—,10.0.0.49,MAINT window: patch agent heartbeat from 10.0.0.49
+2026-05-15 09:13:24,0027,MEDIUM,T1046,10.0.0.110,IDS scan-like traffic from 10.0.0.110 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:13:25,0028,CRITICAL,T1071,203.0.113.189,EDR periodic beacon 203.0.113.189:443 every 60s jitter low (possible C2)
+2026-05-15 09:13:26,0029,INFO,—,10.0.0.140,MAINT window: patch agent heartbeat from 10.0.0.140
+2026-05-15 09:13:27,0030,MEDIUM,T1046,10.0.0.28,IDS scan-like traffic from 10.0.0.28 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:13:28,0031,INFO,T1078,10.0.0.65,AUTH success user=guest src=10.0.0.65 mfa=ok
+2026-05-15 09:13:29,0032,LOW,T1110,10.0.0.54,AUTH failed user=admin src=10.0.0.54 attempt=1/5
+2026-05-15 09:13:30,0033,MEDIUM,T1046,203.0.113.111,"IDS multiple SYN to ports [481, 833, 584] from 203.0.113.111"
+2026-05-15 09:13:31,0034,LOW,T1110,10.0.0.128,AUTH failed user=app_runtime src=10.0.0.128 attempt=2/5
+2026-05-15 09:13:32,0035,INFO,—,10.0.0.150,MAINT window: patch agent heartbeat from 10.0.0.150
+2026-05-15 09:13:33,0036,MEDIUM,T1046,10.0.0.176,IDS scan-like traffic from 10.0.0.176 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:13:34,0037,HIGH,T1190,203.0.113.18,WAF block SQLi pattern in /api/search from 203.0.113.18 q=' OR 1=1--
+2026-05-15 09:13:35,0038,HIGH,T1190,203.0.113.223,WAF block SQLi pattern in /api/search from 203.0.113.223 q=' OR 1=1--
+2026-05-15 09:13:36,0039,LOW,T1110,10.0.0.28,AUTH failed user=app_runtime src=10.0.0.28 attempt=3/5
+2026-05-15 09:13:37,0040,INFO,T1078,10.0.0.29,AUTH success user=app_runtime src=10.0.0.29 mfa=ok
+2026-05-15 09:13:38,0041,INFO,—,10.0.0.45,MAINT window: patch agent heartbeat from 10.0.0.45
+2026-05-15 09:13:39,0042,INFO,T1078,10.0.0.73,AUTH success user=admin src=10.0.0.73 mfa=ok
+2026-05-15 09:13:40,0043,INFO,T1078,10.0.0.33,AUTH success user=root src=10.0.0.33 mfa=ok
+2026-05-15 09:13:41,0044,LOW,T1110,10.0.0.153,AUTH failed user=root src=10.0.0.153 attempt=1/5
+2026-05-15 09:13:42,0045,INFO,T1078,10.0.0.115,AUTH success user=guest src=10.0.0.115 mfa=ok
+2026-05-15 09:13:43,0046,MEDIUM,T1046,203.0.113.196,"IDS multiple SYN to ports [211, 313, 78] from 203.0.113.196"
+2026-05-15 09:13:44,0047,LOW,T1110,10.0.0.95,AUTH failed user=admin src=10.0.0.95 attempt=2/5
+2026-05-15 09:13:45,0048,HIGH,T1190,203.0.113.43,WAF block SQLi pattern in /api/search from 203.0.113.43 q=' OR 1=1--
+2026-05-15 09:13:46,0049,INFO,T1078,10.0.0.12,AUTH success user=guest src=10.0.0.12 mfa=ok
+2026-05-15 09:13:47,0050,MEDIUM,T1046,203.0.113.113,"IDS multiple SYN to ports [185, 611, 211] from 203.0.113.113"
+2026-05-15 09:13:48,0051,INFO,T1078,10.0.0.192,AUTH success user=jdoe src=10.0.0.192 mfa=ok
+2026-05-15 09:13:49,0052,MEDIUM,T1046,203.0.113.200,"IDS multiple SYN to ports [838, 383, 511] from 203.0.113.200"
+2026-05-15 09:13:50,0053,INFO,—,10.0.0.199,MAINT window: patch agent heartbeat from 10.0.0.199
+2026-05-15 09:13:51,0054,INFO,T1078,10.0.0.32,AUTH success user=app_runtime src=10.0.0.32 mfa=ok
+2026-05-15 09:13:52,0055,INFO,—,10.0.0.19,MAINT window: patch agent heartbeat from 10.0.0.19
+2026-05-15 09:13:53,0056,INFO,T1078,10.0.0.106,AUTH success user=jdoe src=10.0.0.106 mfa=ok
+2026-05-15 09:13:54,0057,LOW,T1110,10.0.0.14,AUTH failed user=admin src=10.0.0.14 attempt=3/5
+2026-05-15 09:13:55,0058,INFO,T1078,10.0.0.219,AUTH success user=guest src=10.0.0.219 mfa=ok
+2026-05-15 09:13:56,0059,INFO,—,10.0.0.71,MAINT window: patch agent heartbeat from 10.0.0.71
+2026-05-15 09:13:57,0060,HIGH,T1190,203.0.113.151,WAF block SQLi pattern in /api/search from 203.0.113.151 q=' OR 1=1--
+2026-05-15 09:13:58,0061,INFO,T1078,10.0.0.81,AUTH success user=jdoe src=10.0.0.81 mfa=ok
+2026-05-15 09:13:59,0062,INFO,T1078,10.0.0.97,AUTH success user=svc_backup src=10.0.0.97 mfa=ok
+2026-05-15 09:14:00,0063,INFO,T1078,10.0.0.9,AUTH success user=root src=10.0.0.9 mfa=ok
+2026-05-15 09:14:01,0064,LOW,T1110,10.0.0.46,AUTH failed user=app_runtime src=10.0.0.46 attempt=2/5
+2026-05-15 09:14:02,0065,HIGH,T1190,203.0.113.241,WAF block SQLi pattern in /api/search from 203.0.113.241 q=' OR 1=1--
+2026-05-15 09:14:03,0066,LOW,T1110,10.0.0.24,AUTH failed user=admin src=10.0.0.24 attempt=2/5
+2026-05-15 09:14:04,0067,MEDIUM,T1567,10.0.0.196,DLP alert user=admin exported 3327 files to USB
+2026-05-15 09:14:05,0068,INFO,—,10.0.0.181,MAINT window: patch agent heartbeat from 10.0.0.181
+2026-05-15 09:14:06,0069,MEDIUM,T1567,10.0.0.98,DLP alert user=app_runtime exported 3768 files to USB
+2026-05-15 09:14:07,0070,MEDIUM,T1046,203.0.113.209,"IDS multiple SYN to ports [751, 407, 970] from 203.0.113.209"
+2026-05-15 09:14:08,0071,INFO,—,10.0.0.101,MAINT window: patch agent heartbeat from 10.0.0.101
+2026-05-15 09:14:09,0072,INFO,T1078,10.0.0.152,AUTH success user=guest src=10.0.0.152 mfa=ok
+2026-05-15 09:14:10,0073,LOW,T1110,10.0.0.110,AUTH failed user=root src=10.0.0.110 attempt=2/5
+2026-05-15 09:14:11,0074,INFO,T1078,10.0.0.99,AUTH success user=admin src=10.0.0.99 mfa=ok
+2026-05-15 09:14:12,0075,INFO,T1078,10.0.0.128,AUTH success user=guest src=10.0.0.128 mfa=ok
+2026-05-15 09:14:13,0076,LOW,T1110,10.0.0.182,AUTH failed user=guest src=10.0.0.182 attempt=3/5
+2026-05-15 09:14:14,0077,INFO,—,10.0.0.58,MAINT window: patch agent heartbeat from 10.0.0.58
+2026-05-15 09:14:15,0078,CRITICAL,T1071,203.0.113.64,EDR periodic beacon 203.0.113.64:443 every 60s jitter low (possible C2)
+2026-05-15 09:14:16,0079,HIGH,T1190,203.0.113.129,WAF block SQLi pattern in /api/search from 203.0.113.129 q=' OR 1=1--
+2026-05-15 09:14:17,0080,INFO,—,10.0.0.109,MAINT window: patch agent heartbeat from 10.0.0.109
+2026-05-15 09:14:18,0081,INFO,—,10.0.0.165,MAINT window: patch agent heartbeat from 10.0.0.165
+2026-05-15 09:14:19,0082,INFO,T1078,10.0.0.186,AUTH success user=jdoe src=10.0.0.186 mfa=ok
+2026-05-15 09:14:20,0083,INFO,T1078,10.0.0.48,AUTH success user=jdoe src=10.0.0.48 mfa=ok
+2026-05-15 09:14:21,0084,INFO,T1078,10.0.0.186,AUTH success user=guest src=10.0.0.186 mfa=ok
+2026-05-15 09:14:22,0085,INFO,T1078,10.0.0.103,AUTH success user=admin src=10.0.0.103 mfa=ok
+2026-05-15 09:14:23,0086,INFO,—,10.0.0.195,MAINT window: patch agent heartbeat from 10.0.0.195
+2026-05-15 09:14:24,0087,LOW,T1110,10.0.0.144,AUTH failed user=root src=10.0.0.144 attempt=1/5
+2026-05-15 09:14:25,0088,INFO,T1078,10.0.0.170,AUTH success user=admin src=10.0.0.170 mfa=ok
+2026-05-15 09:15:11,0089,LOW,T1110,10.0.0.157,AUTH failed user=guest src=10.0.0.157 attempt=1/5
+2026-05-15 09:15:11,0090,MEDIUM,T1567,10.0.0.112,DLP alert user=guest exported 4130 files to USB
+2026-05-15 09:15:14,0001,MEDIUM,T1567,10.0.0.138,DLP alert user=svc_backup exported 4589 files to USB
+2026-05-15 09:15:15,0002,INFO,T1078,10.0.0.198,AUTH success user=root src=10.0.0.198 mfa=ok
+2026-05-15 09:15:16,0003,MEDIUM,T1046,10.0.0.111,IDS scan-like traffic from 10.0.0.111 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:17,0004,INFO,—,10.0.0.5,MAINT window: patch agent heartbeat from 10.0.0.5
+2026-05-15 09:15:18,0005,MEDIUM,T1046,10.0.0.136,IDS scan-like traffic from 10.0.0.136 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:19,0006,LOW,T1110,10.0.0.159,AUTH failed user=app_runtime src=10.0.0.159 attempt=3/5
+2026-05-15 09:15:20,0007,LOW,T1110,10.0.0.98,AUTH failed user=admin src=10.0.0.98 attempt=1/5
+2026-05-15 09:15:21,0008,HIGH,T1190,203.0.113.239,WAF block SQLi pattern in /api/search from 203.0.113.239 q=' OR 1=1--
+2026-05-15 09:15:22,0009,LOW,T1110,10.0.0.115,AUTH failed user=jdoe src=10.0.0.115 attempt=3/5
+2026-05-15 09:15:23,0010,MEDIUM,T1046,10.0.0.84,IDS scan-like traffic from 10.0.0.84 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:23,0011,LOW,T1110,10.0.0.89,AUTH failed user=guest src=10.0.0.89 attempt=3/5
+2026-05-15 09:15:23,0012,INFO,T1078,10.0.0.134,AUTH success user=svc_backup src=10.0.0.134 mfa=ok
+2026-05-15 09:15:23,0013,LOW,T1110,10.0.0.148,AUTH failed user=admin src=10.0.0.148 attempt=3/5
+2026-05-15 09:15:24,0014,INFO,T1078,10.0.0.149,AUTH success user=app_runtime src=10.0.0.149 mfa=ok
+2026-05-15 09:15:24,0015,LOW,T1110,10.0.0.111,AUTH failed user=jdoe src=10.0.0.111 attempt=2/5
+2026-05-15 09:15:25,0016,LOW,T1110,10.0.0.187,AUTH failed user=svc_backup src=10.0.0.187 attempt=1/5
+2026-05-15 09:15:26,0017,INFO,—,10.0.0.62,MAINT window: patch agent heartbeat from 10.0.0.62
+2026-05-15 09:15:27,0018,INFO,T1078,10.0.0.164,AUTH success user=root src=10.0.0.164 mfa=ok
+2026-05-15 09:15:27,0019,MEDIUM,T1046,203.0.113.4,"IDS multiple SYN to ports [388, 795, 728] from 203.0.113.4"
+2026-05-15 09:15:27,0020,INFO,T1078,10.0.0.147,AUTH success user=root src=10.0.0.147 mfa=ok
+2026-05-15 09:15:28,0021,MEDIUM,T1046,10.0.0.200,IDS scan-like traffic from 10.0.0.200 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:28,0022,LOW,T1110,10.0.0.139,AUTH failed user=svc_backup src=10.0.0.139 attempt=3/5
+2026-05-15 09:15:28,0023,LOW,T1110,10.0.0.206,AUTH failed user=admin src=10.0.0.206 attempt=2/5
+2026-05-15 09:15:29,0024,MEDIUM,T1046,203.0.113.240,"IDS multiple SYN to ports [61, 405, 429] from 203.0.113.240"
+2026-05-15 09:15:29,0025,INFO,T1078,10.0.0.113,AUTH success user=app_runtime src=10.0.0.113 mfa=ok
+2026-05-15 09:15:29,0026,LOW,T1110,10.0.0.198,AUTH failed user=svc_backup src=10.0.0.198 attempt=3/5
+2026-05-15 09:15:30,0027,INFO,T1078,10.0.0.99,AUTH success user=root src=10.0.0.99 mfa=ok
+2026-05-15 09:15:30,0028,LOW,T1110,10.0.0.183,AUTH failed user=app_runtime src=10.0.0.183 attempt=1/5
+2026-05-15 09:15:30,0029,HIGH,T1190,203.0.113.39,WAF block SQLi pattern in /api/search from 203.0.113.39 q=' OR 1=1--
+2026-05-15 09:15:30,0030,INFO,—,10.0.0.212,MAINT window: patch agent heartbeat from 10.0.0.212
+2026-05-15 09:15:31,0031,LOW,T1110,10.0.0.192,AUTH failed user=root src=10.0.0.192 attempt=2/5
+2026-05-15 09:15:32,0032,HIGH,T1190,203.0.113.199,WAF block SQLi pattern in /api/search from 203.0.113.199 q=' OR 1=1--
+2026-05-15 09:15:33,0033,CRITICAL,T1071,203.0.113.174,EDR periodic beacon 203.0.113.174:443 every 60s jitter low (possible C2)
+2026-05-15 09:15:34,0034,MEDIUM,T1567,10.0.0.220,DLP alert user=guest exported 4485 files to USB
+2026-05-15 09:15:35,0035,LOW,T1110,10.0.0.50,AUTH failed user=admin src=10.0.0.50 attempt=3/5
+2026-05-15 09:15:36,0036,MEDIUM,T1046,203.0.113.94,"IDS multiple SYN to ports [582, 802, 608] from 203.0.113.94"
+2026-05-15 09:15:37,0037,MEDIUM,T1046,203.0.113.246,"IDS multiple SYN to ports [391, 666, 817] from 203.0.113.246"
+2026-05-15 09:15:38,0038,INFO,T1078,10.0.0.100,AUTH success user=app_runtime src=10.0.0.100 mfa=ok
+2026-05-15 09:15:39,0039,MEDIUM,T1046,10.0.0.200,IDS scan-like traffic from 10.0.0.200 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:40,0040,MEDIUM,T1046,203.0.113.154,"IDS multiple SYN to ports [156, 329, 147] from 203.0.113.154"
+2026-05-15 09:15:41,0041,INFO,—,10.0.0.68,MAINT window: patch agent heartbeat from 10.0.0.68
+2026-05-15 09:15:42,0042,MEDIUM,T1046,10.0.0.66,IDS scan-like traffic from 10.0.0.66 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:43,0043,INFO,T1078,10.0.0.152,AUTH success user=jdoe src=10.0.0.152 mfa=ok
+2026-05-15 09:15:44,0044,LOW,T1110,10.0.0.12,AUTH failed user=root src=10.0.0.12 attempt=1/5
+2026-05-15 09:15:45,0045,INFO,—,10.0.0.154,MAINT window: patch agent heartbeat from 10.0.0.154
+2026-05-15 09:15:46,0046,HIGH,T1190,203.0.113.237,WAF block SQLi pattern in /api/search from 203.0.113.237 q=' OR 1=1--
+2026-05-15 09:15:47,0047,INFO,T1078,10.0.0.14,AUTH success user=app_runtime src=10.0.0.14 mfa=ok
+2026-05-15 09:15:48,0048,MEDIUM,T1046,10.0.0.153,IDS scan-like traffic from 10.0.0.153 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:49,0049,MEDIUM,T1046,10.0.0.98,IDS scan-like traffic from 10.0.0.98 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:15:50,0050,INFO,T1078,10.0.0.114,AUTH success user=jdoe src=10.0.0.114 mfa=ok
+2026-05-15 09:15:51,0051,INFO,—,10.0.0.96,MAINT window: patch agent heartbeat from 10.0.0.96
+2026-05-15 09:15:52,0052,INFO,—,10.0.0.206,MAINT window: patch agent heartbeat from 10.0.0.206
+2026-05-15 09:15:53,0053,HIGH,T1190,203.0.113.175,WAF block SQLi pattern in /api/search from 203.0.113.175 q=' OR 1=1--
+2026-05-15 09:15:54,0054,MEDIUM,T1567,10.0.0.63,DLP alert user=app_runtime exported 965 files to USB
+2026-05-15 09:15:55,0055,CRITICAL,T1071,203.0.113.27,EDR periodic beacon 203.0.113.27:443 every 60s jitter low (possible C2)
+2026-05-15 09:15:56,0056,LOW,T1110,10.0.0.8,AUTH failed user=guest src=10.0.0.8 attempt=1/5
+2026-05-15 09:15:57,0057,CRITICAL,T1071,203.0.113.233,EDR periodic beacon 203.0.113.233:443 every 60s jitter low (possible C2)
+2026-05-15 09:15:58,0058,INFO,T1078,10.0.0.161,AUTH success user=svc_backup src=10.0.0.161 mfa=ok
+2026-05-15 09:15:59,0059,INFO,T1078,10.0.0.82,AUTH success user=guest src=10.0.0.82 mfa=ok
+2026-05-15 09:16:00,0060,CRITICAL,T1071,203.0.113.253,EDR periodic beacon 203.0.113.253:443 every 60s jitter low (possible C2)
+2026-05-15 09:16:01,0061,INFO,—,10.0.0.122,MAINT window: patch agent heartbeat from 10.0.0.122
+2026-05-15 09:16:02,0062,INFO,—,10.0.0.125,MAINT window: patch agent heartbeat from 10.0.0.125
+2026-05-15 09:16:03,0063,INFO,T1078,10.0.0.208,AUTH success user=admin src=10.0.0.208 mfa=ok
+2026-05-15 09:16:04,0064,CRITICAL,T1071,203.0.113.90,EDR periodic beacon 203.0.113.90:443 every 60s jitter low (possible C2)
+2026-05-15 09:16:05,0065,LOW,T1110,10.0.0.178,AUTH failed user=root src=10.0.0.178 attempt=1/5
+2026-05-15 09:16:06,0066,HIGH,T1190,203.0.113.82,WAF block SQLi pattern in /api/search from 203.0.113.82 q=' OR 1=1--
+2026-05-15 09:16:07,0067,MEDIUM,T1046,10.0.0.143,IDS scan-like traffic from 10.0.0.143 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:16:08,0068,MEDIUM,T1046,203.0.113.213,"IDS multiple SYN to ports [262, 121, 363] from 203.0.113.213"
+2026-05-15 09:16:09,0069,INFO,—,10.0.0.191,MAINT window: patch agent heartbeat from 10.0.0.191
+2026-05-15 09:16:10,0070,HIGH,T1190,203.0.113.64,WAF block SQLi pattern in /api/search from 203.0.113.64 q=' OR 1=1--
+2026-05-15 09:16:11,0071,MEDIUM,T1046,203.0.113.39,"IDS multiple SYN to ports [502, 789, 683] from 203.0.113.39"
+2026-05-15 09:16:12,0072,INFO,T1078,10.0.0.111,AUTH success user=jdoe src=10.0.0.111 mfa=ok
+2026-05-15 09:16:13,0073,INFO,—,10.0.0.13,MAINT window: patch agent heartbeat from 10.0.0.13
+2026-05-15 09:16:14,0074,INFO,T1078,10.0.0.180,AUTH success user=root src=10.0.0.180 mfa=ok
+2026-05-15 09:16:15,0075,LOW,T1110,10.0.0.195,AUTH failed user=guest src=10.0.0.195 attempt=3/5
+2026-05-15 09:16:16,0076,MEDIUM,T1046,203.0.113.97,"IDS multiple SYN to ports [23, 727, 447] from 203.0.113.97"
+2026-05-15 09:16:17,0077,INFO,—,10.0.0.87,MAINT window: patch agent heartbeat from 10.0.0.87
+2026-05-15 09:16:18,0078,INFO,T1078,10.0.0.145,AUTH success user=guest src=10.0.0.145 mfa=ok
+2026-05-15 09:16:19,0079,LOW,T1110,10.0.0.147,AUTH failed user=guest src=10.0.0.147 attempt=3/5
+2026-05-15 09:16:20,0080,INFO,T1078,10.0.0.195,AUTH success user=admin src=10.0.0.195 mfa=ok
+2026-05-15 09:16:21,0081,MEDIUM,T1046,203.0.113.14,"IDS multiple SYN to ports [349, 521, 269] from 203.0.113.14"
+2026-05-15 09:16:22,0082,INFO,T1078,10.0.0.89,AUTH success user=guest src=10.0.0.89 mfa=ok
+2026-05-15 09:16:23,0083,MEDIUM,T1046,10.0.0.98,IDS scan-like traffic from 10.0.0.98 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:16:24,0084,MEDIUM,T1046,10.0.0.196,IDS scan-like traffic from 10.0.0.196 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:16:25,0085,MEDIUM,T1046,203.0.113.34,"IDS multiple SYN to ports [517, 438, 380] from 203.0.113.34"
+2026-05-15 09:16:26,0086,LOW,T1110,10.0.0.99,AUTH failed user=root src=10.0.0.99 attempt=3/5
+2026-05-15 09:16:27,0087,INFO,T1078,10.0.0.195,AUTH success user=app_runtime src=10.0.0.195 mfa=ok
+2026-05-15 09:16:28,0088,LOW,T1110,10.0.0.155,AUTH failed user=svc_backup src=10.0.0.155 attempt=2/5
+2026-05-15 09:16:29,0089,HIGH,T1190,203.0.113.165,WAF block SQLi pattern in /api/search from 203.0.113.165 q=' OR 1=1--
+2026-05-15 09:16:30,0090,MEDIUM,T1567,10.0.0.74,DLP alert user=root exported 1494 files to USB
+2026-05-15 09:16:31,0091,INFO,T1078,10.0.0.50,AUTH success user=root src=10.0.0.50 mfa=ok
+2026-05-15 09:17:14,0092,INFO,T1078,10.0.0.65,AUTH success user=guest src=10.0.0.65 mfa=ok
+2026-05-15 09:17:21,0093,INFO,T1078,10.0.0.86,AUTH success user=admin src=10.0.0.86 mfa=ok
+2026-05-15 09:17:22,0094,INFO,T1078,10.0.0.207,AUTH success user=guest src=10.0.0.207 mfa=ok
+2026-05-15 09:17:23,0095,INFO,T1078,10.0.0.38,AUTH success user=svc_backup src=10.0.0.38 mfa=ok
+2026-05-15 09:17:24,0096,INFO,—,10.0.0.190,MAINT window: patch agent heartbeat from 10.0.0.190
+2026-05-15 09:17:24,0097,HIGH,T1190,203.0.113.45,WAF block SQLi pattern in /api/search from 203.0.113.45 q=' OR 1=1--
+2026-05-15 09:17:25,0098,INFO,T1078,10.0.0.15,AUTH success user=guest src=10.0.0.15 mfa=ok
+2026-05-15 09:17:25,0099,MEDIUM,T1046,203.0.113.102,"IDS multiple SYN to ports [911, 760, 168] from 203.0.113.102"
+2026-05-15 09:17:25,0100,MEDIUM,T1046,203.0.113.89,"IDS multiple SYN to ports [873, 884, 14] from 203.0.113.89"
+2026-05-15 09:17:26,0101,MEDIUM,T1046,203.0.113.154,"IDS multiple SYN to ports [911, 553, 359] from 203.0.113.154"
+2026-05-15 09:17:26,0102,INFO,T1078,10.0.0.84,AUTH success user=app_runtime src=10.0.0.84 mfa=ok
+2026-05-15 09:17:27,0103,LOW,T1110,10.0.0.36,AUTH failed user=jdoe src=10.0.0.36 attempt=2/5
+2026-05-15 09:17:28,0104,MEDIUM,T1046,203.0.113.22,"IDS multiple SYN to ports [431, 911, 761] from 203.0.113.22"
+2026-05-15 09:17:29,0105,MEDIUM,T1046,10.0.0.115,IDS scan-like traffic from 10.0.0.115 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:17:29,0106,INFO,—,10.0.0.99,MAINT window: patch agent heartbeat from 10.0.0.99
+2026-05-15 09:17:30,0107,INFO,T1078,10.0.0.160,AUTH success user=svc_backup src=10.0.0.160 mfa=ok
+2026-05-15 09:17:31,0108,INFO,T1078,10.0.0.199,AUTH success user=root src=10.0.0.199 mfa=ok
+2026-05-15 09:17:32,0109,INFO,T1078,10.0.0.7,AUTH success user=guest src=10.0.0.7 mfa=ok
+2026-05-15 09:17:33,0110,MEDIUM,T1046,10.0.0.22,IDS scan-like traffic from 10.0.0.22 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:17:34,0111,INFO,T1078,10.0.0.128,AUTH success user=svc_backup src=10.0.0.128 mfa=ok
+2026-05-15 09:17:35,0112,MEDIUM,T1046,10.0.0.4,IDS scan-like traffic from 10.0.0.4 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:17:36,0113,LOW,T1110,10.0.0.145,AUTH failed user=admin src=10.0.0.145 attempt=2/5
+2026-05-15 09:17:37,0114,LOW,T1110,10.0.0.70,AUTH failed user=admin src=10.0.0.70 attempt=3/5
+2026-05-15 09:17:38,0115,INFO,T1078,10.0.0.115,AUTH success user=svc_backup src=10.0.0.115 mfa=ok
+2026-05-15 09:17:39,0116,LOW,T1110,10.0.0.136,AUTH failed user=admin src=10.0.0.136 attempt=2/5
+2026-05-15 09:17:40,0117,MEDIUM,T1046,203.0.113.118,"IDS multiple SYN to ports [797, 353, 202] from 203.0.113.118"
+2026-05-15 09:17:41,0118,INFO,—,10.0.0.162,MAINT window: patch agent heartbeat from 10.0.0.162
+2026-05-15 09:17:42,0119,MEDIUM,T1046,203.0.113.102,"IDS multiple SYN to ports [272, 655, 248] from 203.0.113.102"
+2026-05-15 09:17:43,0120,MEDIUM,T1046,203.0.113.133,"IDS multiple SYN to ports [546, 492, 442] from 203.0.113.133"
+2026-05-15 09:17:44,0121,INFO,T1078,10.0.0.192,AUTH success user=root src=10.0.0.192 mfa=ok
+2026-05-15 09:17:45,0122,INFO,—,10.0.0.204,MAINT window: patch agent heartbeat from 10.0.0.204
+2026-05-15 09:17:46,0123,INFO,T1078,10.0.0.165,AUTH success user=root src=10.0.0.165 mfa=ok
+2026-05-15 09:17:47,0124,INFO,—,10.0.0.194,MAINT window: patch agent heartbeat from 10.0.0.194
+2026-05-15 09:17:48,0125,MEDIUM,T1567,10.0.0.110,DLP alert user=root exported 4713 files to USB
+2026-05-15 09:17:49,0126,LOW,T1110,10.0.0.46,AUTH failed user=guest src=10.0.0.46 attempt=1/5
+2026-05-15 09:17:50,0127,LOW,T1110,10.0.0.216,AUTH failed user=jdoe src=10.0.0.216 attempt=3/5
+2026-05-15 09:17:51,0128,MEDIUM,T1567,10.0.0.37,DLP alert user=admin exported 3439 files to USB
+2026-05-15 09:17:52,0129,LOW,T1110,10.0.0.116,AUTH failed user=root src=10.0.0.116 attempt=3/5
+2026-05-15 09:17:53,0130,INFO,—,10.0.0.158,MAINT window: patch agent heartbeat from 10.0.0.158
+2026-05-15 09:17:54,0131,HIGH,T1190,203.0.113.193,WAF block SQLi pattern in /api/search from 203.0.113.193 q=' OR 1=1--
+2026-05-15 09:17:55,0132,LOW,T1110,10.0.0.2,AUTH failed user=jdoe src=10.0.0.2 attempt=2/5
+2026-05-15 09:17:56,0133,LOW,T1110,10.0.0.27,AUTH failed user=root src=10.0.0.27 attempt=3/5
+2026-05-15 09:17:57,0134,MEDIUM,T1046,203.0.113.28,"IDS multiple SYN to ports [487, 806, 510] from 203.0.113.28"
+2026-05-15 09:17:58,0135,MEDIUM,T1046,203.0.113.36,"IDS multiple SYN to ports [26, 159, 942] from 203.0.113.36"
+2026-05-15 09:17:59,0136,MEDIUM,T1046,203.0.113.105,"IDS multiple SYN to ports [668, 753, 181] from 203.0.113.105"
+2026-05-15 09:18:00,0137,INFO,T1078,10.0.0.13,AUTH success user=root src=10.0.0.13 mfa=ok
+2026-05-15 09:18:01,0138,INFO,T1078,10.0.0.173,AUTH success user=admin src=10.0.0.173 mfa=ok
+2026-05-15 09:18:02,0139,HIGH,T1190,203.0.113.60,WAF block SQLi pattern in /api/search from 203.0.113.60 q=' OR 1=1--
+2026-05-15 09:18:03,0140,INFO,—,10.0.0.179,MAINT window: patch agent heartbeat from 10.0.0.179
+2026-05-15 09:18:04,0141,INFO,—,10.0.0.107,MAINT window: patch agent heartbeat from 10.0.0.107
+2026-05-15 09:18:05,0142,MEDIUM,T1046,10.0.0.28,IDS scan-like traffic from 10.0.0.28 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:18:06,0143,INFO,—,10.0.0.184,MAINT window: patch agent heartbeat from 10.0.0.184
+2026-05-15 09:18:07,0144,INFO,T1078,10.0.0.75,AUTH success user=root src=10.0.0.75 mfa=ok
+2026-05-15 09:18:08,0145,INFO,T1078,10.0.0.93,AUTH success user=app_runtime src=10.0.0.93 mfa=ok
+2026-05-15 09:18:09,0146,INFO,T1078,10.0.0.131,AUTH success user=guest src=10.0.0.131 mfa=ok
+2026-05-15 09:18:10,0147,LOW,T1110,10.0.0.113,AUTH failed user=svc_backup src=10.0.0.113 attempt=3/5
+2026-05-15 09:18:11,0148,MEDIUM,T1046,10.0.0.139,IDS scan-like traffic from 10.0.0.139 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:18:12,0149,INFO,T1078,10.0.0.193,AUTH success user=guest src=10.0.0.193 mfa=ok
+2026-05-15 09:18:13,0150,LOW,T1110,10.0.0.22,AUTH failed user=jdoe src=10.0.0.22 attempt=3/5
+2026-05-15 09:19:19,0001,LOW,T1110,10.0.0.197,AUTH failed user=jdoe src=10.0.0.197 attempt=3/5
+2026-05-15 09:19:20,0002,LOW,T1110,10.0.0.3,AUTH failed user=jdoe src=10.0.0.3 attempt=1/5
+2026-05-15 09:19:21,0003,LOW,T1110,10.0.0.43,AUTH failed user=guest src=10.0.0.43 attempt=1/5
+2026-05-15 09:19:22,0004,LOW,T1110,10.0.0.89,AUTH failed user=root src=10.0.0.89 attempt=3/5
+2026-05-15 09:19:22,0005,LOW,T1110,10.0.0.166,AUTH failed user=root src=10.0.0.166 attempt=2/5
+2026-05-15 09:19:23,0006,MEDIUM,T1046,10.0.0.21,IDS scan-like traffic from 10.0.0.21 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:23,0007,LOW,T1110,10.0.0.21,AUTH failed user=svc_backup src=10.0.0.21 attempt=2/5
+2026-05-15 09:19:24,0008,INFO,—,10.0.0.110,MAINT window: patch agent heartbeat from 10.0.0.110
+2026-05-15 09:19:24,0009,CRITICAL,T1071,203.0.113.37,EDR periodic beacon 203.0.113.37:443 every 60s jitter low (possible C2)
+2026-05-15 09:19:24,0010,MEDIUM,T1046,10.0.0.106,IDS scan-like traffic from 10.0.0.106 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:24,0011,MEDIUM,T1046,10.0.0.147,IDS scan-like traffic from 10.0.0.147 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:25,0012,INFO,T1078,10.0.0.205,AUTH success user=svc_backup src=10.0.0.205 mfa=ok
+2026-05-15 09:19:25,0013,INFO,T1078,10.0.0.209,AUTH success user=admin src=10.0.0.209 mfa=ok
+2026-05-15 09:19:26,0014,INFO,T1078,10.0.0.203,AUTH success user=guest src=10.0.0.203 mfa=ok
+2026-05-15 09:19:27,0015,LOW,T1110,10.0.0.29,AUTH failed user=app_runtime src=10.0.0.29 attempt=2/5
+2026-05-15 09:19:28,0016,INFO,T1078,10.0.0.62,AUTH success user=jdoe src=10.0.0.62 mfa=ok
+2026-05-15 09:19:29,0017,MEDIUM,T1046,10.0.0.26,IDS scan-like traffic from 10.0.0.26 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:30,0018,MEDIUM,T1046,10.0.0.52,IDS scan-like traffic from 10.0.0.52 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:31,0019,INFO,T1078,10.0.0.202,AUTH success user=admin src=10.0.0.202 mfa=ok
+2026-05-15 09:19:32,0020,MEDIUM,T1046,10.0.0.32,IDS scan-like traffic from 10.0.0.32 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:34,0021,MEDIUM,T1046,10.0.0.202,IDS scan-like traffic from 10.0.0.202 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:35,0022,MEDIUM,T1567,10.0.0.143,DLP alert user=jdoe exported 4800 files to USB
+2026-05-15 09:19:36,0023,MEDIUM,T1046,203.0.113.172,"IDS multiple SYN to ports [953, 858, 740] from 203.0.113.172"
+2026-05-15 09:19:36,0024,INFO,T1078,10.0.0.89,AUTH success user=admin src=10.0.0.89 mfa=ok
+2026-05-15 09:19:37,0025,INFO,—,10.0.0.109,MAINT window: patch agent heartbeat from 10.0.0.109
+2026-05-15 09:19:39,0001,INFO,—,10.0.0.190,MAINT window: patch agent heartbeat from 10.0.0.190
+2026-05-15 09:19:41,0002,HIGH,T1190,203.0.113.214,WAF block SQLi pattern in /api/search from 203.0.113.214 q=' OR 1=1--
+2026-05-15 09:19:42,0003,MEDIUM,T1046,203.0.113.7,"IDS multiple SYN to ports [773, 84, 920] from 203.0.113.7"
+2026-05-15 09:19:42,0004,MEDIUM,T1567,10.0.0.36,DLP alert user=app_runtime exported 1242 files to USB
+2026-05-15 09:19:42,0005,MEDIUM,T1567,10.0.0.216,DLP alert user=guest exported 804 files to USB
+2026-05-15 09:19:43,0006,INFO,T1078,10.0.0.140,AUTH success user=jdoe src=10.0.0.140 mfa=ok
+2026-05-15 09:19:44,0007,INFO,T1078,10.0.0.12,AUTH success user=app_runtime src=10.0.0.12 mfa=ok
+2026-05-15 09:19:45,0008,INFO,—,10.0.0.7,MAINT window: patch agent heartbeat from 10.0.0.7
+2026-05-15 09:19:46,0009,LOW,T1110,10.0.0.112,AUTH failed user=admin src=10.0.0.112 attempt=1/5
+2026-05-15 09:19:47,0010,MEDIUM,T1567,10.0.0.4,DLP alert user=jdoe exported 2070 files to USB
+2026-05-15 09:19:48,0011,HIGH,T1190,203.0.113.197,WAF block SQLi pattern in /api/search from 203.0.113.197 q=' OR 1=1--
+2026-05-15 09:19:49,0012,MEDIUM,T1046,203.0.113.224,"IDS multiple SYN to ports [519, 56, 708] from 203.0.113.224"
+2026-05-15 09:19:50,0013,INFO,T1078,10.0.0.29,AUTH success user=admin src=10.0.0.29 mfa=ok
+2026-05-15 09:19:51,0014,CRITICAL,T1071,203.0.113.16,EDR periodic beacon 203.0.113.16:443 every 60s jitter low (possible C2)
+2026-05-15 09:19:52,0015,MEDIUM,T1046,10.0.0.115,IDS scan-like traffic from 10.0.0.115 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:19:53,0016,MEDIUM,T1046,203.0.113.92,"IDS multiple SYN to ports [753, 511, 862] from 203.0.113.92"
+2026-05-15 09:19:54,0017,INFO,—,10.0.0.65,MAINT window: patch agent heartbeat from 10.0.0.65
+2026-05-15 09:19:55,0018,LOW,T1110,10.0.0.189,AUTH failed user=root src=10.0.0.189 attempt=2/5
+2026-05-15 09:19:56,0019,HIGH,T1190,203.0.113.57,WAF block SQLi pattern in /api/search from 203.0.113.57 q=' OR 1=1--
+2026-05-15 09:19:57,0020,MEDIUM,T1046,203.0.113.250,"IDS multiple SYN to ports [46, 581, 335] from 203.0.113.250"
+2026-05-15 09:19:58,0021,INFO,T1078,10.0.0.189,AUTH success user=jdoe src=10.0.0.189 mfa=ok
+2026-05-15 09:19:59,0022,LOW,T1110,10.0.0.196,AUTH failed user=admin src=10.0.0.196 attempt=1/5
+2026-05-15 09:20:00,0023,INFO,—,10.0.0.91,MAINT window: patch agent heartbeat from 10.0.0.91
+2026-05-15 09:20:01,0024,LOW,T1110,10.0.0.85,AUTH failed user=admin src=10.0.0.85 attempt=3/5
+2026-05-15 09:20:02,0025,MEDIUM,T1046,10.0.0.201,IDS scan-like traffic from 10.0.0.201 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:20:03,0026,INFO,T1078,10.0.0.3,AUTH success user=app_runtime src=10.0.0.3 mfa=ok
+2026-05-15 09:20:04,0027,INFO,T1078,10.0.0.57,AUTH success user=svc_backup src=10.0.0.57 mfa=ok
+2026-05-15 09:20:05,0028,INFO,T1078,10.0.0.119,AUTH success user=root src=10.0.0.119 mfa=ok
+2026-05-15 09:20:06,0029,LOW,T1110,10.0.0.49,AUTH failed user=admin src=10.0.0.49 attempt=1/5
+2026-05-15 09:20:07,0030,MEDIUM,T1046,203.0.113.39,"IDS multiple SYN to ports [793, 360, 38] from 203.0.113.39"
+2026-05-15 09:20:08,0031,MEDIUM,T1567,10.0.0.159,DLP alert user=svc_backup exported 2269 files to USB
+2026-05-15 09:20:09,0032,MEDIUM,T1046,10.0.0.220,IDS scan-like traffic from 10.0.0.220 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:20:10,0033,INFO,—,10.0.0.148,MAINT window: patch agent heartbeat from 10.0.0.148
+2026-05-15 09:20:11,0034,MEDIUM,T1046,10.0.0.200,IDS scan-like traffic from 10.0.0.200 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:20:12,0035,HIGH,T1190,203.0.113.250,WAF block SQLi pattern in /api/search from 203.0.113.250 q=' OR 1=1--
+2026-05-15 09:20:13,0036,INFO,T1078,10.0.0.32,AUTH success user=app_runtime src=10.0.0.32 mfa=ok
+2026-05-15 09:20:14,0037,CRITICAL,T1071,203.0.113.104,EDR periodic beacon 203.0.113.104:443 every 60s jitter low (possible C2)
+2026-05-15 09:20:15,0038,MEDIUM,T1046,203.0.113.77,"IDS multiple SYN to ports [778, 677, 639] from 203.0.113.77"
+2026-05-15 09:20:16,0039,LOW,T1110,10.0.0.130,AUTH failed user=svc_backup src=10.0.0.130 attempt=3/5
+2026-05-15 09:20:17,0040,CRITICAL,T1071,203.0.113.5,EDR periodic beacon 203.0.113.5:443 every 60s jitter low (possible C2)
+2026-05-15 09:20:18,0041,LOW,T1110,10.0.0.190,AUTH failed user=guest src=10.0.0.190 attempt=1/5
+2026-05-15 09:20:19,0042,MEDIUM,T1567,10.0.0.169,DLP alert user=guest exported 4345 files to USB
+2026-05-15 09:20:20,0043,INFO,—,10.0.0.209,MAINT window: patch agent heartbeat from 10.0.0.209
+2026-05-15 09:20:21,0044,MEDIUM,T1046,203.0.113.249,"IDS multiple SYN to ports [930, 1005, 305] from 203.0.113.249"
+2026-05-15 09:20:22,0045,INFO,—,10.0.0.74,MAINT window: patch agent heartbeat from 10.0.0.74
+2026-05-15 09:20:23,0046,LOW,T1110,10.0.0.216,AUTH failed user=app_runtime src=10.0.0.216 attempt=2/5
+2026-05-15 09:20:24,0047,INFO,T1078,10.0.0.135,AUTH success user=app_runtime src=10.0.0.135 mfa=ok
+2026-05-15 09:20:25,0048,INFO,T1078,10.0.0.96,AUTH success user=jdoe src=10.0.0.96 mfa=ok
+2026-05-15 09:20:26,0049,CRITICAL,T1071,203.0.113.1,EDR periodic beacon 203.0.113.1:443 every 60s jitter low (possible C2)
+2026-05-15 09:20:27,0050,LOW,T1110,10.0.0.54,AUTH failed user=jdoe src=10.0.0.54 attempt=2/5
+2026-05-15 09:20:28,0051,LOW,T1110,10.0.0.197,AUTH failed user=jdoe src=10.0.0.197 attempt=2/5
+2026-05-15 09:20:29,0052,INFO,T1078,10.0.0.125,AUTH success user=admin src=10.0.0.125 mfa=ok
+2026-05-15 09:20:30,0053,INFO,—,10.0.0.183,MAINT window: patch agent heartbeat from 10.0.0.183
+2026-05-15 09:20:31,0054,MEDIUM,T1046,203.0.113.127,"IDS multiple SYN to ports [605, 356, 22] from 203.0.113.127"
+2026-05-15 09:20:32,0055,INFO,T1078,10.0.0.10,AUTH success user=svc_backup src=10.0.0.10 mfa=ok
+2026-05-15 09:20:33,0056,INFO,T1078,10.0.0.186,AUTH success user=guest src=10.0.0.186 mfa=ok
+2026-05-15 09:20:34,0057,INFO,—,10.0.0.214,MAINT window: patch agent heartbeat from 10.0.0.214
+2026-05-15 09:20:35,0058,HIGH,T1190,203.0.113.147,WAF block SQLi pattern in /api/search from 203.0.113.147 q=' OR 1=1--
+2026-05-15 09:20:36,0059,INFO,—,10.0.0.107,MAINT window: patch agent heartbeat from 10.0.0.107
+2026-05-15 09:20:37,0060,MEDIUM,T1046,203.0.113.120,"IDS multiple SYN to ports [685, 97, 919] from 203.0.113.120"
+2026-05-15 09:20:38,0061,INFO,T1078,10.0.0.38,AUTH success user=jdoe src=10.0.0.38 mfa=ok
+2026-05-15 09:20:39,0062,INFO,—,10.0.0.184,MAINT window: patch agent heartbeat from 10.0.0.184
+2026-05-15 09:20:40,0063,MEDIUM,T1046,203.0.113.204,"IDS multiple SYN to ports [534, 16, 280] from 203.0.113.204"
+2026-05-15 09:20:41,0064,LOW,T1110,10.0.0.26,AUTH failed user=root src=10.0.0.26 attempt=2/5
+2026-05-15 09:20:42,0065,MEDIUM,T1046,203.0.113.72,"IDS multiple SYN to ports [489, 616, 185] from 203.0.113.72"
+2026-05-15 09:21:14,0066,HIGH,T1190,203.0.113.149,WAF block SQLi pattern in /api/search from 203.0.113.149 q=' OR 1=1--
+2026-05-15 09:22:08,0067,LOW,T1110,10.0.0.151,AUTH failed user=root src=10.0.0.151 attempt=1/5
+2026-05-15 09:22:09,0068,MEDIUM,T1046,203.0.113.21,"IDS multiple SYN to ports [873, 644, 685] from 203.0.113.21"
+2026-05-15 09:22:10,0069,MEDIUM,T1567,10.0.0.175,DLP alert user=app_runtime exported 3712 files to USB
+2026-05-15 09:22:11,0070,INFO,T1078,10.0.0.100,AUTH success user=root src=10.0.0.100 mfa=ok
+2026-05-15 09:22:12,0001,LOW,T1110,10.0.0.29,AUTH failed user=app_runtime src=10.0.0.29 attempt=1/5
+2026-05-15 09:22:14,0002,MEDIUM,T1046,203.0.113.14,"IDS multiple SYN to ports [426, 909, 788] from 203.0.113.14"
+2026-05-15 09:22:14,0003,INFO,T1078,10.0.0.173,AUTH success user=guest src=10.0.0.173 mfa=ok
+2026-05-15 09:22:14,0004,LOW,T1110,10.0.0.118,AUTH failed user=guest src=10.0.0.118 attempt=2/5
+2026-05-15 09:22:15,0005,INFO,T1078,10.0.0.115,AUTH success user=root src=10.0.0.115 mfa=ok
+2026-05-15 09:22:15,0006,INFO,T1078,10.0.0.119,AUTH success user=jdoe src=10.0.0.119 mfa=ok
+2026-05-15 09:22:15,0007,INFO,T1078,10.0.0.136,AUTH success user=admin src=10.0.0.136 mfa=ok
+2026-05-15 09:22:16,0008,MEDIUM,T1046,203.0.113.246,"IDS multiple SYN to ports [423, 967, 702] from 203.0.113.246"
+2026-05-15 09:22:16,0009,CRITICAL,T1071,203.0.113.35,EDR periodic beacon 203.0.113.35:443 every 60s jitter low (possible C2)
+2026-05-15 09:22:17,0010,MEDIUM,T1046,10.0.0.19,IDS scan-like traffic from 10.0.0.19 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:22:18,0011,LOW,T1110,10.0.0.88,AUTH failed user=app_runtime src=10.0.0.88 attempt=2/5
+2026-05-15 09:22:18,0012,INFO,—,10.0.0.71,MAINT window: patch agent heartbeat from 10.0.0.71
+2026-05-15 09:22:19,0013,INFO,T1078,10.0.0.203,AUTH success user=root src=10.0.0.203 mfa=ok
+2026-05-15 09:22:19,0014,LOW,T1110,10.0.0.96,AUTH failed user=jdoe src=10.0.0.96 attempt=2/5
+2026-05-15 09:22:19,0015,CRITICAL,T1071,203.0.113.66,EDR periodic beacon 203.0.113.66:443 every 60s jitter low (possible C2)
+2026-05-15 09:22:20,0016,INFO,—,10.0.0.198,MAINT window: patch agent heartbeat from 10.0.0.198
+2026-05-15 09:22:20,0017,MEDIUM,T1046,203.0.113.8,"IDS multiple SYN to ports [429, 745, 470] from 203.0.113.8"
+2026-05-15 09:22:21,0018,HIGH,T1190,203.0.113.218,WAF block SQLi pattern in /api/search from 203.0.113.218 q=' OR 1=1--
+2026-05-15 09:22:21,0019,INFO,—,10.0.0.63,MAINT window: patch agent heartbeat from 10.0.0.63
+2026-05-15 09:22:21,0020,INFO,—,10.0.0.217,MAINT window: patch agent heartbeat from 10.0.0.217
+2026-05-15 09:22:21,0021,MEDIUM,T1046,10.0.0.104,IDS scan-like traffic from 10.0.0.104 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:22:22,0022,INFO,T1078,10.0.0.215,AUTH success user=svc_backup src=10.0.0.215 mfa=ok
+2026-05-15 09:22:22,0023,MEDIUM,T1567,10.0.0.172,DLP alert user=svc_backup exported 3938 files to USB
+2026-05-15 09:22:23,0024,INFO,T1078,10.0.0.114,AUTH success user=guest src=10.0.0.114 mfa=ok
+2026-05-15 09:22:23,0025,INFO,T1078,10.0.0.127,AUTH success user=admin src=10.0.0.127 mfa=ok
+2026-05-15 09:22:24,0026,HIGH,T1190,203.0.113.11,WAF block SQLi pattern in /api/search from 203.0.113.11 q=' OR 1=1--
+2026-05-15 09:22:25,0027,MEDIUM,T1046,203.0.113.235,"IDS multiple SYN to ports [504, 286, 608] from 203.0.113.235"
+2026-05-15 09:22:26,0028,INFO,T1078,10.0.0.55,AUTH success user=svc_backup src=10.0.0.55 mfa=ok
+2026-05-15 09:22:26,0029,LOW,T1110,10.0.0.62,AUTH failed user=root src=10.0.0.62 attempt=2/5
+2026-05-15 09:22:26,0030,MEDIUM,T1567,10.0.0.107,DLP alert user=jdoe exported 4606 files to USB
+2026-05-15 09:22:27,0031,INFO,T1078,10.0.0.27,AUTH success user=svc_backup src=10.0.0.27 mfa=ok
+2026-05-15 09:22:28,0032,MEDIUM,T1046,203.0.113.68,"IDS multiple SYN to ports [240, 475, 673] from 203.0.113.68"
+2026-05-15 09:22:29,0033,INFO,T1078,10.0.0.21,AUTH success user=jdoe src=10.0.0.21 mfa=ok
+2026-05-15 09:22:30,0034,INFO,T1078,10.0.0.162,AUTH success user=app_runtime src=10.0.0.162 mfa=ok
+2026-05-15 09:22:31,0035,MEDIUM,T1046,203.0.113.92,"IDS multiple SYN to ports [593, 540, 735] from 203.0.113.92"
+2026-05-15 09:22:33,0036,INFO,—,10.0.0.135,MAINT window: patch agent heartbeat from 10.0.0.135
+2026-05-15 09:22:34,0037,MEDIUM,T1046,203.0.113.185,"IDS multiple SYN to ports [182, 519, 892] from 203.0.113.185"
+2026-05-15 09:22:35,0038,CRITICAL,T1071,203.0.113.186,EDR periodic beacon 203.0.113.186:443 every 60s jitter low (possible C2)
+2026-05-15 09:22:36,0039,LOW,T1110,10.0.0.88,AUTH failed user=root src=10.0.0.88 attempt=3/5
+2026-05-15 09:22:37,0040,INFO,T1078,10.0.0.161,AUTH success user=svc_backup src=10.0.0.161 mfa=ok
+2026-05-15 09:22:38,0041,MEDIUM,T1567,10.0.0.52,DLP alert user=svc_backup exported 4177 files to USB
+2026-05-15 09:22:39,0042,HIGH,T1190,203.0.113.184,WAF block SQLi pattern in /api/search from 203.0.113.184 q=' OR 1=1--
+2026-05-15 09:22:40,0043,INFO,—,10.0.0.120,MAINT window: patch agent heartbeat from 10.0.0.120
+2026-05-15 09:22:41,0044,HIGH,T1190,203.0.113.110,WAF block SQLi pattern in /api/search from 203.0.113.110 q=' OR 1=1--
+2026-05-15 09:22:42,0045,LOW,T1110,10.0.0.69,AUTH failed user=jdoe src=10.0.0.69 attempt=2/5
+2026-05-15 09:22:43,0046,INFO,—,10.0.0.214,MAINT window: patch agent heartbeat from 10.0.0.214
+2026-05-15 09:22:44,0047,INFO,T1078,10.0.0.164,AUTH success user=admin src=10.0.0.164 mfa=ok
+2026-05-15 09:22:45,0048,LOW,T1110,10.0.0.13,AUTH failed user=app_runtime src=10.0.0.13 attempt=2/5
+2026-05-15 09:22:46,0049,INFO,T1078,10.0.0.92,AUTH success user=app_runtime src=10.0.0.92 mfa=ok
+2026-05-15 09:22:47,0050,CRITICAL,T1071,203.0.113.209,EDR periodic beacon 203.0.113.209:443 every 60s jitter low (possible C2)
+2026-05-15 09:22:48,0051,INFO,T1078,10.0.0.139,AUTH success user=guest src=10.0.0.139 mfa=ok
+2026-05-15 09:22:49,0052,LOW,T1110,10.0.0.90,AUTH failed user=svc_backup src=10.0.0.90 attempt=1/5
+2026-05-15 09:22:50,0053,INFO,T1078,10.0.0.71,AUTH success user=svc_backup src=10.0.0.71 mfa=ok
+2026-05-15 09:22:51,0054,MEDIUM,T1046,203.0.113.31,"IDS multiple SYN to ports [372, 542, 888] from 203.0.113.31"
+2026-05-15 09:22:52,0055,MEDIUM,T1046,10.0.0.41,IDS scan-like traffic from 10.0.0.41 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:22:53,0056,LOW,T1110,10.0.0.31,AUTH failed user=jdoe src=10.0.0.31 attempt=3/5
+2026-05-15 09:22:54,0057,CRITICAL,T1071,203.0.113.90,EDR periodic beacon 203.0.113.90:443 every 60s jitter low (possible C2)
+2026-05-15 09:22:55,0058,MEDIUM,T1567,10.0.0.105,DLP alert user=svc_backup exported 2755 files to USB
+2026-05-15 09:22:56,0059,INFO,T1078,10.0.0.182,AUTH success user=svc_backup src=10.0.0.182 mfa=ok
+2026-05-15 09:22:57,0060,MEDIUM,T1046,10.0.0.21,IDS scan-like traffic from 10.0.0.21 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:22:58,0061,INFO,—,10.0.0.14,MAINT window: patch agent heartbeat from 10.0.0.14
+2026-05-15 09:22:59,0062,MEDIUM,T1046,10.0.0.110,IDS scan-like traffic from 10.0.0.110 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:23:00,0063,MEDIUM,T1046,10.0.0.133,IDS scan-like traffic from 10.0.0.133 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:23:01,0064,HIGH,T1190,203.0.113.237,WAF block SQLi pattern in /api/search from 203.0.113.237 q=' OR 1=1--
+2026-05-15 09:23:02,0065,INFO,T1078,10.0.0.63,AUTH success user=svc_backup src=10.0.0.63 mfa=ok
+2026-05-15 09:23:03,0066,LOW,T1110,10.0.0.60,AUTH failed user=guest src=10.0.0.60 attempt=3/5
+2026-05-15 09:23:04,0067,INFO,—,10.0.0.192,MAINT window: patch agent heartbeat from 10.0.0.192
+2026-05-15 09:23:05,0068,HIGH,T1190,203.0.113.104,WAF block SQLi pattern in /api/search from 203.0.113.104 q=' OR 1=1--
+2026-05-15 09:23:06,0069,MEDIUM,T1046,203.0.113.120,"IDS multiple SYN to ports [345, 518, 180] from 203.0.113.120"
+2026-05-15 09:23:07,0070,CRITICAL,T1071,203.0.113.201,EDR periodic beacon 203.0.113.201:443 every 60s jitter low (possible C2)
+2026-05-15 09:23:08,0071,MEDIUM,T1046,10.0.0.96,IDS scan-like traffic from 10.0.0.96 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:23:09,0072,CRITICAL,T1071,203.0.113.56,EDR periodic beacon 203.0.113.56:443 every 60s jitter low (possible C2)
+2026-05-15 09:23:10,0073,INFO,—,10.0.0.199,MAINT window: patch agent heartbeat from 10.0.0.199
+2026-05-15 09:23:11,0074,INFO,—,10.0.0.129,MAINT window: patch agent heartbeat from 10.0.0.129
+2026-05-15 09:23:12,0075,INFO,—,10.0.0.45,MAINT window: patch agent heartbeat from 10.0.0.45
+2026-05-15 09:23:13,0076,MEDIUM,T1046,203.0.113.136,"IDS multiple SYN to ports [661, 536, 453] from 203.0.113.136"
+2026-05-15 09:23:14,0077,MEDIUM,T1046,203.0.113.24,"IDS multiple SYN to ports [332, 83, 614] from 203.0.113.24"
+2026-05-15 09:23:15,0078,LOW,T1110,10.0.0.183,AUTH failed user=svc_backup src=10.0.0.183 attempt=1/5
+2026-05-15 09:23:16,0079,INFO,—,10.0.0.51,MAINT window: patch agent heartbeat from 10.0.0.51
+2026-05-15 09:23:17,0080,INFO,T1078,10.0.0.200,AUTH success user=root src=10.0.0.200 mfa=ok
+2026-05-15 09:23:18,0081,HIGH,T1190,203.0.113.204,WAF block SQLi pattern in /api/search from 203.0.113.204 q=' OR 1=1--
+2026-05-15 09:23:19,0082,MEDIUM,T1046,203.0.113.77,"IDS multiple SYN to ports [553, 857, 175] from 203.0.113.77"
+2026-05-15 09:23:20,0083,MEDIUM,T1567,10.0.0.143,DLP alert user=svc_backup exported 2646 files to USB
+2026-05-15 09:23:21,0084,MEDIUM,T1046,10.0.0.66,IDS scan-like traffic from 10.0.0.66 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:23:22,0085,CRITICAL,T1071,203.0.113.178,EDR periodic beacon 203.0.113.178:443 every 60s jitter low (possible C2)
+2026-05-15 09:23:23,0086,MEDIUM,T1046,203.0.113.71,"IDS multiple SYN to ports [62, 361, 125] from 203.0.113.71"
+2026-05-15 09:23:24,0087,MEDIUM,T1046,203.0.113.56,"IDS multiple SYN to ports [350, 184, 916] from 203.0.113.56"
+2026-05-15 09:23:25,0088,LOW,T1110,10.0.0.4,AUTH failed user=admin src=10.0.0.4 attempt=1/5
+2026-05-15 09:23:26,0089,INFO,T1078,10.0.0.11,AUTH success user=svc_backup src=10.0.0.11 mfa=ok
+2026-05-15 09:23:27,0090,LOW,T1110,10.0.0.44,AUTH failed user=admin src=10.0.0.44 attempt=1/5
+2026-05-15 09:23:28,0091,INFO,T1078,10.0.0.31,AUTH success user=app_runtime src=10.0.0.31 mfa=ok
+2026-05-15 09:23:29,0092,LOW,T1110,10.0.0.104,AUTH failed user=svc_backup src=10.0.0.104 attempt=2/5
+2026-05-15 09:23:30,0093,MEDIUM,T1046,203.0.113.44,"IDS multiple SYN to ports [593, 364, 705] from 203.0.113.44"
+2026-05-15 09:23:31,0094,INFO,T1078,10.0.0.57,AUTH success user=admin src=10.0.0.57 mfa=ok
+2026-05-15 09:23:57,0095,LOW,T1110,10.0.0.61,AUTH failed user=app_runtime src=10.0.0.61 attempt=2/5
+2026-05-15 09:23:58,0096,INFO,T1078,10.0.0.141,AUTH success user=guest src=10.0.0.141 mfa=ok
+2026-05-15 09:23:58,0097,CRITICAL,T1071,203.0.113.129,EDR periodic beacon 203.0.113.129:443 every 60s jitter low (possible C2)
+2026-05-15 09:23:59,0098,MEDIUM,T1567,10.0.0.51,DLP alert user=jdoe exported 1493 files to USB
+2026-05-15 09:24:00,0099,MEDIUM,T1567,10.0.0.51,DLP alert user=app_runtime exported 2648 files to USB
+2026-05-15 09:24:01,0100,LOW,T1110,10.0.0.154,AUTH failed user=jdoe src=10.0.0.154 attempt=2/5
+2026-05-15 09:24:02,0101,INFO,T1078,10.0.0.198,AUTH success user=root src=10.0.0.198 mfa=ok
+2026-05-15 09:24:04,0102,INFO,T1078,10.0.0.78,AUTH success user=guest src=10.0.0.78 mfa=ok
+2026-05-15 09:24:05,0103,INFO,—,10.0.0.153,MAINT window: patch agent heartbeat from 10.0.0.153
+2026-05-15 09:24:06,0104,LOW,T1110,10.0.0.4,AUTH failed user=app_runtime src=10.0.0.4 attempt=3/5
+2026-05-15 09:24:07,0105,HIGH,T1190,203.0.113.63,WAF block SQLi pattern in /api/search from 203.0.113.63 q=' OR 1=1--
+2026-05-15 09:24:08,0106,INFO,T1078,10.0.0.4,AUTH success user=guest src=10.0.0.4 mfa=ok
+2026-05-15 09:24:09,0107,INFO,T1078,10.0.0.123,AUTH success user=admin src=10.0.0.123 mfa=ok
+2026-05-15 09:24:10,0108,MEDIUM,T1046,203.0.113.123,"IDS multiple SYN to ports [726, 647, 252] from 203.0.113.123"
+2026-05-15 09:24:11,0109,INFO,T1078,10.0.0.199,AUTH success user=svc_backup src=10.0.0.199 mfa=ok
+2026-05-15 09:24:12,0110,INFO,T1078,10.0.0.60,AUTH success user=jdoe src=10.0.0.60 mfa=ok
+2026-05-15 09:24:13,0111,HIGH,T1190,203.0.113.47,WAF block SQLi pattern in /api/search from 203.0.113.47 q=' OR 1=1--
+2026-05-15 09:24:14,0112,INFO,T1078,10.0.0.100,AUTH success user=root src=10.0.0.100 mfa=ok
+2026-05-15 09:24:15,0113,LOW,T1110,10.0.0.135,AUTH failed user=app_runtime src=10.0.0.135 attempt=3/5
+2026-05-15 09:24:16,0114,INFO,—,10.0.0.202,MAINT window: patch agent heartbeat from 10.0.0.202
+2026-05-15 09:24:17,0115,MEDIUM,T1046,203.0.113.22,"IDS multiple SYN to ports [619, 76, 576] from 203.0.113.22"
+2026-05-15 09:24:18,0116,CRITICAL,T1071,203.0.113.150,EDR periodic beacon 203.0.113.150:443 every 60s jitter low (possible C2)
+2026-05-15 09:25:48,0001,INFO,T1078,10.0.0.22,AUTH success user=app_runtime src=10.0.0.22 mfa=ok
+2026-05-15 09:25:49,0002,INFO,T1078,10.0.0.100,AUTH success user=guest src=10.0.0.100 mfa=ok
+2026-05-15 09:25:50,0003,MEDIUM,T1046,203.0.113.132,"IDS multiple SYN to ports [167, 732, 859] from 203.0.113.132"
+2026-05-15 09:25:51,0004,LOW,T1110,10.0.0.72,AUTH failed user=app_runtime src=10.0.0.72 attempt=3/5
+2026-05-15 09:25:52,0005,MEDIUM,T1046,203.0.113.31,"IDS multiple SYN to ports [794, 815, 157] from 203.0.113.31"
+2026-05-15 09:25:52,0006,MEDIUM,T1046,203.0.113.239,"IDS multiple SYN to ports [894, 69, 415] from 203.0.113.239"
+2026-05-15 09:25:52,0007,INFO,T1078,10.0.0.210,AUTH success user=jdoe src=10.0.0.210 mfa=ok
+2026-05-15 09:25:53,0008,INFO,—,10.0.0.182,MAINT window: patch agent heartbeat from 10.0.0.182
+2026-05-15 09:25:54,0009,MEDIUM,T1046,203.0.113.56,"IDS multiple SYN to ports [199, 396, 829] from 203.0.113.56"
+2026-05-15 09:25:55,0010,INFO,T1078,10.0.0.80,AUTH success user=guest src=10.0.0.80 mfa=ok
+2026-05-15 09:25:56,0011,LOW,T1110,10.0.0.75,AUTH failed user=guest src=10.0.0.75 attempt=2/5
+2026-05-15 09:25:56,0012,INFO,T1078,10.0.0.4,AUTH success user=root src=10.0.0.4 mfa=ok
+2026-05-15 09:25:57,0013,INFO,T1078,10.0.0.19,AUTH success user=jdoe src=10.0.0.19 mfa=ok
+2026-05-15 09:25:58,0014,INFO,T1078,10.0.0.110,AUTH success user=admin src=10.0.0.110 mfa=ok
+2026-05-15 09:25:59,0015,LOW,T1110,10.0.0.134,AUTH failed user=guest src=10.0.0.134 attempt=1/5
+2026-05-15 09:26:00,0016,CRITICAL,T1071,203.0.113.136,EDR periodic beacon 203.0.113.136:443 every 60s jitter low (possible C2)
+2026-05-15 09:26:01,0017,INFO,T1078,10.0.0.158,AUTH success user=jdoe src=10.0.0.158 mfa=ok
+2026-05-15 09:26:02,0018,LOW,T1110,10.0.0.39,AUTH failed user=svc_backup src=10.0.0.39 attempt=2/5
+2026-05-15 09:26:03,0019,INFO,—,10.0.0.193,MAINT window: patch agent heartbeat from 10.0.0.193
+2026-05-15 09:26:04,0020,INFO,T1078,10.0.0.170,AUTH success user=guest src=10.0.0.170 mfa=ok
+2026-05-15 09:26:05,0021,INFO,—,10.0.0.118,MAINT window: patch agent heartbeat from 10.0.0.118
+2026-05-15 09:26:06,0022,LOW,T1110,10.0.0.208,AUTH failed user=admin src=10.0.0.208 attempt=3/5
+2026-05-15 09:26:07,0023,INFO,T1078,10.0.0.91,AUTH success user=guest src=10.0.0.91 mfa=ok
+2026-05-15 09:26:08,0024,HIGH,T1190,203.0.113.46,WAF block SQLi pattern in /api/search from 203.0.113.46 q=' OR 1=1--
+2026-05-15 09:26:09,0025,MEDIUM,T1046,203.0.113.189,"IDS multiple SYN to ports [488, 824, 69] from 203.0.113.189"
+2026-05-15 09:26:10,0026,INFO,T1078,10.0.0.180,AUTH success user=root src=10.0.0.180 mfa=ok
+2026-05-15 09:26:11,0027,INFO,T1078,10.0.0.53,AUTH success user=admin src=10.0.0.53 mfa=ok
+2026-05-15 09:26:12,0028,INFO,T1078,10.0.0.122,AUTH success user=root src=10.0.0.122 mfa=ok
+2026-05-15 09:26:13,0029,INFO,—,10.0.0.210,MAINT window: patch agent heartbeat from 10.0.0.210
+2026-05-15 09:26:14,0030,INFO,—,10.0.0.130,MAINT window: patch agent heartbeat from 10.0.0.130
+2026-05-15 09:26:15,0031,INFO,—,10.0.0.35,MAINT window: patch agent heartbeat from 10.0.0.35
+2026-05-15 09:26:16,0032,INFO,T1078,10.0.0.191,AUTH success user=root src=10.0.0.191 mfa=ok
+2026-05-15 09:26:17,0033,INFO,T1078,10.0.0.72,AUTH success user=app_runtime src=10.0.0.72 mfa=ok
+2026-05-15 09:26:18,0034,INFO,T1078,10.0.0.23,AUTH success user=svc_backup src=10.0.0.23 mfa=ok
+2026-05-15 09:26:19,0035,INFO,T1078,10.0.0.160,AUTH success user=jdoe src=10.0.0.160 mfa=ok
+2026-05-15 09:26:20,0036,MEDIUM,T1046,203.0.113.145,"IDS multiple SYN to ports [704, 699, 991] from 203.0.113.145"
+2026-05-15 09:26:21,0037,INFO,T1078,10.0.0.100,AUTH success user=svc_backup src=10.0.0.100 mfa=ok
+2026-05-15 09:26:22,0038,MEDIUM,T1046,10.0.0.78,IDS scan-like traffic from 10.0.0.78 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:26:23,0039,MEDIUM,T1046,10.0.0.137,IDS scan-like traffic from 10.0.0.137 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:26:24,0040,LOW,T1110,10.0.0.131,AUTH failed user=admin src=10.0.0.131 attempt=2/5
+2026-05-15 09:26:25,0041,INFO,—,10.0.0.45,MAINT window: patch agent heartbeat from 10.0.0.45
+2026-05-15 09:26:26,0042,MEDIUM,T1046,203.0.113.231,"IDS multiple SYN to ports [1009, 291, 180] from 203.0.113.231"
+2026-05-15 09:26:27,0043,INFO,T1078,10.0.0.124,AUTH success user=svc_backup src=10.0.0.124 mfa=ok
+2026-05-15 09:26:28,0044,INFO,T1078,10.0.0.197,AUTH success user=guest src=10.0.0.197 mfa=ok
+2026-05-15 09:26:29,0045,MEDIUM,T1046,203.0.113.235,"IDS multiple SYN to ports [674, 929, 883] from 203.0.113.235"
+2026-05-15 09:26:30,0046,MEDIUM,T1046,203.0.113.206,"IDS multiple SYN to ports [145, 391, 839] from 203.0.113.206"
+2026-05-15 09:26:31,0047,HIGH,T1190,203.0.113.7,WAF block SQLi pattern in /api/search from 203.0.113.7 q=' OR 1=1--
+2026-05-15 09:26:32,0048,INFO,—,10.0.0.70,MAINT window: patch agent heartbeat from 10.0.0.70
+2026-05-15 09:26:33,0049,INFO,—,10.0.0.197,MAINT window: patch agent heartbeat from 10.0.0.197
+2026-05-15 09:26:34,0050,INFO,—,10.0.0.159,MAINT window: patch agent heartbeat from 10.0.0.159
+2026-05-15 09:26:35,0051,LOW,T1110,10.0.0.185,AUTH failed user=jdoe src=10.0.0.185 attempt=2/5
+2026-05-15 09:26:36,0052,INFO,T1078,10.0.0.152,AUTH success user=admin src=10.0.0.152 mfa=ok
+2026-05-15 09:26:37,0053,MEDIUM,T1046,10.0.0.9,IDS scan-like traffic from 10.0.0.9 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:26:38,0054,HIGH,T1190,203.0.113.58,WAF block SQLi pattern in /api/search from 203.0.113.58 q=' OR 1=1--
+2026-05-15 09:26:39,0055,MEDIUM,T1046,203.0.113.241,"IDS multiple SYN to ports [304, 416, 731] from 203.0.113.241"
+2026-05-15 09:26:40,0056,CRITICAL,T1071,203.0.113.62,EDR periodic beacon 203.0.113.62:443 every 60s jitter low (possible C2)
+2026-05-15 09:26:41,0057,INFO,—,10.0.0.125,MAINT window: patch agent heartbeat from 10.0.0.125
+2026-05-15 09:26:42,0058,INFO,T1078,10.0.0.61,AUTH success user=root src=10.0.0.61 mfa=ok
+2026-05-15 09:26:43,0059,MEDIUM,T1567,10.0.0.137,DLP alert user=guest exported 1712 files to USB
+2026-05-15 09:26:44,0060,INFO,T1078,10.0.0.60,AUTH success user=app_runtime src=10.0.0.60 mfa=ok
+2026-05-15 09:26:45,0061,INFO,T1078,10.0.0.115,AUTH success user=app_runtime src=10.0.0.115 mfa=ok
+2026-05-15 09:26:46,0062,LOW,T1110,10.0.0.31,AUTH failed user=svc_backup src=10.0.0.31 attempt=1/5
+2026-05-15 09:26:47,0063,MEDIUM,T1046,203.0.113.196,"IDS multiple SYN to ports [629, 779, 286] from 203.0.113.196"
+2026-05-15 09:26:48,0064,INFO,T1078,10.0.0.149,AUTH success user=admin src=10.0.0.149 mfa=ok
+2026-05-15 09:26:49,0065,LOW,T1110,10.0.0.119,AUTH failed user=svc_backup src=10.0.0.119 attempt=2/5
+2026-05-15 09:26:50,0066,INFO,T1078,10.0.0.115,AUTH success user=app_runtime src=10.0.0.115 mfa=ok
+2026-05-15 09:26:51,0067,INFO,T1078,10.0.0.65,AUTH success user=jdoe src=10.0.0.65 mfa=ok
+2026-05-15 09:26:52,0068,INFO,—,10.0.0.177,MAINT window: patch agent heartbeat from 10.0.0.177
+2026-05-15 09:26:53,0069,INFO,—,10.0.0.208,MAINT window: patch agent heartbeat from 10.0.0.208
+2026-05-15 09:26:54,0070,INFO,—,10.0.0.85,MAINT window: patch agent heartbeat from 10.0.0.85
+2026-05-15 09:26:55,0071,INFO,—,10.0.0.76,MAINT window: patch agent heartbeat from 10.0.0.76
+2026-05-15 09:26:56,0072,INFO,T1078,10.0.0.137,AUTH success user=guest src=10.0.0.137 mfa=ok
+2026-05-15 09:26:57,0073,INFO,T1078,10.0.0.10,AUTH success user=jdoe src=10.0.0.10 mfa=ok
+2026-05-15 09:26:58,0074,LOW,T1110,10.0.0.107,AUTH failed user=admin src=10.0.0.107 attempt=2/5
+2026-05-15 09:26:59,0075,CRITICAL,T1071,203.0.113.63,EDR periodic beacon 203.0.113.63:443 every 60s jitter low (possible C2)
+2026-05-15 09:27:00,0076,LOW,T1110,10.0.0.77,AUTH failed user=guest src=10.0.0.77 attempt=2/5
+2026-05-15 09:27:01,0077,LOW,T1110,10.0.0.199,AUTH failed user=guest src=10.0.0.199 attempt=3/5
+2026-05-15 09:27:02,0078,INFO,T1078,10.0.0.217,AUTH success user=jdoe src=10.0.0.217 mfa=ok
+2026-05-15 09:27:03,0079,INFO,T1078,10.0.0.26,AUTH success user=jdoe src=10.0.0.26 mfa=ok
+2026-05-15 09:27:04,0080,CRITICAL,T1071,203.0.113.191,EDR periodic beacon 203.0.113.191:443 every 60s jitter low (possible C2)
+2026-05-15 09:27:14,0081,LOW,T1110,10.0.0.48,AUTH failed user=jdoe src=10.0.0.48 attempt=2/5
+2026-05-15 09:27:39,0082,CRITICAL,T1071,203.0.113.28,EDR periodic beacon 203.0.113.28:443 every 60s jitter low (possible C2)
+2026-05-15 09:27:40,0083,CRITICAL,T1071,203.0.113.169,EDR periodic beacon 203.0.113.169:443 every 60s jitter low (possible C2)
+2026-05-15 09:27:42,0001,CRITICAL,T1071,203.0.113.39,EDR periodic beacon 203.0.113.39:443 every 60s jitter low (possible C2)
+2026-05-15 09:27:43,0002,MEDIUM,T1046,10.0.0.11,IDS scan-like traffic from 10.0.0.11 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:27:44,0003,INFO,T1078,10.0.0.105,AUTH success user=guest src=10.0.0.105 mfa=ok
+2026-05-15 09:27:45,0004,CRITICAL,T1071,203.0.113.237,EDR periodic beacon 203.0.113.237:443 every 60s jitter low (possible C2)
+2026-05-15 09:27:46,0005,CRITICAL,T1071,203.0.113.25,EDR periodic beacon 203.0.113.25:443 every 60s jitter low (possible C2)
+2026-05-15 09:27:47,0006,MEDIUM,T1567,10.0.0.49,DLP alert user=root exported 3846 files to USB
+2026-05-15 09:27:47,0007,MEDIUM,T1046,10.0.0.134,IDS scan-like traffic from 10.0.0.134 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:27:47,0008,LOW,T1110,10.0.0.74,AUTH failed user=root src=10.0.0.74 attempt=1/5
+2026-05-15 09:27:48,0009,HIGH,T1190,203.0.113.57,WAF block SQLi pattern in /api/search from 203.0.113.57 q=' OR 1=1--
+2026-05-15 09:27:49,0010,INFO,—,10.0.0.8,MAINT window: patch agent heartbeat from 10.0.0.8
+2026-05-15 09:27:50,0011,MEDIUM,T1046,10.0.0.181,IDS scan-like traffic from 10.0.0.181 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:27:51,0012,INFO,T1078,10.0.0.128,AUTH success user=app_runtime src=10.0.0.128 mfa=ok
+2026-05-15 09:27:52,0013,MEDIUM,T1046,10.0.0.204,IDS scan-like traffic from 10.0.0.204 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:27:52,0014,INFO,T1078,10.0.0.14,AUTH success user=root src=10.0.0.14 mfa=ok
+2026-05-15 09:27:53,0015,INFO,—,10.0.0.135,MAINT window: patch agent heartbeat from 10.0.0.135
+2026-05-15 09:27:54,0016,MEDIUM,T1046,203.0.113.21,"IDS multiple SYN to ports [9, 504, 281] from 203.0.113.21"
+2026-05-15 09:27:55,0017,MEDIUM,T1046,203.0.113.114,"IDS multiple SYN to ports [217, 61, 927] from 203.0.113.114"
+2026-05-15 09:27:56,0018,INFO,T1078,10.0.0.65,AUTH success user=root src=10.0.0.65 mfa=ok
+2026-05-15 09:27:57,0019,HIGH,T1190,203.0.113.232,WAF block SQLi pattern in /api/search from 203.0.113.232 q=' OR 1=1--
+2026-05-15 09:27:58,0020,INFO,T1078,10.0.0.99,AUTH success user=guest src=10.0.0.99 mfa=ok
+2026-05-15 09:27:59,0021,INFO,T1078,10.0.0.39,AUTH success user=svc_backup src=10.0.0.39 mfa=ok
+2026-05-15 09:28:00,0022,INFO,—,10.0.0.141,MAINT window: patch agent heartbeat from 10.0.0.141
+2026-05-15 09:28:01,0023,INFO,T1078,10.0.0.74,AUTH success user=app_runtime src=10.0.0.74 mfa=ok
+2026-05-15 09:28:02,0024,MEDIUM,T1046,203.0.113.136,"IDS multiple SYN to ports [162, 153, 251] from 203.0.113.136"
+2026-05-15 09:28:03,0025,HIGH,T1190,203.0.113.170,WAF block SQLi pattern in /api/search from 203.0.113.170 q=' OR 1=1--
+2026-05-15 09:28:04,0026,LOW,T1110,10.0.0.49,AUTH failed user=root src=10.0.0.49 attempt=2/5
+2026-05-15 09:28:05,0027,MEDIUM,T1046,203.0.113.212,"IDS multiple SYN to ports [45, 920, 729] from 203.0.113.212"
+2026-05-15 09:28:06,0028,HIGH,T1190,203.0.113.31,WAF block SQLi pattern in /api/search from 203.0.113.31 q=' OR 1=1--
+2026-05-15 09:28:07,0029,HIGH,T1190,203.0.113.147,WAF block SQLi pattern in /api/search from 203.0.113.147 q=' OR 1=1--
+2026-05-15 09:28:08,0030,INFO,T1078,10.0.0.153,AUTH success user=app_runtime src=10.0.0.153 mfa=ok
+2026-05-15 09:28:09,0031,LOW,T1110,10.0.0.91,AUTH failed user=admin src=10.0.0.91 attempt=3/5
+2026-05-15 09:28:10,0032,INFO,T1078,10.0.0.72,AUTH success user=svc_backup src=10.0.0.72 mfa=ok
+2026-05-15 09:28:11,0033,INFO,T1078,10.0.0.29,AUTH success user=guest src=10.0.0.29 mfa=ok
+2026-05-15 09:28:12,0034,INFO,T1078,10.0.0.95,AUTH success user=app_runtime src=10.0.0.95 mfa=ok
+2026-05-15 09:28:13,0035,HIGH,T1190,203.0.113.77,WAF block SQLi pattern in /api/search from 203.0.113.77 q=' OR 1=1--
+2026-05-15 09:28:14,0036,INFO,T1078,10.0.0.38,AUTH success user=root src=10.0.0.38 mfa=ok
+2026-05-15 09:28:15,0037,MEDIUM,T1567,10.0.0.129,DLP alert user=svc_backup exported 871 files to USB
+2026-05-15 09:28:16,0038,INFO,—,10.0.0.38,MAINT window: patch agent heartbeat from 10.0.0.38
+2026-05-15 09:28:17,0039,INFO,T1078,10.0.0.85,AUTH success user=guest src=10.0.0.85 mfa=ok
+2026-05-15 09:28:18,0040,MEDIUM,T1046,10.0.0.207,IDS scan-like traffic from 10.0.0.207 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:28:19,0041,MEDIUM,T1046,203.0.113.62,"IDS multiple SYN to ports [147, 548, 416] from 203.0.113.62"
+2026-05-15 09:28:20,0042,INFO,T1078,10.0.0.153,AUTH success user=admin src=10.0.0.153 mfa=ok
+2026-05-15 09:28:21,0043,MEDIUM,T1046,203.0.113.56,"IDS multiple SYN to ports [727, 746, 352] from 203.0.113.56"
+2026-05-15 09:28:22,0044,INFO,T1078,10.0.0.70,AUTH success user=svc_backup src=10.0.0.70 mfa=ok
+2026-05-15 09:28:23,0045,LOW,T1110,10.0.0.123,AUTH failed user=jdoe src=10.0.0.123 attempt=3/5
+2026-05-15 09:28:24,0046,MEDIUM,T1046,10.0.0.142,IDS scan-like traffic from 10.0.0.142 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:28:25,0047,HIGH,T1190,203.0.113.147,WAF block SQLi pattern in /api/search from 203.0.113.147 q=' OR 1=1--
+2026-05-15 09:28:26,0048,INFO,T1078,10.0.0.138,AUTH success user=root src=10.0.0.138 mfa=ok
+2026-05-15 09:28:27,0049,MEDIUM,T1046,10.0.0.166,IDS scan-like traffic from 10.0.0.166 tag=scheduled_vuln_scan owner=secops
+2026-05-15 09:28:28,0050,HIGH,T1190,203.0.113.92,WAF block SQLi pattern in /api/search from 203.0.113.92 q=' OR 1=1--
+2026-05-15 09:28:29,0051,INFO,—,10.0.0.36,MAINT window: patch agent heartbeat from 10.0.0.36
+2026-05-15 09:28:30,0052,LOW,T1110,10.0.0.97,AUTH failed user=root src=10.0.0.97 attempt=3/5
+2026-05-15 09:28:31,0053,INFO,—,10.0.0.80,MAINT window: patch agent heartbeat from 10.0.0.80
+2026-05-15 09:28:32,0054,INFO,—,10.0.0.159,MAINT window: patch agent heartbeat from 10.0.0.159
+2026-05-15 09:28:33,0055,MEDIUM,T1046,203.0.113.47,"IDS multiple SYN to ports [236, 124, 17] from 203.0.113.47"
+2026-05-15 09:28:34,0056,MEDIUM,T1046,203.0.113.228,"IDS multiple SYN to ports [153, 597, 945] from 203.0.113.228"
+2026-05-15 09:28:35,0057,LOW,T1110,10.0.0.201,AUTH failed user=admin src=10.0.0.201 attempt=3/5
+2026-05-15 09:28:36,0058,INFO,—,10.0.0.19,MAINT window: patch agent heartbeat from 10.0.0.19
+2026-05-15 09:28:37,0059,LOW,T1110,10.0.0.163,AUTH failed user=guest src=10.0.0.163 attempt=2/5
+2026-05-15 09:28:38,0060,CRITICAL,T1071,203.0.113.213,EDR periodic beacon 203.0.113.213:443 every 60s jitter low (possible C2)
+2026-05-15 09:28:39,0061,LOW,T1110,10.0.0.93,AUTH failed user=guest src=10.0.0.93 attempt=3/5
+2026-05-15 09:28:40,0062,HIGH,T1190,203.0.113.129,WAF block SQLi pattern in /api/search from 203.0.113.129 q=' OR 1=1--
+2026-05-15 09:28:40,0063,HIGH,T1190,203.0.113.147,WAF block SQLi pattern in /api/search from 203.0.113.147 q=' OR 1=1--
+2026-05-15 09:28:40,0064,CRITICAL,T1071,203.0.113.38,EDR periodic beacon 203.0.113.38:443 every 60s jitter low (possible C2)
+2026-05-15 09:28:42,0065,INFO,—,10.0.0.188,MAINT window: patch agent heartbeat from 10.0.0.188
+2026-05-15 09:28:43,0066,HIGH,T1190,203.0.113.138,WAF block SQLi pattern in /api/search from 203.0.113.138 q=' OR 1=1--
+2026-05-15 09:28:44,0067,INFO,T1078,10.0.0.198,AUTH success user=admin src=10.0.0.198 mfa=ok
+2026-05-15 09:28:45,0068,INFO,—,10.0.0.53,MAINT window: patch agent heartbeat from 10.0.0.53
+2026-05-15 09:28:46,0069,INFO,T1078,10.0.0.116,AUTH success user=jdoe src=10.0.0.116 mfa=ok
+2026-05-15 09:28:47,0070,INFO,T1078,10.0.0.181,AUTH success user=guest src=10.0.0.181 mfa=ok
+2026-05-15 09:28:48,0071,LOW,T1110,10.0.0.100,AUTH failed user=app_runtime src=10.0.0.100 attempt=2/5
+2026-05-15 09:28:49,0072,MEDIUM,T1046,203.0.113.58,"IDS multiple SYN to ports [963, 1002, 122] from 203.0.113.58"
+2026-05-15 09:28:50,0073,MEDIUM,T1567,10.0.0.49,DLP alert user=svc_backup exported 4979 files to USB
+2026-05-15 09:28:51,0074,INFO,—,10.0.0.216,MAINT window: patch agent heartbeat from 10.0.0.216
+2026-05-15 09:28:52,0075,HIGH,T1190,203.0.113.130,WAF block SQLi pattern in /api/search from 203.0.113.130 q=' OR 1=1--
+2026-05-15 09:28:53,0076,INFO,T1078,10.0.0.114,AUTH success user=guest src=10.0.0.114 mfa=ok
+2026-05-15 09:28:54,0077,INFO,T1078,10.0.0.109,AUTH success user=svc_backup src=10.0.0.109 mfa=ok
+2026-05-15 09:28:55,0078,INFO,—,10.0.0.153,MAINT window: patch agent heartbeat from 10.0.0.153
+2026-05-15 09:28:56,0079,INFO,T1078,10.0.0.196,AUTH success user=guest src=10.0.0.196 mfa=ok
+2026-05-15 09:28:57,0080,INFO,T1078,10.0.0.71,AUTH success user=app_runtime src=10.0.0.71 mfa=ok
+2026-05-15 09:28:58,0081,INFO,—,10.0.0.117,MAINT window: patch agent heartbeat from 10.0.0.117
+2026-05-15 09:28:59,0082,MEDIUM,T1046,203.0.113.24,"IDS multiple SYN to ports [260, 250, 156] from 203.0.113.24"
+2026-05-15 09:29:00,0083,HIGH,T1190,203.0.113.60,WAF block SQLi pattern in /api/search from 203.0.113.60 q=' OR 1=1--
+2026-05-15 09:29:01,0084,MEDIUM,T1567,10.0.0.81,DLP alert user=app_runtime exported 1632 files to USB
+2026-05-15 09:29:02,0085,MEDIUM,T1046,203.0.113.116,"IDS multiple SYN to ports [918, 40, 11] from 203.0.113.116"
+2026-05-22 17:23:59,0001,INFO,—,10.0.0.60,MAINT window: patch agent heartbeat from 10.0.0.60
+2026-05-22 17:24:00,0002,INFO,T1078,10.0.0.47,AUTH success user=root src=10.0.0.47 mfa=ok
+2026-05-22 17:24:01,0003,LOW,T1110,10.0.0.156,AUTH failed user=root src=10.0.0.156 attempt=1/5
+2026-05-22 17:24:02,0004,LOW,T1110,10.0.0.48,AUTH failed user=app_runtime src=10.0.0.48 attempt=3/5
+2026-05-22 17:24:03,0005,MEDIUM,T1046,10.0.0.104,IDS scan-like traffic from 10.0.0.104 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:04,0006,CRITICAL,T1071,203.0.113.37,EDR periodic beacon 203.0.113.37:443 every 60s jitter low (possible C2)
+2026-05-22 17:24:05,0007,INFO,T1078,10.0.0.28,AUTH success user=guest src=10.0.0.28 mfa=ok
+2026-05-22 17:24:06,0008,MEDIUM,T1046,10.0.0.117,IDS scan-like traffic from 10.0.0.117 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:07,0009,INFO,T1078,10.0.0.49,AUTH success user=admin src=10.0.0.49 mfa=ok
+2026-05-22 17:24:08,0010,MEDIUM,T1567,10.0.0.206,DLP alert user=svc_backup exported 2174 files to USB
+2026-05-22 17:24:09,0011,INFO,—,10.0.0.219,MAINT window: patch agent heartbeat from 10.0.0.219
+2026-05-22 17:24:09,0012,INFO,T1078,10.0.0.54,AUTH success user=admin src=10.0.0.54 mfa=ok
+2026-05-22 17:24:10,0013,INFO,—,10.0.0.107,MAINT window: patch agent heartbeat from 10.0.0.107
+2026-05-22 17:24:11,0014,INFO,—,10.0.0.148,MAINT window: patch agent heartbeat from 10.0.0.148
+2026-05-22 17:24:12,0015,MEDIUM,T1046,203.0.113.20,"IDS multiple SYN to ports [562, 257, 595] from 203.0.113.20"
+2026-05-22 17:24:13,0016,MEDIUM,T1046,203.0.113.179,"IDS multiple SYN to ports [518, 465, 626] from 203.0.113.179"
+2026-05-22 17:24:14,0017,MEDIUM,T1046,203.0.113.198,"IDS multiple SYN to ports [71, 741, 231] from 203.0.113.198"
+2026-05-22 17:24:15,0018,INFO,—,10.0.0.128,MAINT window: patch agent heartbeat from 10.0.0.128
+2026-05-22 17:24:16,0019,INFO,T1078,10.0.0.128,AUTH success user=guest src=10.0.0.128 mfa=ok
+2026-05-22 17:24:17,0020,MEDIUM,T1046,203.0.113.110,"IDS multiple SYN to ports [130, 897, 724] from 203.0.113.110"
+2026-05-22 17:24:18,0021,INFO,T1078,10.0.0.156,AUTH success user=app_runtime src=10.0.0.156 mfa=ok
+2026-05-22 17:24:19,0022,MEDIUM,T1046,203.0.113.228,"IDS multiple SYN to ports [764, 1001, 232] from 203.0.113.228"
+2026-05-22 17:24:20,0023,MEDIUM,T1567,10.0.0.205,DLP alert user=admin exported 1086 files to USB
+2026-05-22 17:24:21,0024,MEDIUM,T1046,10.0.0.174,IDS scan-like traffic from 10.0.0.174 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:22,0025,INFO,T1078,10.0.0.217,AUTH success user=jdoe src=10.0.0.217 mfa=ok
+2026-05-22 17:24:23,0026,MEDIUM,T1046,203.0.113.28,"IDS multiple SYN to ports [860, 493, 608] from 203.0.113.28"
+2026-05-22 17:24:24,0027,INFO,—,10.0.0.61,MAINT window: patch agent heartbeat from 10.0.0.61
+2026-05-22 17:24:25,0028,INFO,T1078,10.0.0.153,AUTH success user=root src=10.0.0.153 mfa=ok
+2026-05-22 17:24:26,0029,CRITICAL,T1071,203.0.113.193,EDR periodic beacon 203.0.113.193:443 every 60s jitter low (possible C2)
+2026-05-22 17:24:27,0030,MEDIUM,T1046,203.0.113.206,"IDS multiple SYN to ports [512, 396, 577] from 203.0.113.206"
+2026-05-22 17:24:28,0031,INFO,—,10.0.0.13,MAINT window: patch agent heartbeat from 10.0.0.13
+2026-05-22 17:24:29,0032,INFO,T1078,10.0.0.148,AUTH success user=guest src=10.0.0.148 mfa=ok
+2026-05-22 17:24:30,0033,MEDIUM,T1046,203.0.113.59,"IDS multiple SYN to ports [819, 228, 331] from 203.0.113.59"
+2026-05-22 17:24:31,0034,INFO,—,10.0.0.125,MAINT window: patch agent heartbeat from 10.0.0.125
+2026-05-22 17:24:32,0035,INFO,T1078,10.0.0.23,AUTH success user=jdoe src=10.0.0.23 mfa=ok
+2026-05-22 17:24:33,0036,INFO,T1078,10.0.0.48,AUTH success user=root src=10.0.0.48 mfa=ok
+2026-05-22 17:24:34,0037,INFO,T1078,10.0.0.58,AUTH success user=guest src=10.0.0.58 mfa=ok
+2026-05-22 17:24:35,0038,INFO,T1078,10.0.0.200,AUTH success user=root src=10.0.0.200 mfa=ok
+2026-05-22 17:24:36,0039,LOW,T1110,10.0.0.60,AUTH failed user=root src=10.0.0.60 attempt=3/5
+2026-05-22 17:24:37,0040,INFO,—,10.0.0.12,MAINT window: patch agent heartbeat from 10.0.0.12
+2026-05-22 17:24:38,0041,HIGH,T1190,203.0.113.178,WAF block SQLi pattern in /api/search from 203.0.113.178 q=' OR 1=1--
+2026-05-22 17:24:39,0042,INFO,T1078,10.0.0.175,AUTH success user=root src=10.0.0.175 mfa=ok
+2026-05-22 17:24:40,0043,LOW,T1110,10.0.0.64,AUTH failed user=svc_backup src=10.0.0.64 attempt=1/5
+2026-05-22 17:24:41,0044,MEDIUM,T1046,10.0.0.161,IDS scan-like traffic from 10.0.0.161 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:42,0045,INFO,T1078,10.0.0.85,AUTH success user=app_runtime src=10.0.0.85 mfa=ok
+2026-05-22 17:24:43,0046,MEDIUM,T1046,10.0.0.111,IDS scan-like traffic from 10.0.0.111 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:44,0047,CRITICAL,T1071,203.0.113.83,EDR periodic beacon 203.0.113.83:443 every 60s jitter low (possible C2)
+2026-05-22 17:24:45,0048,LOW,T1110,10.0.0.22,AUTH failed user=jdoe src=10.0.0.22 attempt=3/5
+2026-05-22 17:24:46,0049,LOW,T1110,10.0.0.128,AUTH failed user=app_runtime src=10.0.0.128 attempt=3/5
+2026-05-22 17:24:47,0050,LOW,T1110,10.0.0.65,AUTH failed user=guest src=10.0.0.65 attempt=2/5
+2026-05-22 17:24:48,0051,MEDIUM,T1046,203.0.113.164,"IDS multiple SYN to ports [120, 547, 454] from 203.0.113.164"
+2026-05-22 17:24:49,0052,MEDIUM,T1046,10.0.0.201,IDS scan-like traffic from 10.0.0.201 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:50,0053,INFO,T1078,10.0.0.52,AUTH success user=guest src=10.0.0.52 mfa=ok
+2026-05-22 17:24:51,0054,INFO,—,10.0.0.115,MAINT window: patch agent heartbeat from 10.0.0.115
+2026-05-22 17:24:52,0055,MEDIUM,T1046,10.0.0.82,IDS scan-like traffic from 10.0.0.82 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:53,0056,HIGH,T1190,203.0.113.130,WAF block SQLi pattern in /api/search from 203.0.113.130 q=' OR 1=1--
+2026-05-22 17:24:54,0057,MEDIUM,T1046,10.0.0.48,IDS scan-like traffic from 10.0.0.48 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:24:55,0058,INFO,T1078,10.0.0.185,AUTH success user=guest src=10.0.0.185 mfa=ok
+2026-05-22 17:24:56,0059,HIGH,T1190,203.0.113.169,WAF block SQLi pattern in /api/search from 203.0.113.169 q=' OR 1=1--
+2026-05-22 17:24:57,0060,HIGH,T1190,203.0.113.243,WAF block SQLi pattern in /api/search from 203.0.113.243 q=' OR 1=1--
+2026-05-22 17:24:58,0061,INFO,—,10.0.0.9,MAINT window: patch agent heartbeat from 10.0.0.9
+2026-05-22 17:24:59,0062,INFO,T1078,10.0.0.40,AUTH success user=jdoe src=10.0.0.40 mfa=ok
+2026-05-22 17:25:00,0063,HIGH,T1190,203.0.113.102,WAF block SQLi pattern in /api/search from 203.0.113.102 q=' OR 1=1--
+2026-05-22 17:25:02,0064,HIGH,T1190,203.0.113.39,WAF block SQLi pattern in /api/search from 203.0.113.39 q=' OR 1=1--
+2026-05-22 17:25:03,0065,HIGH,T1190,203.0.113.198,WAF block SQLi pattern in /api/search from 203.0.113.198 q=' OR 1=1--
+2026-05-22 17:25:04,0066,INFO,T1078,10.0.0.44,AUTH success user=svc_backup src=10.0.0.44 mfa=ok
+2026-05-22 17:25:04,0067,INFO,—,10.0.0.24,MAINT window: patch agent heartbeat from 10.0.0.24
+2026-05-22 17:25:05,0068,MEDIUM,T1046,10.0.0.30,IDS scan-like traffic from 10.0.0.30 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:25:06,0069,INFO,T1078,10.0.0.105,AUTH success user=guest src=10.0.0.105 mfa=ok
+2026-05-22 17:25:07,0070,INFO,—,10.0.0.99,MAINT window: patch agent heartbeat from 10.0.0.99
+2026-05-22 17:25:08,0071,INFO,T1078,10.0.0.200,AUTH success user=guest src=10.0.0.200 mfa=ok
+2026-05-22 17:25:09,0072,MEDIUM,T1046,203.0.113.214,"IDS multiple SYN to ports [828, 764, 346] from 203.0.113.214"
+2026-05-22 17:25:10,0073,INFO,T1078,10.0.0.51,AUTH success user=app_runtime src=10.0.0.51 mfa=ok
+2026-05-22 17:25:11,0074,CRITICAL,T1071,203.0.113.232,EDR periodic beacon 203.0.113.232:443 every 60s jitter low (possible C2)
+2026-05-22 17:25:12,0075,LOW,T1110,10.0.0.188,AUTH failed user=guest src=10.0.0.188 attempt=3/5
+2026-05-22 17:25:13,0076,INFO,—,10.0.0.220,MAINT window: patch agent heartbeat from 10.0.0.220
+2026-05-22 17:25:14,0077,MEDIUM,T1046,10.0.0.116,IDS scan-like traffic from 10.0.0.116 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:25:15,0078,MEDIUM,T1046,203.0.113.60,"IDS multiple SYN to ports [590, 181, 943] from 203.0.113.60"
+2026-05-22 17:25:16,0079,HIGH,T1190,203.0.113.202,WAF block SQLi pattern in /api/search from 203.0.113.202 q=' OR 1=1--
+2026-05-22 17:25:17,0080,LOW,T1110,10.0.0.168,AUTH failed user=app_runtime src=10.0.0.168 attempt=2/5
+2026-05-22 17:25:18,0081,INFO,T1078,10.0.0.149,AUTH success user=jdoe src=10.0.0.149 mfa=ok
+2026-05-22 17:25:19,0082,LOW,T1110,10.0.0.151,AUTH failed user=guest src=10.0.0.151 attempt=2/5
+2026-05-22 17:25:20,0083,INFO,T1078,10.0.0.79,AUTH success user=admin src=10.0.0.79 mfa=ok
+2026-05-22 17:25:21,0084,MEDIUM,T1046,10.0.0.50,IDS scan-like traffic from 10.0.0.50 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:25:22,0085,INFO,—,10.0.0.218,MAINT window: patch agent heartbeat from 10.0.0.218
+2026-05-22 17:25:23,0086,INFO,—,10.0.0.193,MAINT window: patch agent heartbeat from 10.0.0.193
+2026-05-22 17:25:24,0087,LOW,T1110,10.0.0.37,AUTH failed user=root src=10.0.0.37 attempt=2/5
+2026-05-22 17:25:25,0088,CRITICAL,T1071,203.0.113.32,EDR periodic beacon 203.0.113.32:443 every 60s jitter low (possible C2)
+2026-05-22 17:25:26,0089,LOW,T1110,10.0.0.73,AUTH failed user=guest src=10.0.0.73 attempt=1/5
+2026-05-22 17:25:27,0090,INFO,T1078,10.0.0.165,AUTH success user=admin src=10.0.0.165 mfa=ok
+2026-05-22 17:25:28,0091,INFO,—,10.0.0.195,MAINT window: patch agent heartbeat from 10.0.0.195
+2026-05-22 17:25:29,0092,INFO,—,10.0.0.85,MAINT window: patch agent heartbeat from 10.0.0.85
+2026-05-22 17:25:30,0093,HIGH,T1190,203.0.113.29,WAF block SQLi pattern in /api/search from 203.0.113.29 q=' OR 1=1--
+2026-05-22 17:25:31,0094,MEDIUM,T1046,203.0.113.142,"IDS multiple SYN to ports [145, 747, 277] from 203.0.113.142"
+2026-05-22 17:25:32,0095,INFO,—,10.0.0.111,MAINT window: patch agent heartbeat from 10.0.0.111
+2026-05-22 17:25:33,0096,INFO,T1078,10.0.0.117,AUTH success user=jdoe src=10.0.0.117 mfa=ok
+2026-05-22 17:25:34,0097,MEDIUM,T1567,10.0.0.37,DLP alert user=root exported 4088 files to USB
+2026-05-22 17:25:35,0098,MEDIUM,T1046,203.0.113.73,"IDS multiple SYN to ports [223, 925, 955] from 203.0.113.73"
+2026-05-22 17:25:36,0099,CRITICAL,T1071,203.0.113.167,EDR periodic beacon 203.0.113.167:443 every 60s jitter low (possible C2)
+2026-05-22 17:25:37,0100,INFO,T1078,10.0.0.194,AUTH success user=jdoe src=10.0.0.194 mfa=ok
+2026-05-22 17:25:38,0101,MEDIUM,T1567,10.0.0.15,DLP alert user=app_runtime exported 907 files to USB
+2026-05-22 17:25:39,0102,INFO,—,10.0.0.163,MAINT window: patch agent heartbeat from 10.0.0.163
+2026-05-22 17:25:40,0103,INFO,T1078,10.0.0.201,AUTH success user=root src=10.0.0.201 mfa=ok
+2026-05-22 17:25:41,0104,LOW,T1110,10.0.0.2,AUTH failed user=jdoe src=10.0.0.2 attempt=1/5
+2026-05-22 17:25:42,0105,INFO,T1078,10.0.0.13,AUTH success user=jdoe src=10.0.0.13 mfa=ok
+2026-05-22 17:25:43,0106,MEDIUM,T1046,10.0.0.148,IDS scan-like traffic from 10.0.0.148 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:25:44,0107,INFO,T1078,10.0.0.117,AUTH success user=jdoe src=10.0.0.117 mfa=ok
+2026-05-22 17:25:45,0108,INFO,T1078,10.0.0.24,AUTH success user=svc_backup src=10.0.0.24 mfa=ok
+2026-05-22 17:25:46,0109,HIGH,T1190,203.0.113.204,WAF block SQLi pattern in /api/search from 203.0.113.204 q=' OR 1=1--
+2026-05-22 17:25:47,0110,INFO,T1078,10.0.0.204,AUTH success user=guest src=10.0.0.204 mfa=ok
+2026-05-22 17:25:48,0111,MEDIUM,T1046,203.0.113.239,"IDS multiple SYN to ports [775, 252, 100] from 203.0.113.239"
+2026-05-22 17:25:49,0112,MEDIUM,T1046,10.0.0.144,IDS scan-like traffic from 10.0.0.144 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:25:50,0113,LOW,T1110,10.0.0.98,AUTH failed user=guest src=10.0.0.98 attempt=2/5
+2026-05-22 17:25:51,0114,INFO,—,10.0.0.171,MAINT window: patch agent heartbeat from 10.0.0.171
+2026-05-22 17:25:52,0115,MEDIUM,T1567,10.0.0.5,DLP alert user=guest exported 3096 files to USB
+2026-05-22 17:25:53,0116,MEDIUM,T1046,203.0.113.157,"IDS multiple SYN to ports [956, 885, 617] from 203.0.113.157"
+2026-05-22 17:25:54,0117,INFO,T1078,10.0.0.159,AUTH success user=jdoe src=10.0.0.159 mfa=ok
+2026-05-22 17:25:55,0118,INFO,T1078,10.0.0.86,AUTH success user=svc_backup src=10.0.0.86 mfa=ok
+2026-05-22 17:25:56,0119,INFO,T1078,10.0.0.19,AUTH success user=root src=10.0.0.19 mfa=ok
+2026-05-22 17:25:57,0120,MEDIUM,T1046,203.0.113.194,"IDS multiple SYN to ports [354, 214, 624] from 203.0.113.194"
+2026-05-22 17:25:58,0121,MEDIUM,T1567,10.0.0.8,DLP alert user=app_runtime exported 1247 files to USB
+2026-05-22 17:25:59,0122,HIGH,T1190,203.0.113.246,WAF block SQLi pattern in /api/search from 203.0.113.246 q=' OR 1=1--
+2026-05-22 17:26:00,0123,LOW,T1110,10.0.0.98,AUTH failed user=svc_backup src=10.0.0.98 attempt=2/5
+2026-05-22 17:26:01,0124,INFO,T1078,10.0.0.173,AUTH success user=admin src=10.0.0.173 mfa=ok
+2026-05-22 17:26:02,0125,INFO,—,10.0.0.108,MAINT window: patch agent heartbeat from 10.0.0.108
+2026-05-22 17:26:03,0126,LOW,T1110,10.0.0.166,AUTH failed user=jdoe src=10.0.0.166 attempt=2/5
+2026-05-22 17:26:04,0127,INFO,—,10.0.0.95,MAINT window: patch agent heartbeat from 10.0.0.95
+2026-05-22 17:26:05,0128,INFO,—,10.0.0.95,MAINT window: patch agent heartbeat from 10.0.0.95
+2026-05-22 17:26:06,0129,MEDIUM,T1046,203.0.113.213,"IDS multiple SYN to ports [630, 827, 458] from 203.0.113.213"
+2026-05-22 17:26:07,0130,CRITICAL,T1071,203.0.113.21,EDR periodic beacon 203.0.113.21:443 every 60s jitter low (possible C2)
+2026-05-22 17:26:08,0131,INFO,T1078,10.0.0.9,AUTH success user=app_runtime src=10.0.0.9 mfa=ok
+2026-05-22 17:26:09,0132,MEDIUM,T1046,10.0.0.175,IDS scan-like traffic from 10.0.0.175 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:26:10,0133,INFO,T1078,10.0.0.67,AUTH success user=jdoe src=10.0.0.67 mfa=ok
+2026-05-22 17:26:11,0134,INFO,T1078,10.0.0.54,AUTH success user=admin src=10.0.0.54 mfa=ok
+2026-05-22 17:26:12,0135,MEDIUM,T1567,10.0.0.194,DLP alert user=admin exported 4524 files to USB
+2026-05-22 17:26:13,0136,MEDIUM,T1046,10.0.0.108,IDS scan-like traffic from 10.0.0.108 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:26:14,0137,CRITICAL,T1071,203.0.113.241,EDR periodic beacon 203.0.113.241:443 every 60s jitter low (possible C2)
+2026-05-22 17:26:15,0138,HIGH,T1190,203.0.113.219,WAF block SQLi pattern in /api/search from 203.0.113.219 q=' OR 1=1--
+2026-05-22 17:26:16,0139,CRITICAL,T1071,203.0.113.173,EDR periodic beacon 203.0.113.173:443 every 60s jitter low (possible C2)
+2026-05-22 17:26:17,0140,INFO,—,10.0.0.27,MAINT window: patch agent heartbeat from 10.0.0.27
+2026-05-22 17:26:18,0141,INFO,T1078,10.0.0.150,AUTH success user=guest src=10.0.0.150 mfa=ok
+2026-05-22 17:26:19,0142,INFO,T1078,10.0.0.174,AUTH success user=admin src=10.0.0.174 mfa=ok
+2026-05-22 17:26:20,0143,INFO,T1078,10.0.0.131,AUTH success user=admin src=10.0.0.131 mfa=ok
+2026-05-22 17:26:21,0144,LOW,T1110,10.0.0.112,AUTH failed user=admin src=10.0.0.112 attempt=3/5
+2026-05-22 17:26:22,0145,CRITICAL,T1071,203.0.113.203,EDR periodic beacon 203.0.113.203:443 every 60s jitter low (possible C2)
+2026-05-22 17:26:23,0146,LOW,T1110,10.0.0.187,AUTH failed user=admin src=10.0.0.187 attempt=2/5
+2026-05-22 17:26:24,0147,INFO,T1078,10.0.0.10,AUTH success user=root src=10.0.0.10 mfa=ok
+2026-05-22 17:26:25,0148,CRITICAL,T1071,203.0.113.77,EDR periodic beacon 203.0.113.77:443 every 60s jitter low (possible C2)
+2026-05-22 17:26:26,0149,INFO,T1078,10.0.0.206,AUTH success user=jdoe src=10.0.0.206 mfa=ok
+2026-05-22 17:26:27,0150,MEDIUM,T1046,10.0.0.68,IDS scan-like traffic from 10.0.0.68 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:26:28,0151,CRITICAL,T1071,203.0.113.53,EDR periodic beacon 203.0.113.53:443 every 60s jitter low (possible C2)
+2026-05-22 17:31:17,0001,MEDIUM,T1046,10.0.0.63,IDS scan-like traffic from 10.0.0.63 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:18,0002,MEDIUM,T1567,10.0.0.115,DLP alert user=app_runtime exported 4619 files to USB
+2026-05-22 17:31:19,0003,MEDIUM,T1046,10.0.0.202,IDS scan-like traffic from 10.0.0.202 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:20,0004,LOW,T1110,10.0.0.162,AUTH failed user=root src=10.0.0.162 attempt=1/5
+2026-05-22 17:31:21,0005,MEDIUM,T1567,10.0.0.111,DLP alert user=admin exported 4218 files to USB
+2026-05-22 17:31:22,0006,INFO,T1078,10.0.0.189,AUTH success user=admin src=10.0.0.189 mfa=ok
+2026-05-22 17:31:23,0007,MEDIUM,T1046,203.0.113.96,"IDS multiple SYN to ports [114, 923, 514] from 203.0.113.96"
+2026-05-22 17:31:24,0008,INFO,T1078,10.0.0.114,AUTH success user=admin src=10.0.0.114 mfa=ok
+2026-05-22 17:31:25,0009,MEDIUM,T1046,203.0.113.187,"IDS multiple SYN to ports [822, 386, 115] from 203.0.113.187"
+2026-05-22 17:31:26,0010,LOW,T1110,10.0.0.172,AUTH failed user=svc_backup src=10.0.0.172 attempt=3/5
+2026-05-22 17:31:27,0011,MEDIUM,T1046,203.0.113.190,"IDS multiple SYN to ports [802, 273, 899] from 203.0.113.190"
+2026-05-22 17:31:28,0012,LOW,T1110,10.0.0.161,AUTH failed user=root src=10.0.0.161 attempt=1/5
+2026-05-22 17:31:29,0013,CRITICAL,T1071,203.0.113.192,EDR periodic beacon 203.0.113.192:443 every 60s jitter low (possible C2)
+2026-05-22 17:31:30,0014,INFO,T1078,10.0.0.122,AUTH success user=admin src=10.0.0.122 mfa=ok
+2026-05-22 17:31:31,0015,MEDIUM,T1567,10.0.0.52,DLP alert user=jdoe exported 3856 files to USB
+2026-05-22 17:31:32,0016,INFO,—,10.0.0.188,MAINT window: patch agent heartbeat from 10.0.0.188
+2026-05-22 17:31:33,0017,LOW,T1110,10.0.0.144,AUTH failed user=jdoe src=10.0.0.144 attempt=3/5
+2026-05-22 17:31:34,0018,HIGH,T1190,203.0.113.76,WAF block SQLi pattern in /api/search from 203.0.113.76 q=' OR 1=1--
+2026-05-22 17:31:35,0019,INFO,T1078,10.0.0.22,AUTH success user=svc_backup src=10.0.0.22 mfa=ok
+2026-05-22 17:31:35,0020,LOW,T1110,10.0.0.21,AUTH failed user=root src=10.0.0.21 attempt=3/5
+2026-05-22 17:31:35,0021,HIGH,T1190,203.0.113.98,WAF block SQLi pattern in /api/search from 203.0.113.98 q=' OR 1=1--
+2026-05-22 17:31:36,0022,LOW,T1110,10.0.0.195,AUTH failed user=root src=10.0.0.195 attempt=3/5
+2026-05-22 17:31:37,0023,INFO,T1078,10.0.0.128,AUTH success user=root src=10.0.0.128 mfa=ok
+2026-05-22 17:31:38,0024,MEDIUM,T1046,10.0.0.219,IDS scan-like traffic from 10.0.0.219 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:39,0025,LOW,T1110,10.0.0.216,AUTH failed user=guest src=10.0.0.216 attempt=1/5
+2026-05-22 17:31:40,0026,MEDIUM,T1046,10.0.0.57,IDS scan-like traffic from 10.0.0.57 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:41,0027,INFO,T1078,10.0.0.150,AUTH success user=guest src=10.0.0.150 mfa=ok
+2026-05-22 17:31:42,0028,INFO,T1078,10.0.0.81,AUTH success user=root src=10.0.0.81 mfa=ok
+2026-05-22 17:31:42,0029,INFO,—,10.0.0.135,MAINT window: patch agent heartbeat from 10.0.0.135
+2026-05-22 17:31:43,0030,INFO,—,10.0.0.33,MAINT window: patch agent heartbeat from 10.0.0.33
+2026-05-22 17:31:43,0031,MEDIUM,T1046,10.0.0.35,IDS scan-like traffic from 10.0.0.35 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:43,0032,MEDIUM,T1046,10.0.0.75,IDS scan-like traffic from 10.0.0.75 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:45,0033,MEDIUM,T1046,10.0.0.165,IDS scan-like traffic from 10.0.0.165 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:46,0034,LOW,T1110,10.0.0.150,AUTH failed user=admin src=10.0.0.150 attempt=2/5
+2026-05-22 17:31:47,0035,INFO,T1078,10.0.0.30,AUTH success user=admin src=10.0.0.30 mfa=ok
+2026-05-22 17:31:48,0036,MEDIUM,T1046,10.0.0.208,IDS scan-like traffic from 10.0.0.208 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:49,0037,HIGH,T1190,203.0.113.68,WAF block SQLi pattern in /api/search from 203.0.113.68 q=' OR 1=1--
+2026-05-22 17:31:50,0038,LOW,T1110,10.0.0.139,AUTH failed user=jdoe src=10.0.0.139 attempt=1/5
+2026-05-22 17:31:51,0039,MEDIUM,T1046,10.0.0.20,IDS scan-like traffic from 10.0.0.20 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:31:52,0040,INFO,T1078,10.0.0.85,AUTH success user=admin src=10.0.0.85 mfa=ok
+2026-05-22 17:31:53,0041,INFO,T1078,10.0.0.111,AUTH success user=svc_backup src=10.0.0.111 mfa=ok
+2026-05-22 17:31:54,0042,INFO,—,10.0.0.145,MAINT window: patch agent heartbeat from 10.0.0.145
+2026-05-22 17:31:55,0043,INFO,—,10.0.0.158,MAINT window: patch agent heartbeat from 10.0.0.158
+2026-05-22 17:31:56,0044,LOW,T1110,10.0.0.145,AUTH failed user=svc_backup src=10.0.0.145 attempt=1/5
+2026-05-22 17:31:56,0045,INFO,T1078,10.0.0.92,AUTH success user=root src=10.0.0.92 mfa=ok
+2026-05-22 17:31:56,0046,MEDIUM,T1567,10.0.0.19,DLP alert user=admin exported 4819 files to USB
+2026-05-22 17:31:57,0047,INFO,—,10.0.0.12,MAINT window: patch agent heartbeat from 10.0.0.12
+2026-05-22 17:31:58,0048,INFO,T1078,10.0.0.205,AUTH success user=jdoe src=10.0.0.205 mfa=ok
+2026-05-22 17:31:58,0049,INFO,—,10.0.0.181,MAINT window: patch agent heartbeat from 10.0.0.181
+2026-05-22 17:31:59,0050,INFO,—,10.0.0.215,MAINT window: patch agent heartbeat from 10.0.0.215
+2026-05-22 17:32:00,0051,MEDIUM,T1046,203.0.113.10,"IDS multiple SYN to ports [592, 115, 1017] from 203.0.113.10"
+2026-05-22 17:32:01,0052,INFO,—,10.0.0.196,MAINT window: patch agent heartbeat from 10.0.0.196
+2026-05-22 17:32:02,0053,LOW,T1110,10.0.0.134,AUTH failed user=root src=10.0.0.134 attempt=3/5
+2026-05-22 17:32:02,0054,MEDIUM,T1046,203.0.113.79,"IDS multiple SYN to ports [513, 155, 595] from 203.0.113.79"
+2026-05-22 17:32:02,0055,INFO,—,10.0.0.78,MAINT window: patch agent heartbeat from 10.0.0.78
+2026-05-22 17:32:03,0056,INFO,—,10.0.0.216,MAINT window: patch agent heartbeat from 10.0.0.216
+2026-05-22 17:32:04,0057,LOW,T1110,10.0.0.48,AUTH failed user=jdoe src=10.0.0.48 attempt=2/5
+2026-05-22 17:32:05,0058,CRITICAL,T1071,203.0.113.131,EDR periodic beacon 203.0.113.131:443 every 60s jitter low (possible C2)
+2026-05-22 17:32:06,0059,CRITICAL,T1071,203.0.113.207,EDR periodic beacon 203.0.113.207:443 every 60s jitter low (possible C2)
+2026-05-22 17:32:07,0060,INFO,T1078,10.0.0.115,AUTH success user=admin src=10.0.0.115 mfa=ok
+2026-05-22 17:32:08,0061,CRITICAL,T1071,203.0.113.171,EDR periodic beacon 203.0.113.171:443 every 60s jitter low (possible C2)
+2026-05-22 17:32:09,0062,MEDIUM,T1046,203.0.113.198,"IDS multiple SYN to ports [1019, 353, 845] from 203.0.113.198"
+2026-05-22 17:32:10,0063,INFO,T1078,10.0.0.214,AUTH success user=app_runtime src=10.0.0.214 mfa=ok
+2026-05-22 17:32:11,0064,INFO,T1078,10.0.0.62,AUTH success user=guest src=10.0.0.62 mfa=ok
+2026-05-22 17:32:12,0065,MEDIUM,T1567,10.0.0.176,DLP alert user=guest exported 884 files to USB
+2026-05-22 17:32:13,0066,MEDIUM,T1046,203.0.113.191,"IDS multiple SYN to ports [424, 1014, 161] from 203.0.113.191"
+2026-05-22 17:32:14,0067,MEDIUM,T1046,203.0.113.36,"IDS multiple SYN to ports [789, 641, 730] from 203.0.113.36"
+2026-05-22 17:32:15,0068,INFO,T1078,10.0.0.58,AUTH success user=guest src=10.0.0.58 mfa=ok
+2026-05-22 17:32:16,0069,MEDIUM,T1567,10.0.0.126,DLP alert user=app_runtime exported 1515 files to USB
+2026-05-22 17:32:17,0070,CRITICAL,T1071,203.0.113.10,EDR periodic beacon 203.0.113.10:443 every 60s jitter low (possible C2)
+2026-05-22 17:32:17,0071,HIGH,T1190,203.0.113.227,WAF block SQLi pattern in /api/search from 203.0.113.227 q=' OR 1=1--
+2026-05-22 17:32:18,0072,LOW,T1110,10.0.0.107,AUTH failed user=svc_backup src=10.0.0.107 attempt=2/5
+2026-05-22 17:32:18,0073,INFO,—,10.0.0.35,MAINT window: patch agent heartbeat from 10.0.0.35
+2026-05-22 17:32:18,0074,MEDIUM,T1046,10.0.0.167,IDS scan-like traffic from 10.0.0.167 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:32:19,0075,INFO,T1078,10.0.0.95,AUTH success user=app_runtime src=10.0.0.95 mfa=ok
+2026-05-22 17:32:20,0076,INFO,T1078,10.0.0.10,AUTH success user=jdoe src=10.0.0.10 mfa=ok
+2026-05-22 17:32:21,0077,INFO,T1078,10.0.0.61,AUTH success user=root src=10.0.0.61 mfa=ok
+2026-05-22 17:32:22,0078,LOW,T1110,10.0.0.130,AUTH failed user=root src=10.0.0.130 attempt=3/5
+2026-05-22 17:32:23,0079,MEDIUM,T1046,203.0.113.103,"IDS multiple SYN to ports [714, 1009, 532] from 203.0.113.103"
+2026-05-22 17:32:24,0080,INFO,—,10.0.0.36,MAINT window: patch agent heartbeat from 10.0.0.36
+2026-05-22 17:32:25,0081,HIGH,T1190,203.0.113.239,WAF block SQLi pattern in /api/search from 203.0.113.239 q=' OR 1=1--
+2026-05-22 17:32:26,0082,LOW,T1110,10.0.0.62,AUTH failed user=jdoe src=10.0.0.62 attempt=2/5
+2026-05-22 17:32:27,0083,INFO,T1078,10.0.0.176,AUTH success user=jdoe src=10.0.0.176 mfa=ok
+2026-05-22 17:32:28,0084,INFO,—,10.0.0.97,MAINT window: patch agent heartbeat from 10.0.0.97
+2026-05-22 17:32:29,0085,INFO,T1078,10.0.0.193,AUTH success user=admin src=10.0.0.193 mfa=ok
+2026-05-22 17:32:30,0086,INFO,T1078,10.0.0.133,AUTH success user=jdoe src=10.0.0.133 mfa=ok
+2026-05-22 17:32:31,0087,LOW,T1110,10.0.0.12,AUTH failed user=root src=10.0.0.12 attempt=1/5
+2026-05-22 17:32:32,0088,INFO,T1078,10.0.0.51,AUTH success user=root src=10.0.0.51 mfa=ok
+2026-05-22 17:32:33,0089,MEDIUM,T1046,203.0.113.15,"IDS multiple SYN to ports [480, 69, 507] from 203.0.113.15"
+2026-05-22 17:32:34,0090,LOW,T1110,10.0.0.170,AUTH failed user=admin src=10.0.0.170 attempt=1/5
+2026-05-22 17:32:35,0091,LOW,T1110,10.0.0.43,AUTH failed user=svc_backup src=10.0.0.43 attempt=2/5
+2026-05-22 17:32:36,0092,MEDIUM,T1046,10.0.0.82,IDS scan-like traffic from 10.0.0.82 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:32:37,0093,LOW,T1110,10.0.0.164,AUTH failed user=app_runtime src=10.0.0.164 attempt=2/5
+2026-05-22 17:32:38,0094,LOW,T1110,10.0.0.220,AUTH failed user=app_runtime src=10.0.0.220 attempt=3/5
+2026-05-22 17:32:39,0095,HIGH,T1190,203.0.113.4,WAF block SQLi pattern in /api/search from 203.0.113.4 q=' OR 1=1--
+2026-05-22 17:32:40,0096,MEDIUM,T1567,10.0.0.25,DLP alert user=svc_backup exported 3495 files to USB
+2026-05-22 17:32:41,0097,HIGH,T1190,203.0.113.67,WAF block SQLi pattern in /api/search from 203.0.113.67 q=' OR 1=1--
+2026-05-22 17:32:42,0098,MEDIUM,T1046,203.0.113.171,"IDS multiple SYN to ports [415, 610, 203] from 203.0.113.171"
+2026-05-22 17:32:43,0099,LOW,T1110,10.0.0.89,AUTH failed user=svc_backup src=10.0.0.89 attempt=2/5
+2026-05-22 17:32:44,0100,MEDIUM,T1046,10.0.0.93,IDS scan-like traffic from 10.0.0.93 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:32:45,0101,MEDIUM,T1567,10.0.0.96,DLP alert user=admin exported 2893 files to USB
+2026-05-22 17:32:46,0102,MEDIUM,T1046,203.0.113.188,"IDS multiple SYN to ports [553, 124, 377] from 203.0.113.188"
+2026-05-22 17:32:47,0103,LOW,T1110,10.0.0.187,AUTH failed user=root src=10.0.0.187 attempt=2/5
+2026-05-22 17:32:48,0104,HIGH,T1190,203.0.113.142,WAF block SQLi pattern in /api/search from 203.0.113.142 q=' OR 1=1--
+2026-05-22 17:32:49,0105,MEDIUM,T1046,10.0.0.37,IDS scan-like traffic from 10.0.0.37 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:32:50,0106,INFO,—,10.0.0.116,MAINT window: patch agent heartbeat from 10.0.0.116
+2026-05-22 17:32:51,0107,INFO,T1078,10.0.0.87,AUTH success user=app_runtime src=10.0.0.87 mfa=ok
+2026-05-22 17:32:52,0108,LOW,T1110,10.0.0.29,AUTH failed user=guest src=10.0.0.29 attempt=1/5
+2026-05-22 17:32:52,0109,INFO,T1078,10.0.0.94,AUTH success user=admin src=10.0.0.94 mfa=ok
+2026-05-22 17:32:53,0110,HIGH,T1190,203.0.113.207,WAF block SQLi pattern in /api/search from 203.0.113.207 q=' OR 1=1--
+2026-05-22 17:32:54,0111,INFO,T1078,10.0.0.44,AUTH success user=svc_backup src=10.0.0.44 mfa=ok
+2026-05-22 17:32:55,0112,INFO,T1078,10.0.0.124,AUTH success user=jdoe src=10.0.0.124 mfa=ok
+2026-05-22 17:32:56,0113,INFO,T1078,10.0.0.22,AUTH success user=app_runtime src=10.0.0.22 mfa=ok
+2026-05-22 17:32:57,0114,INFO,T1078,10.0.0.76,AUTH success user=guest src=10.0.0.76 mfa=ok
+2026-05-22 17:32:58,0115,INFO,—,10.0.0.7,MAINT window: patch agent heartbeat from 10.0.0.7
+2026-05-22 17:32:59,0116,INFO,T1078,10.0.0.80,AUTH success user=svc_backup src=10.0.0.80 mfa=ok
+2026-05-22 17:33:00,0117,INFO,T1078,10.0.0.122,AUTH success user=app_runtime src=10.0.0.122 mfa=ok
+2026-05-22 17:33:01,0118,LOW,T1110,10.0.0.176,AUTH failed user=app_runtime src=10.0.0.176 attempt=3/5
+2026-05-22 17:33:02,0119,HIGH,T1190,203.0.113.186,WAF block SQLi pattern in /api/search from 203.0.113.186 q=' OR 1=1--
+2026-05-22 17:33:03,0120,INFO,T1078,10.0.0.187,AUTH success user=guest src=10.0.0.187 mfa=ok
+2026-05-22 17:33:04,0121,INFO,T1078,10.0.0.157,AUTH success user=app_runtime src=10.0.0.157 mfa=ok
+2026-05-22 17:33:05,0122,MEDIUM,T1046,203.0.113.123,"IDS multiple SYN to ports [754, 287, 555] from 203.0.113.123"
+2026-05-22 17:33:06,0123,MEDIUM,T1046,203.0.113.144,"IDS multiple SYN to ports [795, 577, 950] from 203.0.113.144"
+2026-05-22 17:33:07,0124,LOW,T1110,10.0.0.29,AUTH failed user=guest src=10.0.0.29 attempt=2/5
+2026-05-22 17:33:08,0125,INFO,—,10.0.0.139,MAINT window: patch agent heartbeat from 10.0.0.139
+2026-05-22 17:33:09,0126,MEDIUM,T1046,203.0.113.120,"IDS multiple SYN to ports [629, 431, 451] from 203.0.113.120"
+2026-05-22 17:33:10,0127,LOW,T1110,10.0.0.76,AUTH failed user=root src=10.0.0.76 attempt=1/5
+2026-05-22 17:33:11,0128,MEDIUM,T1046,203.0.113.88,"IDS multiple SYN to ports [202, 894, 526] from 203.0.113.88"
+2026-05-22 17:33:12,0129,INFO,—,10.0.0.184,MAINT window: patch agent heartbeat from 10.0.0.184
+2026-05-22 17:33:13,0130,LOW,T1110,10.0.0.87,AUTH failed user=guest src=10.0.0.87 attempt=2/5
+2026-05-22 17:33:14,0131,CRITICAL,T1071,203.0.113.133,EDR periodic beacon 203.0.113.133:443 every 60s jitter low (possible C2)
+2026-05-22 17:33:15,0132,INFO,—,10.0.0.42,MAINT window: patch agent heartbeat from 10.0.0.42
+2026-05-22 17:33:16,0133,MEDIUM,T1046,203.0.113.223,"IDS multiple SYN to ports [141, 768, 1021] from 203.0.113.223"
+2026-05-22 17:33:17,0134,LOW,T1110,10.0.0.52,AUTH failed user=app_runtime src=10.0.0.52 attempt=1/5
+2026-05-22 17:33:18,0135,LOW,T1110,10.0.0.59,AUTH failed user=root src=10.0.0.59 attempt=2/5
+2026-05-22 17:33:19,0136,INFO,T1078,10.0.0.163,AUTH success user=root src=10.0.0.163 mfa=ok
+2026-05-22 17:33:20,0137,INFO,—,10.0.0.46,MAINT window: patch agent heartbeat from 10.0.0.46
+2026-05-22 17:33:21,0138,INFO,—,10.0.0.125,MAINT window: patch agent heartbeat from 10.0.0.125
+2026-05-22 17:33:22,0139,LOW,T1110,10.0.0.26,AUTH failed user=guest src=10.0.0.26 attempt=3/5
+2026-05-22 17:33:23,0140,LOW,T1110,10.0.0.102,AUTH failed user=root src=10.0.0.102 attempt=3/5
+2026-05-22 17:33:24,0141,MEDIUM,T1046,10.0.0.130,IDS scan-like traffic from 10.0.0.130 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:33:25,0142,INFO,—,10.0.0.139,MAINT window: patch agent heartbeat from 10.0.0.139
+2026-05-22 17:33:26,0143,MEDIUM,T1046,10.0.0.203,IDS scan-like traffic from 10.0.0.203 tag=scheduled_vuln_scan owner=secops
+2026-05-22 17:33:27,0144,MEDIUM,T1046,203.0.113.47,"IDS multiple SYN to ports [626, 449, 331] from 203.0.113.47"
+2026-05-22 17:33:28,0145,LOW,T1110,10.0.0.52,AUTH failed user=guest src=10.0.0.52 attempt=1/5
+2026-05-22 17:33:29,0146,INFO,—,10.0.0.51,MAINT window: patch agent heartbeat from 10.0.0.51
+2026-05-22 17:33:30,0147,INFO,T1078,10.0.0.18,AUTH success user=root src=10.0.0.18 mfa=ok
+2026-05-22 17:33:31,0148,INFO,T1078,10.0.0.85,AUTH success user=jdoe src=10.0.0.85 mfa=ok
+2026-05-22 17:33:32,0149,LOW,T1110,10.0.0.35,AUTH failed user=root src=10.0.0.35 attempt=3/5
+2026-05-22 17:33:33,0150,MEDIUM,T1046,203.0.113.211,"IDS multiple SYN to ports [544, 917, 488] from 203.0.113.211"
+2026-05-22 17:33:34,0151,INFO,T1078,10.0.0.91,AUTH success user=jdoe src=10.0.0.91 mfa=ok
+2026-05-22 17:33:35,0152,INFO,T1078,10.0.0.4,AUTH success user=app_runtime src=10.0.0.4 mfa=ok
+2026-05-22 17:33:36,0153,HIGH,T1190,203.0.113.222,WAF block SQLi pattern in /api/search from 203.0.113.222 q=' OR 1=1--
+2026-05-22 17:33:37,0154,INFO,T1078,10.0.0.209,AUTH success user=admin src=10.0.0.209 mfa=ok
+2026-05-22 17:33:38,0155,MEDIUM,T1046,203.0.113.35,"IDS multiple SYN to ports [854, 1022, 429] from 203.0.113.35"
+2026-05-22 17:33:39,0156,INFO,—,10.0.0.210,MAINT window: patch agent heartbeat from 10.0.0.210
+2026-05-22 17:33:40,0157,LOW,T1110,10.0.0.105,AUTH failed user=svc_backup src=10.0.0.105 attempt=3/5
+2026-05-22 17:33:41,0158,INFO,T1078,10.0.0.89,AUTH success user=guest src=10.0.0.89 mfa=ok
+2026-05-22 17:33:42,0159,INFO,T1078,10.0.0.76,AUTH success user=app_runtime src=10.0.0.76 mfa=ok
+2026-05-22 17:33:43,0160,INFO,T1078,10.0.0.33,AUTH success user=app_runtime src=10.0.0.33 mfa=ok
+2026-05-22 17:33:44,0161,MEDIUM,T1046,203.0.113.65,"IDS multiple SYN to ports [793, 561, 766] from 203.0.113.65"
+2026-05-22 17:33:45,0162,INFO,T1078,10.0.0.211,AUTH success user=app_runtime src=10.0.0.211 mfa=ok
+2026-05-22 17:33:46,0163,INFO,T1078,10.0.0.84,AUTH success user=guest src=10.0.0.84 mfa=ok
+2026-05-22 17:33:47,0164,MEDIUM,T1567,10.0.0.204,DLP alert user=root exported 2226 files to USB
+2026-05-22 17:33:48,0165,INFO,—,10.0.0.123,MAINT window: patch agent heartbeat from 10.0.0.123
+2026-05-22 17:33:49,0166,HIGH,T1190,203.0.113.86,WAF block SQLi pattern in /api/search from 203.0.113.86 q=' OR 1=1--
+2026-05-22 17:33:50,0167,INFO,T1078,10.0.0.61,AUTH success user=admin src=10.0.0.61 mfa=ok
+2026-05-22 17:33:51,0168,INFO,—,10.0.0.179,MAINT window: patch agent heartbeat from 10.0.0.179
+2026-05-22 17:33:52,0169,INFO,T1078,10.0.0.137,AUTH success user=root src=10.0.0.137 mfa=ok
+2026-05-22 17:33:53,0170,CRITICAL,T1071,203.0.113.182,EDR periodic beacon 203.0.113.182:443 every 60s jitter low (possible C2)
+2026-05-22 17:33:54,0171,INFO,T1078,10.0.0.48,AUTH success user=app_runtime src=10.0.0.48 mfa=ok
+2026-05-22 17:33:55,0172,INFO,T1078,10.0.0.69,AUTH success user=svc_backup src=10.0.0.69 mfa=ok
+2026-05-22 17:33:56,0173,INFO,—,10.0.0.27,MAINT window: patch agent heartbeat from 10.0.0.27
+2026-05-22 17:33:57,0174,LOW,T1110,10.0.0.34,AUTH failed user=app_runtime src=10.0.0.34 attempt=2/5
+2026-05-22 17:33:58,0175,INFO,T1078,10.0.0.213,AUTH success user=svc_backup src=10.0.0.213 mfa=ok
+2026-05-22 17:33:59,0176,CRITICAL,T1071,203.0.113.92,EDR periodic beacon 203.0.113.92:443 every 60s jitter low (possible C2)
+2026-05-22 17:34:00,0177,MEDIUM,T1567,10.0.0.54,DLP alert user=app_runtime exported 3803 files to USB
+2026-05-22 17:34:01,0178,INFO,—,10.0.0.155,MAINT window: patch agent heartbeat from 10.0.0.155
+2026-05-22 17:34:02,0179,CRITICAL,T1071,203.0.113.241,EDR periodic beacon 203.0.113.241:443 every 60s jitter low (possible C2)
+2026-05-22 17:34:02,0180,INFO,—,10.0.0.192,MAINT window: patch agent heartbeat from 10.0.0.192
+2026-05-22 17:34:03,0181,INFO,T1078,10.0.0.218,AUTH success user=svc_backup src=10.0.0.218 mfa=ok
+2026-05-22 17:34:04,0182,LOW,T1110,10.0.0.161,AUTH failed user=admin src=10.0.0.161 attempt=1/5
+2026-05-22 17:34:05,0183,MEDIUM,T1046,203.0.113.171,"IDS multiple SYN to ports [935, 137, 929] from 203.0.113.171"
+2026-05-22 17:34:06,0184,INFO,—,10.0.0.158,MAINT window: patch agent heartbeat from 10.0.0.158
+2026-05-22 17:34:07,0185,HIGH,T1190,203.0.113.33,WAF block SQLi pattern in /api/search from 203.0.113.33 q=' OR 1=1--
+2026-05-22 17:34:08,0186,MEDIUM,T1567,10.0.0.94,DLP alert user=guest exported 2791 files to USB
+2026-05-22 17:34:09,0187,INFO,T1078,10.0.0.121,AUTH success user=app_runtime src=10.0.0.121 mfa=ok
+2026-05-22 17:34:10,0188,INFO,T1078,10.0.0.195,AUTH success user=root src=10.0.0.195 mfa=ok
+2026-05-22 17:34:11,0189,INFO,T1078,10.0.0.16,AUTH success user=guest src=10.0.0.16 mfa=ok
+2026-05-22 17:34:12,0190,INFO,—,10.0.0.81,MAINT window: patch agent heartbeat from 10.0.0.81
+2026-05-22 17:34:13,0191,LOW,T1110,10.0.0.140,AUTH failed user=admin src=10.0.0.140 attempt=2/5
+2026-05-22 17:34:14,0192,LOW,T1110,10.0.0.69,AUTH failed user=root src=10.0.0.69 attempt=3/5
+2026-05-22 17:34:15,0193,CRITICAL,T1071,203.0.113.185,EDR periodic beacon 203.0.113.185:443 every 60s jitter low (possible C2)
+2026-05-22 17:34:16,0194,HIGH,T1190,203.0.113.214,WAF block SQLi pattern in /api/search from 203.0.113.214 q=' OR 1=1--
+2026-05-22 17:34:16,0195,MEDIUM,T1046,203.0.113.191,"IDS multiple SYN to ports [66, 739, 623] from 203.0.113.191"
+2026-05-25 15:22:56,0001,INFO,—,10.0.0.56,MAINT window: patch agent heartbeat from 10.0.0.56
+2026-05-25 15:22:57,0002,LOW,T1110,10.0.0.194,AUTH failed user=app_runtime src=10.0.0.194 attempt=3/5
+2026-05-25 15:22:58,0003,INFO,—,10.0.0.176,MAINT window: patch agent heartbeat from 10.0.0.176
+2026-05-25 15:22:59,0004,LOW,T1110,10.0.0.160,AUTH failed user=admin src=10.0.0.160 attempt=2/5
+2026-05-25 15:23:00,0005,MEDIUM,T1046,10.0.0.6,IDS scan-like traffic from 10.0.0.6 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:01,0006,HIGH,T1190,203.0.113.190,WAF block SQLi pattern in /api/search from 203.0.113.190 q=' OR 1=1--
+2026-05-25 15:23:02,0007,INFO,T1078,10.0.0.148,AUTH success user=guest src=10.0.0.148 mfa=ok
+2026-05-25 15:23:03,0008,MEDIUM,T1046,203.0.113.69,"IDS multiple SYN to ports [415, 918, 718] from 203.0.113.69"
+2026-05-25 15:23:03,0009,INFO,T1078,10.0.0.84,AUTH success user=jdoe src=10.0.0.84 mfa=ok
+2026-05-25 15:23:03,0010,MEDIUM,T1567,10.0.0.213,DLP alert user=root exported 2081 files to USB
+2026-05-25 15:23:05,0011,MEDIUM,T1567,10.0.0.160,DLP alert user=admin exported 3534 files to USB
+2026-05-25 15:23:06,0012,INFO,T1078,10.0.0.111,AUTH success user=admin src=10.0.0.111 mfa=ok
+2026-05-25 15:23:07,0013,MEDIUM,T1046,10.0.0.140,IDS scan-like traffic from 10.0.0.140 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:08,0014,MEDIUM,T1046,10.0.0.212,IDS scan-like traffic from 10.0.0.212 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:09,0015,HIGH,T1190,203.0.113.245,WAF block SQLi pattern in /api/search from 203.0.113.245 q=' OR 1=1--
+2026-05-25 15:23:10,0016,MEDIUM,T1567,10.0.0.158,DLP alert user=root exported 846 files to USB
+2026-05-25 15:23:10,0017,MEDIUM,T1046,203.0.113.186,"IDS multiple SYN to ports [666, 379, 277] from 203.0.113.186"
+2026-05-25 15:23:10,0018,HIGH,T1190,203.0.113.48,WAF block SQLi pattern in /api/search from 203.0.113.48 q=' OR 1=1--
+2026-05-25 15:23:11,0019,INFO,—,10.0.0.26,MAINT window: patch agent heartbeat from 10.0.0.26
+2026-05-25 15:23:12,0020,MEDIUM,T1046,203.0.113.79,"IDS multiple SYN to ports [266, 104, 449] from 203.0.113.79"
+2026-05-25 15:23:12,0021,MEDIUM,T1046,10.0.0.166,IDS scan-like traffic from 10.0.0.166 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:12,0022,MEDIUM,T1046,203.0.113.86,"IDS multiple SYN to ports [929, 484, 712] from 203.0.113.86"
+2026-05-25 15:23:13,0023,LOW,T1110,10.0.0.175,AUTH failed user=svc_backup src=10.0.0.175 attempt=2/5
+2026-05-25 15:23:14,0024,MEDIUM,T1046,203.0.113.220,"IDS multiple SYN to ports [803, 170, 216] from 203.0.113.220"
+2026-05-25 15:23:15,0025,INFO,—,10.0.0.113,MAINT window: patch agent heartbeat from 10.0.0.113
+2026-05-25 15:23:16,0026,MEDIUM,T1046,10.0.0.160,IDS scan-like traffic from 10.0.0.160 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:17,0027,INFO,T1078,10.0.0.67,AUTH success user=svc_backup src=10.0.0.67 mfa=ok
+2026-05-25 15:23:18,0028,INFO,T1078,10.0.0.134,AUTH success user=jdoe src=10.0.0.134 mfa=ok
+2026-05-25 15:23:19,0029,CRITICAL,T1071,203.0.113.180,EDR periodic beacon 203.0.113.180:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:20,0030,INFO,T1078,10.0.0.209,AUTH success user=jdoe src=10.0.0.209 mfa=ok
+2026-05-25 15:23:21,0031,INFO,—,10.0.0.28,MAINT window: patch agent heartbeat from 10.0.0.28
+2026-05-25 15:23:21,0032,MEDIUM,T1567,10.0.0.55,DLP alert user=root exported 2311 files to USB
+2026-05-25 15:23:22,0033,INFO,—,10.0.0.84,MAINT window: patch agent heartbeat from 10.0.0.84
+2026-05-25 15:23:23,0034,MEDIUM,T1046,203.0.113.185,"IDS multiple SYN to ports [320, 8, 587] from 203.0.113.185"
+2026-05-25 15:23:24,0035,MEDIUM,T1567,10.0.0.51,DLP alert user=jdoe exported 2806 files to USB
+2026-05-25 15:23:25,0036,CRITICAL,T1071,203.0.113.242,EDR periodic beacon 203.0.113.242:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:26,0037,LOW,T1110,10.0.0.61,AUTH failed user=svc_backup src=10.0.0.61 attempt=2/5
+2026-05-25 15:23:27,0038,LOW,T1110,10.0.0.50,AUTH failed user=svc_backup src=10.0.0.50 attempt=1/5
+2026-05-25 15:23:28,0039,CRITICAL,T1071,203.0.113.223,EDR periodic beacon 203.0.113.223:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:29,0040,CRITICAL,T1071,203.0.113.198,EDR periodic beacon 203.0.113.198:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:29,0041,INFO,—,10.0.0.184,MAINT window: patch agent heartbeat from 10.0.0.184
+2026-05-25 15:23:30,0042,CRITICAL,T1071,203.0.113.179,EDR periodic beacon 203.0.113.179:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:31,0043,CRITICAL,T1071,203.0.113.196,EDR periodic beacon 203.0.113.196:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:32,0044,INFO,—,10.0.0.164,MAINT window: patch agent heartbeat from 10.0.0.164
+2026-05-25 15:23:33,0045,INFO,T1078,10.0.0.185,AUTH success user=guest src=10.0.0.185 mfa=ok
+2026-05-25 15:23:34,0046,INFO,—,10.0.0.197,MAINT window: patch agent heartbeat from 10.0.0.197
+2026-05-25 15:23:35,0047,LOW,T1110,10.0.0.149,AUTH failed user=root src=10.0.0.149 attempt=3/5
+2026-05-25 15:23:36,0048,INFO,T1078,10.0.0.148,AUTH success user=app_runtime src=10.0.0.148 mfa=ok
+2026-05-25 15:23:37,0049,INFO,T1078,10.0.0.97,AUTH success user=admin src=10.0.0.97 mfa=ok
+2026-05-25 15:23:38,0050,INFO,T1078,10.0.0.161,AUTH success user=root src=10.0.0.161 mfa=ok
+2026-05-25 15:23:39,0051,INFO,T1078,10.0.0.187,AUTH success user=root src=10.0.0.187 mfa=ok
+2026-05-25 15:23:40,0052,INFO,T1078,10.0.0.80,AUTH success user=guest src=10.0.0.80 mfa=ok
+2026-05-25 15:23:41,0053,HIGH,T1190,203.0.113.28,WAF block SQLi pattern in /api/search from 203.0.113.28 q=' OR 1=1--
+2026-05-25 15:23:42,0054,MEDIUM,T1046,10.0.0.94,IDS scan-like traffic from 10.0.0.94 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:43,0055,INFO,T1078,10.0.0.106,AUTH success user=root src=10.0.0.106 mfa=ok
+2026-05-25 15:23:44,0056,INFO,T1078,10.0.0.190,AUTH success user=admin src=10.0.0.190 mfa=ok
+2026-05-25 15:23:45,0057,MEDIUM,T1046,10.0.0.20,IDS scan-like traffic from 10.0.0.20 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:46,0058,MEDIUM,T1046,10.0.0.75,IDS scan-like traffic from 10.0.0.75 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:47,0059,CRITICAL,T1071,203.0.113.35,EDR periodic beacon 203.0.113.35:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:47,0060,INFO,—,10.0.0.20,MAINT window: patch agent heartbeat from 10.0.0.20
+2026-05-25 15:23:47,0061,INFO,T1078,10.0.0.108,AUTH success user=jdoe src=10.0.0.108 mfa=ok
+2026-05-25 15:23:48,0062,MEDIUM,T1046,10.0.0.4,IDS scan-like traffic from 10.0.0.4 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:49,0063,CRITICAL,T1071,203.0.113.253,EDR periodic beacon 203.0.113.253:443 every 60s jitter low (possible C2)
+2026-05-25 15:23:50,0064,MEDIUM,T1046,203.0.113.225,"IDS multiple SYN to ports [845, 187, 708] from 203.0.113.225"
+2026-05-25 15:23:51,0065,MEDIUM,T1046,10.0.0.45,IDS scan-like traffic from 10.0.0.45 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:52,0066,INFO,T1078,10.0.0.105,AUTH success user=jdoe src=10.0.0.105 mfa=ok
+2026-05-25 15:23:53,0067,MEDIUM,T1046,10.0.0.106,IDS scan-like traffic from 10.0.0.106 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:54,0068,MEDIUM,T1046,10.0.0.151,IDS scan-like traffic from 10.0.0.151 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:55,0069,INFO,T1078,10.0.0.181,AUTH success user=admin src=10.0.0.181 mfa=ok
+2026-05-25 15:23:55,0070,INFO,—,10.0.0.187,MAINT window: patch agent heartbeat from 10.0.0.187
+2026-05-25 15:23:56,0071,MEDIUM,T1046,10.0.0.151,IDS scan-like traffic from 10.0.0.151 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:23:57,0072,INFO,T1078,10.0.0.138,AUTH success user=svc_backup src=10.0.0.138 mfa=ok
+2026-05-25 15:23:57,0073,INFO,T1078,10.0.0.78,AUTH success user=admin src=10.0.0.78 mfa=ok
+2026-05-25 15:23:57,0074,INFO,—,10.0.0.84,MAINT window: patch agent heartbeat from 10.0.0.84
+2026-05-25 15:23:59,0075,CRITICAL,T1071,203.0.113.80,EDR periodic beacon 203.0.113.80:443 every 60s jitter low (possible C2)
+2026-05-25 15:24:00,0076,INFO,T1078,10.0.0.79,AUTH success user=root src=10.0.0.79 mfa=ok
+2026-05-25 15:24:01,0077,INFO,—,10.0.0.35,MAINT window: patch agent heartbeat from 10.0.0.35
+2026-05-25 15:24:02,0078,INFO,—,10.0.0.17,MAINT window: patch agent heartbeat from 10.0.0.17
+2026-05-25 15:24:02,0079,INFO,T1078,10.0.0.184,AUTH success user=app_runtime src=10.0.0.184 mfa=ok
+2026-05-25 15:24:02,0080,MEDIUM,T1046,203.0.113.108,"IDS multiple SYN to ports [149, 731, 229] from 203.0.113.108"
+2026-05-25 15:24:03,0081,INFO,—,10.0.0.140,MAINT window: patch agent heartbeat from 10.0.0.140
+2026-05-25 15:24:04,0082,MEDIUM,T1046,203.0.113.33,"IDS multiple SYN to ports [302, 258, 633] from 203.0.113.33"
+2026-05-25 15:24:05,0083,INFO,T1078,10.0.0.60,AUTH success user=jdoe src=10.0.0.60 mfa=ok
+2026-05-25 15:24:06,0084,LOW,T1110,10.0.0.148,AUTH failed user=app_runtime src=10.0.0.148 attempt=2/5
+2026-05-25 15:24:07,0085,MEDIUM,T1046,203.0.113.189,"IDS multiple SYN to ports [567, 241, 179] from 203.0.113.189"
+2026-05-25 15:24:08,0086,MEDIUM,T1046,10.0.0.124,IDS scan-like traffic from 10.0.0.124 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:24:09,0087,CRITICAL,T1071,203.0.113.169,EDR periodic beacon 203.0.113.169:443 every 60s jitter low (possible C2)
+2026-05-25 15:24:10,0088,HIGH,T1190,203.0.113.103,WAF block SQLi pattern in /api/search from 203.0.113.103 q=' OR 1=1--
+2026-05-25 15:24:11,0089,MEDIUM,T1046,10.0.0.35,IDS scan-like traffic from 10.0.0.35 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:24:12,0090,INFO,T1078,10.0.0.191,AUTH success user=admin src=10.0.0.191 mfa=ok
+2026-05-25 15:24:12,0091,INFO,—,10.0.0.143,MAINT window: patch agent heartbeat from 10.0.0.143
+2026-05-25 15:24:13,0092,LOW,T1110,10.0.0.40,AUTH failed user=svc_backup src=10.0.0.40 attempt=1/5
+2026-05-25 15:24:14,0093,HIGH,T1190,203.0.113.144,WAF block SQLi pattern in /api/search from 203.0.113.144 q=' OR 1=1--
+2026-05-25 15:24:15,0094,LOW,T1110,10.0.0.144,AUTH failed user=guest src=10.0.0.144 attempt=3/5
+2026-05-25 15:24:16,0095,INFO,T1078,10.0.0.3,AUTH success user=svc_backup src=10.0.0.3 mfa=ok
+2026-05-25 15:24:17,0096,INFO,—,10.0.0.184,MAINT window: patch agent heartbeat from 10.0.0.184
+2026-05-25 15:24:18,0097,MEDIUM,T1046,203.0.113.119,"IDS multiple SYN to ports [519, 69, 343] from 203.0.113.119"
+2026-05-25 15:24:19,0098,HIGH,T1190,203.0.113.158,WAF block SQLi pattern in /api/search from 203.0.113.158 q=' OR 1=1--
+2026-05-25 15:24:20,0099,INFO,T1078,10.0.0.155,AUTH success user=svc_backup src=10.0.0.155 mfa=ok
+2026-05-25 15:24:21,0100,HIGH,T1190,203.0.113.160,WAF block SQLi pattern in /api/search from 203.0.113.160 q=' OR 1=1--
+2026-05-25 15:24:22,0101,LOW,T1110,10.0.0.5,AUTH failed user=admin src=10.0.0.5 attempt=1/5
+2026-05-25 15:24:22,0102,INFO,T1078,10.0.0.115,AUTH success user=svc_backup src=10.0.0.115 mfa=ok
+2026-05-25 15:24:22,0103,INFO,—,10.0.0.113,MAINT window: patch agent heartbeat from 10.0.0.113
+2026-05-25 15:24:24,0104,LOW,T1110,10.0.0.91,AUTH failed user=admin src=10.0.0.91 attempt=2/5
+2026-05-25 15:24:24,0105,HIGH,T1190,203.0.113.232,WAF block SQLi pattern in /api/search from 203.0.113.232 q=' OR 1=1--
+2026-05-25 15:24:25,0106,INFO,T1078,10.0.0.153,AUTH success user=jdoe src=10.0.0.153 mfa=ok
+2026-05-25 15:24:26,0107,INFO,—,10.0.0.125,MAINT window: patch agent heartbeat from 10.0.0.125
+2026-05-25 15:24:27,0108,INFO,—,10.0.0.19,MAINT window: patch agent heartbeat from 10.0.0.19
+2026-05-25 15:24:28,0109,MEDIUM,T1046,203.0.113.234,"IDS multiple SYN to ports [88, 726, 811] from 203.0.113.234"
+2026-05-25 15:24:29,0110,HIGH,T1190,203.0.113.25,WAF block SQLi pattern in /api/search from 203.0.113.25 q=' OR 1=1--
+2026-05-25 15:24:30,0111,MEDIUM,T1567,10.0.0.155,DLP alert user=admin exported 3776 files to USB
+2026-05-25 15:24:31,0112,LOW,T1110,10.0.0.24,AUTH failed user=admin src=10.0.0.24 attempt=2/5
+2026-05-25 15:24:32,0113,MEDIUM,T1046,203.0.113.99,"IDS multiple SYN to ports [679, 114, 532] from 203.0.113.99"
+2026-05-25 15:24:33,0114,LOW,T1110,10.0.0.121,AUTH failed user=admin src=10.0.0.121 attempt=3/5
+2026-05-25 15:24:34,0115,INFO,T1078,10.0.0.135,AUTH success user=svc_backup src=10.0.0.135 mfa=ok
+2026-05-25 15:24:35,0116,MEDIUM,T1046,203.0.113.169,"IDS multiple SYN to ports [754, 908, 264] from 203.0.113.169"
+2026-05-25 15:24:36,0117,INFO,T1078,10.0.0.155,AUTH success user=root src=10.0.0.155 mfa=ok
+2026-05-25 15:24:36,0118,LOW,T1110,10.0.0.194,AUTH failed user=svc_backup src=10.0.0.194 attempt=2/5
+2026-05-25 15:24:36,0119,INFO,—,10.0.0.87,MAINT window: patch agent heartbeat from 10.0.0.87
+2026-05-25 15:24:38,0120,LOW,T1110,10.0.0.183,AUTH failed user=admin src=10.0.0.183 attempt=3/5
+2026-05-25 15:24:39,0121,MEDIUM,T1046,203.0.113.116,"IDS multiple SYN to ports [422, 976, 311] from 203.0.113.116"
+2026-05-25 15:24:40,0122,MEDIUM,T1567,10.0.0.4,DLP alert user=jdoe exported 4466 files to USB
+2026-05-25 15:24:41,0123,INFO,T1078,10.0.0.75,AUTH success user=app_runtime src=10.0.0.75 mfa=ok
+2026-05-25 15:24:42,0124,MEDIUM,T1567,10.0.0.119,DLP alert user=admin exported 2054 files to USB
+2026-05-25 15:24:43,0125,INFO,T1078,10.0.0.26,AUTH success user=admin src=10.0.0.26 mfa=ok
+2026-05-25 15:24:44,0126,HIGH,T1190,203.0.113.83,WAF block SQLi pattern in /api/search from 203.0.113.83 q=' OR 1=1--
+2026-05-25 15:24:45,0127,MEDIUM,T1567,10.0.0.53,DLP alert user=admin exported 4988 files to USB
+2026-05-25 15:24:45,0128,INFO,T1078,10.0.0.172,AUTH success user=jdoe src=10.0.0.172 mfa=ok
+2026-05-25 15:24:45,0129,MEDIUM,T1046,10.0.0.100,IDS scan-like traffic from 10.0.0.100 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:24:46,0130,MEDIUM,T1046,203.0.113.154,"IDS multiple SYN to ports [79, 833, 334] from 203.0.113.154"
+2026-05-25 15:24:47,0131,INFO,T1078,10.0.0.198,AUTH success user=svc_backup src=10.0.0.198 mfa=ok
+2026-05-25 15:24:48,0132,MEDIUM,T1046,10.0.0.195,IDS scan-like traffic from 10.0.0.195 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:24:49,0133,CRITICAL,T1071,203.0.113.208,EDR periodic beacon 203.0.113.208:443 every 60s jitter low (possible C2)
+2026-05-25 15:24:50,0134,CRITICAL,T1071,203.0.113.146,EDR periodic beacon 203.0.113.146:443 every 60s jitter low (possible C2)
+2026-05-25 15:24:51,0135,HIGH,T1190,203.0.113.152,WAF block SQLi pattern in /api/search from 203.0.113.152 q=' OR 1=1--
+2026-05-25 15:24:52,0136,MEDIUM,T1567,10.0.0.138,DLP alert user=jdoe exported 1366 files to USB
+2026-05-25 15:24:53,0137,INFO,T1078,10.0.0.59,AUTH success user=admin src=10.0.0.59 mfa=ok
+2026-05-25 15:24:54,0138,INFO,T1078,10.0.0.16,AUTH success user=admin src=10.0.0.16 mfa=ok
+2026-05-25 15:24:55,0139,MEDIUM,T1046,203.0.113.80,"IDS multiple SYN to ports [497, 219, 89] from 203.0.113.80"
+2026-05-25 15:24:56,0140,INFO,—,10.0.0.86,MAINT window: patch agent heartbeat from 10.0.0.86
+2026-05-25 15:24:57,0141,MEDIUM,T1046,203.0.113.192,"IDS multiple SYN to ports [535, 813, 691] from 203.0.113.192"
+2026-05-25 15:24:58,0142,MEDIUM,T1046,203.0.113.101,"IDS multiple SYN to ports [910, 335, 895] from 203.0.113.101"
+2026-05-25 15:24:59,0143,MEDIUM,T1046,203.0.113.128,"IDS multiple SYN to ports [538, 962, 78] from 203.0.113.128"
+2026-05-25 15:25:00,0144,INFO,T1078,10.0.0.155,AUTH success user=app_runtime src=10.0.0.155 mfa=ok
+2026-05-25 15:25:01,0145,MEDIUM,T1567,10.0.0.75,DLP alert user=app_runtime exported 2440 files to USB
+2026-05-25 15:25:02,0146,LOW,T1110,10.0.0.202,AUTH failed user=app_runtime src=10.0.0.202 attempt=2/5
+2026-05-25 15:25:03,0147,CRITICAL,T1071,203.0.113.230,EDR periodic beacon 203.0.113.230:443 every 60s jitter low (possible C2)
+2026-05-25 15:25:04,0148,HIGH,T1190,203.0.113.216,WAF block SQLi pattern in /api/search from 203.0.113.216 q=' OR 1=1--
+2026-05-25 15:25:05,0149,LOW,T1110,10.0.0.20,AUTH failed user=root src=10.0.0.20 attempt=1/5
+2026-05-25 15:25:06,0150,CRITICAL,T1071,203.0.113.223,EDR periodic beacon 203.0.113.223:443 every 60s jitter low (possible C2)
+2026-05-25 15:25:07,0151,CRITICAL,T1071,203.0.113.3,EDR periodic beacon 203.0.113.3:443 every 60s jitter low (possible C2)
+2026-05-25 15:25:08,0152,LOW,T1110,10.0.0.40,AUTH failed user=jdoe src=10.0.0.40 attempt=3/5
+2026-05-25 15:25:09,0153,LOW,T1110,10.0.0.35,AUTH failed user=jdoe src=10.0.0.35 attempt=1/5
+2026-05-25 15:25:10,0154,MEDIUM,T1567,10.0.0.121,DLP alert user=jdoe exported 2298 files to USB
+2026-05-25 15:25:11,0155,INFO,—,10.0.0.19,MAINT window: patch agent heartbeat from 10.0.0.19
+2026-05-25 15:25:12,0156,INFO,—,10.0.0.182,MAINT window: patch agent heartbeat from 10.0.0.182
+2026-05-25 15:25:13,0157,LOW,T1110,10.0.0.71,AUTH failed user=app_runtime src=10.0.0.71 attempt=3/5
+2026-05-25 15:25:14,0158,MEDIUM,T1046,203.0.113.227,"IDS multiple SYN to ports [119, 442, 309] from 203.0.113.227"
+2026-05-25 15:25:15,0159,MEDIUM,T1046,203.0.113.87,"IDS multiple SYN to ports [201, 668, 221] from 203.0.113.87"
+2026-05-25 15:25:16,0160,MEDIUM,T1046,10.0.0.148,IDS scan-like traffic from 10.0.0.148 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:25:17,0161,HIGH,T1190,203.0.113.6,WAF block SQLi pattern in /api/search from 203.0.113.6 q=' OR 1=1--
+2026-05-25 15:25:18,0162,HIGH,T1190,203.0.113.239,WAF block SQLi pattern in /api/search from 203.0.113.239 q=' OR 1=1--
+2026-05-25 15:25:19,0163,MEDIUM,T1046,10.0.0.212,IDS scan-like traffic from 10.0.0.212 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:25:20,0164,MEDIUM,T1046,10.0.0.168,IDS scan-like traffic from 10.0.0.168 tag=scheduled_vuln_scan owner=secops
+2026-05-25 15:25:21,0165,CRITICAL,T1071,203.0.113.119,EDR periodic beacon 203.0.113.119:443 every 60s jitter low (possible C2)

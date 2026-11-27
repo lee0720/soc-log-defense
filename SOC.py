@@ -91,8 +91,6 @@ def init_csv():
             # Analyzerが読み込みやすいカラム名
             writer.writerow(["timestamp", "log_id", "severity", "mitre", "src_ip", "message"])
 
-init_csv()
-
 @dataclass
 class GameState:
     cfg: GameConfig = field(default_factory=GameConfig)
@@ -464,6 +462,7 @@ def parse_int(s: str) -> Optional[int]:
 
 
 def main() -> None:
+    init_csv()
     rng = random.Random()
     state = GameState()
     briefing()
@@ -488,10 +487,12 @@ def main() -> None:
     try:
         while state.running:
             with state.lock:
-                if state.threat >= state.cfg.lose_threat:
-                    end_screen(state, False, "脅威メーターが飽和しました")
-                    state.running = False
-                    return
+                threat_saturated = state.threat >= state.cfg.lose_threat
+            # 結果画面もロックを取得するため、ロックの外で呼び出す。
+            if threat_saturated:
+                state.running = False
+                end_screen(state, False, "脅威メーターが飽和しました")
+                return
 
             try:
                 line = input(f"{C.BOLD}> {C.RESET}").strip()
@@ -565,10 +566,12 @@ def main() -> None:
                 print("不明なコマンド。help と入力してください。")
 
             with state.lock:
-                if state.threat >= state.cfg.lose_threat:
-                    end_screen(state, False, "脅威メーターが飽和しました")
-                    state.running = False
-                    return
+                threat_saturated = state.threat >= state.cfg.lose_threat
+            # 結果画面もロックを取得するため、ロックの外で呼び出す。
+            if threat_saturated:
+                state.running = False
+                end_screen(state, False, "脅威メーターが飽和しました")
+                return
 
             if evaluate_shift_end():
                 state.running = False
